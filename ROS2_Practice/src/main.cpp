@@ -34,5 +34,22 @@ void error_loop() {
 }
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
-  RCLC_UNUSED
+  RCLC_UNUSED(last_call_time);
+  if (timer != NULL) {
+    // the message must match the message type of the publisher
+    RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
+    msg.data = "Look at me!"
+  }
+}
+
+void setup(){
+  // Configure serial transport
+  Serial.begin(115200);
+  set_microros_serial_transports(Serial);
+  delay(2000);
+
+  allocator = rcl_get_default_allocator();
+
+  //create init_options
+  RCCHECK(rclc_support_init(&s))
 }
