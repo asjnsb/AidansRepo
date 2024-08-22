@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "ROS2_Practice",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
