@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <micro_ros_platformio.h>
+#include <micro_ros_utilities/string_utilities.h>
 
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
@@ -29,12 +30,15 @@ void error_loop() {
   }
 }
 
+int counter = 0;
+
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
     // the message must match the message type of the publisher
+    sprintf(msg.data.data, "Look at me! #%d", counter++);
+    msg.data.size = strlen(msg.data.data);
     RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
-    sprintf(msg.data.data, "Look at me!");
   }
 }
 
@@ -57,10 +61,10 @@ void setup(){
     &publisher,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
-    "Aidans_node_publisher"));
+    "/Aidans_node_publisher"));
   
   // create timer
-  const unsigned int timer_timeout = 1000;
+  const unsigned int timer_timeout = 5000;
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
@@ -71,10 +75,14 @@ void setup(){
   RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
 
-  sprintf(msg.data.data, "Empty");
+  //Fill the array with a known (nothing?) sequence
+  msg.data.data = (char * ) malloc(200 * sizeof(char));
+  msg.data.size = 0;
+  msg.data.capacity = 200;
+  RCSOFTCHECK(rclc_executor_spin(&executor));
 }
 
 void loop() {
-  delay(100);
-  RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+  delay(100000);
+  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(1000)));
 }
