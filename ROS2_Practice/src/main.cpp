@@ -10,7 +10,7 @@
 
 rcl_publisher_t publisher;
 std_msgs__msg__String msg;
-//delete this comment
+
 rclc_executor_t executor;
 rclc_support_t support;
 rcl_allocator_t allocator;
