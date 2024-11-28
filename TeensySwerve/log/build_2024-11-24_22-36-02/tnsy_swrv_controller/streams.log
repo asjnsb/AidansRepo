@@ -1,0 +1,44 @@
+[1.296s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build
+[1.569s] /home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.569s]   warnings.warn(msg)
+[1.832s] running develop
+[1.832s] /home/aidan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.833s] !!
+[1.833s] 
+[1.833s]         ********************************************************************************
+[1.833s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.834s]         Instead, use pypa/build, pypa/installer or other
+[1.834s]         standards-based tools.
+[1.834s] 
+[1.834s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.834s]         ********************************************************************************
+[1.834s] 
+[1.834s] !!
+[1.835s]   easy_install.initialize_options(self)
+[1.864s] Traceback (most recent call last):
+[1.864s]   File "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/setup.py", line 5, in <module>
+[1.864s]     setup(
+[1.864s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[1.865s]     return distutils.core.setup(**attrs)
+[1.865s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[1.865s]     return run_commands(dist)
+[1.865s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[1.865s]     dist.run_commands()
+[1.866s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[1.866s]     self.run_command(cmd)
+[1.866s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/dist.py", line 995, in run_command
+[1.866s]     super().run_command(command)
+[1.866s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 972, in run_command
+[1.866s]     cmd_obj.ensure_finalized()
+[1.867s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+[1.867s]     self.finalize_options()
+[1.867s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 51, in finalize_options
+[1.867s]     easy_install.finalize_options(self)
+[1.867s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 251, in finalize_options
+[1.867s]     'dist_fullname': self.distribution.get_fullname(),
+[1.867s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[1.868s]     return _distribution_fullname(self.get_name(), self.get_version())
+[1.868s]   File "/home/aidan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[1.868s]     canonicalize_version(version, strip_trailing_zero=False),
+[1.868s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[1.908s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller' returned '1': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build

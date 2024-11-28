@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            # ROS2_executable = pkg_name.filename:function
+            "test_node = tnsy_swrv_controller.my_first_node:main"
         ],
     },
 )
