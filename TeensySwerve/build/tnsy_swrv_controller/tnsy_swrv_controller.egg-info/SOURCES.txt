@@ -8,6 +8,8 @@ setup.py
 ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/requires.txt
 ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/top_level.txt
 ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/zip-safe
+config/joystick.yaml
+launch/joystick.launch.py
 resource/tnsy_swrv_controller
 test/test_copyright.py
 test/test_flake8.py
