@@ -15,4 +15,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 tnsy_swrv_controller/__init__.py
+tnsy_swrv_controller/joy_translator.py
 tnsy_swrv_controller/my_first_node.py
