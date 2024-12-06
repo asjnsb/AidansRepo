@@ -26,6 +26,8 @@ setup(
             # ROS2_executable = pkg_name.filename:function
             "test_node = tnsy_swrv_controller.my_first_node:main",
             "joy_translator = tnsy_swrv_controller.joy_translator:main",
+            "pub = tnsy_swrv_controller.publisher_member_function:main",
+            "sub = tnsy_swrv_controller.subscriber_member_function:main",
         ],
     },
 )
