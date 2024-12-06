@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.003310] (tnsy_swrv_controller) JobQueued: {'identifier': 'tnsy_swrv_controller', 'dependencies': OrderedDict()}
+[0.003444] (tnsy_swrv_controller) JobStarted: {'identifier': 'tnsy_swrv_controller'}
+[0.101287] (-) TimerEvent: {}
+[0.201652] (-) TimerEvent: {}
+[0.303422] (-) TimerEvent: {}
+[0.404477] (-) TimerEvent: {}
+[0.504847] (-) TimerEvent: {}
+[0.606413] (-) TimerEvent: {}
+[0.706839] (-) TimerEvent: {}
+[0.808956] (-) TimerEvent: {}
+[0.910519] (-) TimerEvent: {}
+[1.010993] (-) TimerEvent: {}
+[1.111436] (-) TimerEvent: {}
+[1.211885] (-) TimerEvent: {}
+[1.314457] (-) TimerEvent: {}
+[1.414896] (-) TimerEvent: {}
+[1.515864] (-) TimerEvent: {}
+[1.619583] (-) TimerEvent: {}
+[1.719952] (-) TimerEvent: {}
+[1.820895] (-) TimerEvent: {}
+[1.922601] (-) TimerEvent: {}
+[2.023047] (-) TimerEvent: {}
+[2.123500] (-) TimerEvent: {}
+[2.223909] (-) TimerEvent: {}
+[2.325501] (-) TimerEvent: {}
+[2.427277] (-) TimerEvent: {}
+[2.527682] (-) TimerEvent: {}
+[2.574239] (tnsy_swrv_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidan', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aidan', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.95.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1346', 'SYSTEMD_EXEC_PID': '1517', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2215', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aidan', 'JOURNAL_STREAM': '8:13511', '_': '/home/aidan/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aidan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aidan/.local/bin:/opt/ros/humble/bin:/home/aidan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/LittleMan:@/tmp/.ICE-unix/1486,unix/LittleMan:/tmp/.ICE-unix/1486', 'INVOCATION_ID': 'b7f5e9607e0843238dc4caa0e073761a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FXZBY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-72e3824407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.630285] (-) TimerEvent: {}
+[2.732254] (-) TimerEvent: {}
+[2.833698] (-) TimerEvent: {}
+[2.937455] (-) TimerEvent: {}
+[3.038947] (-) TimerEvent: {}
+[3.139738] (-) TimerEvent: {}
+[3.241945] (-) TimerEvent: {}
+[3.343047] (-) TimerEvent: {}
+[3.443711] (-) TimerEvent: {}
+[3.547771] (-) TimerEvent: {}
+[3.649053] (-) TimerEvent: {}
+[3.741370] (tnsy_swrv_controller) StdoutLine: {'line': b'running develop\n'}
+[3.749176] (-) TimerEvent: {}
+[3.849631] (-) TimerEvent: {}
+[3.949979] (-) TimerEvent: {}
+[4.050634] (-) TimerEvent: {}
+[4.151548] (-) TimerEvent: {}
+[4.252280] (-) TimerEvent: {}
+[4.354410] (-) TimerEvent: {}
+[4.448608] (tnsy_swrv_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.450270] (tnsy_swrv_controller) StdoutLine: {'line': b'writing tnsy_swrv_controller.egg-info/PKG-INFO\n'}
+[4.450865] (tnsy_swrv_controller) StdoutLine: {'line': b'writing dependency_links to tnsy_swrv_controller.egg-info/dependency_links.txt\n'}
+[4.451307] (tnsy_swrv_controller) StdoutLine: {'line': b'writing entry points to tnsy_swrv_controller.egg-info/entry_points.txt\n'}
+[4.451778] (tnsy_swrv_controller) StdoutLine: {'line': b'writing requirements to tnsy_swrv_controller.egg-info/requires.txt\n'}
+[4.451993] (tnsy_swrv_controller) StdoutLine: {'line': b'writing top-level names to tnsy_swrv_controller.egg-info/top_level.txt\n'}
+[4.456226] (-) TimerEvent: {}
+[4.458000] (tnsy_swrv_controller) StdoutLine: {'line': b"reading manifest file 'tnsy_swrv_controller.egg-info/SOURCES.txt'\n"}
+[4.460483] (tnsy_swrv_controller) StdoutLine: {'line': b"writing manifest file 'tnsy_swrv_controller.egg-info/SOURCES.txt'\n"}
+[4.464342] (tnsy_swrv_controller) StdoutLine: {'line': b'running build_ext\n'}
+[4.467977] (tnsy_swrv_controller) StdoutLine: {'line': b'Creating /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy-swrv-controller.egg-link (link to .)\n'}
+[4.470962] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing joy_translator script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[4.471379] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing pub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[4.471652] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing sub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[4.472657] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing test_node script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[4.473088] (tnsy_swrv_controller) StdoutLine: {'line': b'\n'}
+[4.473413] (tnsy_swrv_controller) StdoutLine: {'line': b'Installed /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller\n'}
+[4.473667] (tnsy_swrv_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[4.558615] (-) TimerEvent: {}
+[4.576130] (tnsy_swrv_controller) CommandEnded: {'returncode': 0}
+[4.654750] (tnsy_swrv_controller) JobEnded: {'identifier': 'tnsy_swrv_controller', 'rc': 0}
+[4.657674] (-) EventReactorShutdown: {}

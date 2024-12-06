@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from sensor_msgs.msg import Joy
 
 class MyNode(Node):
       def __init__(self):
             super().__init__("joy_translator_node")
             self.counter_ = 0
             self.create_timer(1.0, self.timerCallback)
+            self.create_subscription(Joy, 'joy', self.listener_callback, 10)
       
       def timerCallback(self):
             self.get_logger().info("Meowdy " + str(self.counter_))
             self.counter_ += 1
+      
+      def listener_callback(self, msg):
+            joyInput = msg.data
+            self.get_logger().info(joyInput)
 
 def main(args=None):
       # evevrything between init and shutdown is the node
@@ -18,7 +24,8 @@ def main(args=None):
 
       node = MyNode()
       rclpy.spin(node) 
-      
+
+      node.destroy_node()
       rclpy.shutdown()
 
 

@@ -18,6 +18,7 @@ def main(args=None):
       # below is what is actually creating the node
       node = MyNode()
       rclpy.spin(node) # making it spin keeps the node alive until it's killed (and enables callbacks to work)
+      node.destroy_node() # this destroys the node explicity rather than waiting for the garbage collector
       rclpy.shutdown()
 
 # This is for running the script directly from the terminal
