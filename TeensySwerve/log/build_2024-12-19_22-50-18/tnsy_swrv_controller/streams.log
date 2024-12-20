@@ -1,0 +1,20 @@
+[1.145s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build --no-deps symlink_data
+[1.767s] running develop
+[2.110s] running egg_info
+[2.110s] writing tnsy_swrv_controller.egg-info/PKG-INFO
+[2.110s] writing dependency_links to tnsy_swrv_controller.egg-info/dependency_links.txt
+[2.111s] writing entry points to tnsy_swrv_controller.egg-info/entry_points.txt
+[2.111s] writing requirements to tnsy_swrv_controller.egg-info/requires.txt
+[2.111s] writing top-level names to tnsy_swrv_controller.egg-info/top_level.txt
+[2.114s] reading manifest file 'tnsy_swrv_controller.egg-info/SOURCES.txt'
+[2.116s] writing manifest file 'tnsy_swrv_controller.egg-info/SOURCES.txt'
+[2.119s] running build_ext
+[2.119s] Creating /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy-swrv-controller.egg-link (link to .)
+[2.120s] Installing joy_translator script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.121s] Installing pub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.121s] Installing sub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.122s] Installing test_node script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.122s] 
+[2.122s] Installed /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller
+[2.123s] running symlink_data
+[2.182s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller' returned '0': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build --no-deps symlink_data
