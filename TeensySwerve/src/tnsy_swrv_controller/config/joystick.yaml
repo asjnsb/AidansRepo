@@ -1,8 +1,10 @@
-joy_node:
-  ros__parameters:
-    device_id: 0
-    deadzone: 0.05
-    autorepeat_rate: 20.0
+nameSpace1:
+  joy_node:
+    ros__parameters:
+      device_id: 0
+      deadzone: 0.05
+      autorepeat_rate: 20.0
+    
 
 teleop_node:
   ros__parameters:
@@ -21,4 +23,4 @@ teleop_node:
     
     enable_button: 9 # this is a deadman's switch
 
-    require_enable_button: true # true by default
+    require_enable_button: true # true by default 
