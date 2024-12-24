@@ -79,12 +79,4 @@ def generate_launch_description():
                 ]
             )
         ),
-        RegisterEventHandler(
-            OnProcessExit(
-                target_action=joy_translator_node,
-                on_exit=[
-                    EmitEvent(event=Shutdown(reason='Ctrl-C'))
-                ]
-            )
-        ),
     ])

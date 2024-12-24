@@ -40,7 +40,10 @@ def main(args=None):
 
     minimal_publisher = MinimalPublisher()
 
-    rclpy.spin(minimal_publisher)
+    try:
+        rclpy.spin(minimal_publisher)
+    except KeyboardInterrupt:
+        pass
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
