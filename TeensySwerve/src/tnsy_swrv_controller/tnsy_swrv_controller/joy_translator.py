@@ -4,9 +4,12 @@ import rclpy
 import rclpy.exceptions
 from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
+from tnsy_interfaces.msg import TnsyController
+
 
 """
-I don't think I'm going to figure out how to cleaning shutdown the node after a keyboard interrupt while also using python... :(
+LAST: solved ctl-c handling, and made a custom message in it's own package
+NEXT: fix the issue that happens at runtime related to expeccting a class and getting a metaclass
 """
 
 class MyNode(LifecycleNode):
@@ -15,16 +18,20 @@ class MyNode(LifecycleNode):
             self.joyMsg = None
             self.timer_ = None
             self.sub_ = None
+            self.pub_ = None
+            self.timer_period = 0.25
             #self.get_logger().info("IN constructor")
             
       def on_configure(self, state):
             #self.get_logger().info("IN on_configure")
-            self.timer_ = self.create_timer(3, self.timerCallback)
+            self.pub_ = self.create_lifecycle_publisher(TnsyController, 'tnsy_controller', 10)
+            self.timer_ = self.create_timer(self.timer_period, self.timerCallback)
             self.timer_.cancel()
             return super().on_configure(state)
       
       def on_cleanup(self, state):
             #self.get_logger().info("IN on_cleanup")
+            self.destroy_publisher(self.pub_)
             self.destroy_timer(self.timer_)
             return super().on_cleanup(state)
       
@@ -45,43 +52,70 @@ class MyNode(LifecycleNode):
       def on_shutdown(self, state):
             #self.get_logger().info("IN on_shutdown")
             self.destroy_subscription(self.sub_)
+            self.destroy_publisher(self.pub_)
             self.destroy_timer(self.timer_)
             return super().on_shutdown(state)
       
       def on_error(self, state):
             #self.get_logger().info("IN ON_ERROR")
             self.destroy_subscription(self.sub_)
+            self.destroy_publisher(self.pub_)
             self.destroy_timer(self.timer_)
             return super().on_error(state)
 
       def timerCallback(self):
-            lX, lY, rX, rY = 0.0, 0.0, 0.0, 0.0
+            lX, lY, rX, rY, throttle, robotThrottle = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
             if self.joyMsg:
+                  """ xbox controller axes:
+                  0 = left x
+                  1 = left y
+                  2 = right x
+                  3 = right y
+                  4 = left trigger
+                  5 = right trigger
+                  """
                   lX = self.joyMsg.axes[0]
                   lY = self.joyMsg.axes[1]
                   rX = self.joyMsg.axes[2]
                   rY = self.joyMsg.axes[3]
+                  throttle = abs(self.joyMsg.axes[5])
 
-                  leftrho = np.sqrt(lX**2 + lY**2)
-                  leftphi = np.rad2deg(np.arctan2(lY, lX))
-                  rightrho = np.sqrt(rX**2 + rY**2)
-                  rightphi = np.rad2deg(np.arctan2(rY, rX))
+                  leftMagnitude  = np.sqrt(lX**2 + lY**2)
+                  rightMagnitude = np.sqrt(rX**2 + rY**2)
+                  if leftMagnitude > 1.0:
+                        leftMagnitude = 1.0
+                  if rightMagnitude > 1.0:
+                        rightMagnitude = 1.0
 
-                  self.get_logger().info("| LR:%.2f LP:%.2f | RR:%.2f RP:%.2f |" %(leftrho,leftphi,rightrho,rightphi))
+                  robotThrottle = throttle*leftMagnitude
+                  
+                  # Output angles are +/-180, with 0 at the up position of the joystick
+                  leftAngle  = np.rad2deg(np.arctan2(lX, lY))
+                  rightAngle = np.rad2deg(np.arctan2(rX, rY))
+
+                  self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
+            self.publisher(robotThrottle)
 
       def listener_callback(self, msg):
             self.joyMsg = msg
+      
+      def publisher(self, msg):
+            pub_msg = TnsyController
+            #pub_msg.translation_magnitude = msg
+            self.pub_.publish(pub_msg)
             
 
 def main(args=None):
-      # evevrything between init and shutdown is the node
+      # everything between init and shutdown is the node
       rclpy.init(args=args)
-
       node = MyNode()
-      rclpy.spin(node)
-      node.destroy_node()
-      rclpy.shutdown()
-      
+
+      try:
+            rclpy.spin(node)
+            node.destroy_node()
+            rclpy.shutdown()
+      except (KeyboardInterrupt):
+            pass      
 
 
 if __name__ == '__main__':

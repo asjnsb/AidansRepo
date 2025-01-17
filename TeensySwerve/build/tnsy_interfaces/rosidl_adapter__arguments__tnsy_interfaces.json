@@ -1,0 +1,6 @@
+{
+  "package_name": "tnsy_interfaces",
+  "non_idl_tuples": [
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces:msg/TnsyController.msg"
+  ]
+}

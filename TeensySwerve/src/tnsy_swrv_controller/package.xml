@@ -9,6 +9,7 @@
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>tnsy_interfaces</depend>
 
   <exec_depend>joy</exec_depend>
 
