@@ -4,7 +4,8 @@ import rclpy
 import rclpy.exceptions
 from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
-from tnsy_interfaces.msg import TnsyController
+from tnsy_interfaces.msg._tnsy_controller import Metaclass_TnsyController
+from tnsy_interfaces.msg._tnsy_controller import TnsyController
 
 
 """
