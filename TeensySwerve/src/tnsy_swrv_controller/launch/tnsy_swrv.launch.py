@@ -14,13 +14,13 @@ from launch_ros.event_handlers import OnStateTransition
 import lifecycle_msgs.msg
 
 def generate_launch_description():
-    joy_params = os.path.join(get_package_share_directory('tnsy_swrv_controller'), 'config', 'joystick.yaml')
+    tnsy_params = os.path.join(get_package_share_directory('tnsy_swrv_controller'), 'config', 'tnsy_swrv.yaml')
     
     joy_node = LifecycleNode(
         package= 'joy',
         executable= 'game_controller_node',
         name= 'game_controller_node',
-        parameters=[joy_params],
+        parameters=[tnsy_params],
         namespace='nameSpace1'
     )
     
@@ -29,6 +29,13 @@ def generate_launch_description():
         executable='joy_translator',
         name='joy_translator_node',
         namespace='nameSpace1'
+    )
+
+    micro_ros_agent = Node(
+        package= 'micro_ros_agent',
+        executable= 'micro_ros_agent',
+        name= 'micro_ros_agent',
+        #parameters=['serial --dev /dev/ttyACM0']
     )
 
     # Make joy_translator take the 'configure' transition
@@ -75,7 +82,8 @@ def generate_launch_description():
                 target_lifecycle_node=joy_translator_node,
                 goal_state='active',
                 entities=[
-                    LogInfo(msg = "'joy_translator_node' reached the 'ACTIVE' state")
+                    LogInfo(msg = "'joy_translator_node' reached the 'ACTIVE' state"),
+                    micro_ros_agent
                 ]
             )
         ),

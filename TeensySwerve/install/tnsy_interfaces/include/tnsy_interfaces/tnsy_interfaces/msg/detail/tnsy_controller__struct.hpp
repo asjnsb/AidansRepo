@@ -41,6 +41,8 @@ struct TnsyController_
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->pointing_magnitude = 0.0f;
+      this->pointing_angle = 0.0f;
       this->enable_switch = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
@@ -49,12 +51,6 @@ struct TnsyController_
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->enable_switch = false;
-    }
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->pointing_magnitude = 0.0f;
-      this->pointing_angle = 0.0f;
     }
   }
 
@@ -67,6 +63,8 @@ struct TnsyController_
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->pointing_magnitude = 0.0f;
+      this->pointing_angle = 0.0f;
       this->enable_switch = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
@@ -75,12 +73,6 @@ struct TnsyController_
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->enable_switch = false;
-    }
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->pointing_magnitude = 0.0f;
-      this->pointing_angle = 0.0f;
     }
   }
 

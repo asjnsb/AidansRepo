@@ -53,6 +53,8 @@ class Metaclass_TnsyController(type):
             'TRANSLATION_MAGNITUDE__DEFAULT': 0.0,
             'TRANSLATION_ANGLE__DEFAULT': 0.0,
             'ROTATION_SPEED__DEFAULT': 0.0,
+            'POINTING_MAGNITUDE__DEFAULT': 0.0,
+            'POINTING_ANGLE__DEFAULT': 0.0,
             'ENABLE_SWITCH__DEFAULT': False,
         }
 
@@ -69,6 +71,16 @@ class Metaclass_TnsyController(type):
     @property
     def ROTATION_SPEED__DEFAULT(cls):
         """Return default value for message field 'rotation_speed'."""
+        return 0.0
+
+    @property
+    def POINTING_MAGNITUDE__DEFAULT(cls):
+        """Return default value for message field 'pointing_magnitude'."""
+        return 0.0
+
+    @property
+    def POINTING_ANGLE__DEFAULT(cls):
+        """Return default value for message field 'pointing_angle'."""
         return 0.0
 
     @property
@@ -117,8 +129,10 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             'translation_angle', TnsyController.TRANSLATION_ANGLE__DEFAULT)
         self.rotation_speed = kwargs.get(
             'rotation_speed', TnsyController.ROTATION_SPEED__DEFAULT)
-        self.pointing_magnitude = kwargs.get('pointing_magnitude', float())
-        self.pointing_angle = kwargs.get('pointing_angle', float())
+        self.pointing_magnitude = kwargs.get(
+            'pointing_magnitude', TnsyController.POINTING_MAGNITUDE__DEFAULT)
+        self.pointing_angle = kwargs.get(
+            'pointing_angle', TnsyController.POINTING_ANGLE__DEFAULT)
         self.enable_switch = kwargs.get(
             'enable_switch', TnsyController.ENABLE_SWITCH__DEFAULT)
 

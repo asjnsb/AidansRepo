@@ -46,7 +46,7 @@ void setup(){
   // Configure serial transport
   Serial.begin(115200);
   set_microros_serial_transports(Serial);
-  delay(2000);
+  delay(100);
 
   allocator = rcl_get_default_allocator();
 
@@ -64,7 +64,7 @@ void setup(){
     "/InputPub"));
   
   // create timer
-  const unsigned int timer_timeout = 5000;
+  const unsigned int timer_timeout = 1000;
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
@@ -83,6 +83,6 @@ void setup(){
 }
 
 void loop() {
-  delay(100000);
-  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(1000)));
+  delay(10000);
+  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
 }

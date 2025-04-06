@@ -24,7 +24,9 @@ tnsy_interfaces__msg__TnsyController__init(tnsy_interfaces__msg__TnsyController 
   // rotation_speed
   msg->rotation_speed = 0.0f;
   // pointing_magnitude
+  msg->pointing_magnitude = 0.0f;
   // pointing_angle
+  msg->pointing_angle = 0.0f;
   // enable_switch
   msg->enable_switch = false;
   return true;

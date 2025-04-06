@@ -15,8 +15,10 @@ module tnsy_interfaces {
       @default (value=0.0)
       float rotation_speed;
 
+      @default (value=0.0)
       float pointing_magnitude;
 
+      @default (value=0.0)
       float pointing_angle;
 
       @default (value=FALSE)

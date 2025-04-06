@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000951] (tnsy_interfaces) JobQueued: {'identifier': 'tnsy_interfaces', 'dependencies': OrderedDict()}
+[0.001766] (tnsy_swrv_controller) JobQueued: {'identifier': 'tnsy_swrv_controller', 'dependencies': OrderedDict([('tnsy_interfaces', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces')])}
+[0.001880] (tnsy_interfaces) JobStarted: {'identifier': 'tnsy_interfaces'}
+[0.025485] (tnsy_interfaces) JobProgress: {'identifier': 'tnsy_interfaces', 'progress': 'cmake'}
+[0.033017] (tnsy_interfaces) JobProgress: {'identifier': 'tnsy_interfaces', 'progress': 'build'}
+[0.033159] (tnsy_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aidan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aidan'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f2e3a3a12aa6804.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1553'), ('BUNDLED_DEBUGPY_PATH', '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2248'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aidan'), ('JOURNAL_STREAM', '8:14487'), ('_', '/home/aidan/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aidan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aidan/.local/bin:/opt/ros/humble/bin:/home/aidan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/LittleMan:@/tmp/.ICE-unix/1524,unix/LittleMan:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', 'eaf13b90b6044fb38f1bf3fd7f3ad746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NGU622'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-72e3824407.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble')]), 'shell': False}
+[0.098736] (-) TimerEvent: {}
+[0.196810] (tnsy_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199166] (-) TimerEvent: {}
+[0.299946] (-) TimerEvent: {}
+[0.403090] (-) TimerEvent: {}
+[0.503728] (-) TimerEvent: {}
+[0.557874] (tnsy_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.566503] (tnsy_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.572892] (tnsy_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.603850] (-) TimerEvent: {}
+[0.645508] (tnsy_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.703985] (-) TimerEvent: {}
+[0.804394] (-) TimerEvent: {}
+[0.904775] (-) TimerEvent: {}
+[1.005092] (-) TimerEvent: {}
+[1.105461] (-) TimerEvent: {}
+[1.205791] (-) TimerEvent: {}
+[1.246531] (tnsy_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.305912] (-) TimerEvent: {}
+[1.406315] (-) TimerEvent: {}
+[1.506692] (-) TimerEvent: {}
+[1.607085] (-) TimerEvent: {}
+[1.610534] (tnsy_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.707187] (-) TimerEvent: {}
+[1.807562] (-) TimerEvent: {}
+[1.907921] (-) TimerEvent: {}
+[2.008330] (-) TimerEvent: {}
+[2.092163] (tnsy_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.108455] (-) TimerEvent: {}
+[2.143975] (tnsy_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.191887] (tnsy_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.192136] (tnsy_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.192246] (tnsy_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.208543] (-) TimerEvent: {}
+[2.212960] (tnsy_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.248966] (tnsy_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.253060] (tnsy_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.258128] (tnsy_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.308666] (-) TimerEvent: {}
+[2.338398] (tnsy_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.345490] (tnsy_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces\n'}
+[2.409225] (-) TimerEvent: {}
+[2.413689] (tnsy_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.419216] (tnsy_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.509384] (-) TimerEvent: {}
+[2.511665] (tnsy_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tnsy_interfaces\n'}
+[2.613082] (-) TimerEvent: {}
+[2.714201] (-) TimerEvent: {}
+[2.818272] (-) TimerEvent: {}
+[2.918761] (-) TimerEvent: {}
+[3.020082] (-) TimerEvent: {}
+[3.122823] (-) TimerEvent: {}
+[3.224972] (-) TimerEvent: {}
+[3.325421] (-) TimerEvent: {}
+[3.427109] (-) TimerEvent: {}
+[3.527957] (-) TimerEvent: {}
+[3.635104] (-) TimerEvent: {}
+[3.735719] (-) TimerEvent: {}
+[3.760170] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.797134] (tnsy_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.800762] (tnsy_interfaces) StdoutLine: {'line': b'writing tnsy_interfaces.egg-info/PKG-INFO\n'}
+[3.803427] (tnsy_interfaces) StdoutLine: {'line': b'writing dependency_links to tnsy_interfaces.egg-info/dependency_links.txt\n'}
+[3.804561] (tnsy_interfaces) StdoutLine: {'line': b'writing top-level names to tnsy_interfaces.egg-info/top_level.txt\n'}
+[3.830424] (tnsy_interfaces) StdoutLine: {'line': b"reading manifest file 'tnsy_interfaces.egg-info/SOURCES.txt'\n"}
+[3.835840] (-) TimerEvent: {}
+[3.845453] (tnsy_interfaces) StdoutLine: {'line': b"writing manifest file 'tnsy_interfaces.egg-info/SOURCES.txt'\n"}
+[3.851207] (tnsy_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tnsy_interfaces/msg/detail/tnsy_controller__functions.c.o\x1b[0m\n'}
+[3.939235] (-) TimerEvent: {}
+[3.972252] (tnsy_interfaces) StdoutLine: {'line': b'[  9%] Built target tnsy_interfaces__cpp\n'}
+[4.039355] (-) TimerEvent: {}
+[4.045090] (tnsy_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.062442] (tnsy_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.078954] (tnsy_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_tnsy_interfaces_egg\n'}
+[4.135082] (tnsy_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.139790] (-) TimerEvent: {}
+[4.241056] (-) TimerEvent: {}
+[4.342228] (tnsy_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtnsy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.342522] (-) TimerEvent: {}
+[4.445186] (-) TimerEvent: {}
+[4.545562] (-) TimerEvent: {}
+[4.622575] (tnsy_interfaces) StdoutLine: {'line': b'[ 22%] Built target tnsy_interfaces__rosidl_generator_c\n'}
+[4.645866] (-) TimerEvent: {}
+[4.715200] (tnsy_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.746766] (-) TimerEvent: {}
+[4.851104] (-) TimerEvent: {}
+[4.954211] (-) TimerEvent: {}
+[5.057085] (-) TimerEvent: {}
+[5.159331] (-) TimerEvent: {}
+[5.262928] (-) TimerEvent: {}
+[5.364513] (-) TimerEvent: {}
+[5.373652] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.464581] (-) TimerEvent: {}
+[5.467599] (tnsy_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tnsy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tnsy_interfaces/msg/tnsy_controller__type_support.cpp.o\x1b[0m\n'}
+[5.566256] (-) TimerEvent: {}
+[5.670679] (-) TimerEvent: {}
+[5.685107] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.765534] (tnsy_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tnsy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tnsy_interfaces/msg/detail/dds_fastrtps/tnsy_controller__type_support.cpp.o\x1b[0m\n'}
+[5.776401] (-) TimerEvent: {}
+[5.816355] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.876516] (-) TimerEvent: {}
+[5.889348] (tnsy_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tnsy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp.o\x1b[0m\n'}
+[5.980229] (-) TimerEvent: {}
+[6.028526] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.080672] (-) TimerEvent: {}
+[6.089470] (tnsy_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tnsy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tnsy_interfaces/msg/detail/tnsy_controller__type_support_c.cpp.o\x1b[0m\n'}
+[6.182734] (-) TimerEvent: {}
+[6.284365] (-) TimerEvent: {}
+[6.394416] (-) TimerEvent: {}
+[6.497621] (-) TimerEvent: {}
+[6.600961] (-) TimerEvent: {}
+[6.703002] (-) TimerEvent: {}
+[6.804338] (-) TimerEvent: {}
+[6.908448] (-) TimerEvent: {}
+[7.012337] (-) TimerEvent: {}
+[7.112927] (-) TimerEvent: {}
+[7.215554] (-) TimerEvent: {}
+[7.274229] (tnsy_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libtnsy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.315689] (-) TimerEvent: {}
+[7.419809] (-) TimerEvent: {}
+[7.525255] (-) TimerEvent: {}
+[7.569703] (tnsy_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libtnsy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.580145] (tnsy_interfaces) StdoutLine: {'line': b'[ 45%] Built target tnsy_interfaces__rosidl_typesupport_cpp\n'}
+[7.627223] (-) TimerEvent: {}
+[7.630747] (tnsy_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.728783] (-) TimerEvent: {}
+[7.761706] (tnsy_interfaces) StdoutLine: {'line': b'[ 48%] Built target tnsy_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.795978] (tnsy_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtnsy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.828905] (-) TimerEvent: {}
+[7.834617] (tnsy_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.940006] (-) TimerEvent: {}
+[8.032352] (tnsy_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtnsy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.041106] (-) TimerEvent: {}
+[8.142541] (-) TimerEvent: {}
+[8.249109] (-) TimerEvent: {}
+[8.315172] (tnsy_interfaces) StdoutLine: {'line': b'[ 58%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.349223] (-) TimerEvent: {}
+[8.367997] (tnsy_interfaces) StdoutLine: {'line': b'[ 58%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.451105] (-) TimerEvent: {}
+[8.551832] (-) TimerEvent: {}
+[8.652945] (-) TimerEvent: {}
+[8.754111] (-) TimerEvent: {}
+[8.861109] (-) TimerEvent: {}
+[8.966105] (-) TimerEvent: {}
+[8.992544] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.043061] (tnsy_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tnsy_interfaces/msg/detail/tnsy_controller__type_support.c.o\x1b[0m\n'}
+[9.066233] (-) TimerEvent: {}
+[9.167114] (tnsy_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libtnsy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.167530] (-) TimerEvent: {}
+[9.230638] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[9.260222] (tnsy_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tnsy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tnsy_interfaces/msg/tnsy_controller__type_support.cpp.o\x1b[0m\n'}
+[9.269104] (-) TimerEvent: {}
+[9.286289] (tnsy_interfaces) StdoutLine: {'line': b'[ 67%] Built target tnsy_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.340159] (tnsy_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtnsy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.369131] (-) TimerEvent: {}
+[9.430793] (tnsy_interfaces) StdoutLine: {'line': b'[ 70%] Built target tnsy_interfaces__rosidl_typesupport_c\n'}
+[9.466569] (tnsy_interfaces) StdoutLine: {'line': b'[ 70%] Built target tnsy_interfaces\n'}
+[9.469240] (-) TimerEvent: {}
+[9.504280] (tnsy_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.572103] (-) TimerEvent: {}
+[9.672601] (-) TimerEvent: {}
+[9.774984] (-) TimerEvent: {}
+[9.878297] (-) TimerEvent: {}
+[9.980033] (-) TimerEvent: {}
+[10.081413] (-) TimerEvent: {}
+[10.182191] (-) TimerEvent: {}
+[10.282663] (-) TimerEvent: {}
+[10.383082] (-) TimerEvent: {}
+[10.483527] (-) TimerEvent: {}
+[10.501544] (tnsy_interfaces) StdoutLine: {'line': b'[ 74%] Built target tnsy_interfaces__py\n'}
+[10.522166] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_generator_py\x1b[0m\n'}
+[10.550255] (tnsy_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tnsy_interfaces/msg/_tnsy_controller_s.c.o\x1b[0m\n'}
+[10.583643] (-) TimerEvent: {}
+[10.684088] (-) TimerEvent: {}
+[10.784494] (-) TimerEvent: {}
+[10.816455] (tnsy_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tnsy_interfaces/libtnsy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[10.884952] (-) TimerEvent: {}
+[10.912467] (tnsy_interfaces) StdoutLine: {'line': b'[ 80%] Built target tnsy_interfaces__rosidl_generator_py\n'}
+[10.955612] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.955973] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.959290] (tnsy_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tnsy_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.986352] (-) TimerEvent: {}
+[11.019193] (tnsy_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.019638] (tnsy_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.028221] (tnsy_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tnsy_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.086485] (-) TimerEvent: {}
+[11.188805] (-) TimerEvent: {}
+[11.290804] (-) TimerEvent: {}
+[11.394350] (-) TimerEvent: {}
+[11.500207] (-) TimerEvent: {}
+[11.503007] (tnsy_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.520699] (tnsy_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.544274] (tnsy_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.600388] (-) TimerEvent: {}
+[11.663295] (tnsy_interfaces) StdoutLine: {'line': b'[100%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.673173] (tnsy_interfaces) StdoutLine: {'line': b'[100%] Built target tnsy_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.683521] (tnsy_interfaces) StdoutLine: {'line': b'[100%] Built target tnsy_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.701210] (-) TimerEvent: {}
+[11.724135] (tnsy_interfaces) CommandEnded: {'returncode': 0}
+[11.801347] (-) TimerEvent: {}
+[11.903711] (-) TimerEvent: {}
+[11.913255] (tnsy_interfaces) JobProgress: {'identifier': 'tnsy_interfaces', 'progress': 'install'}
+[11.933278] (tnsy_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces'], 'cwd': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aidan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aidan'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('DESKTOP_SESSION', 'ubuntu'), ('DEBUGPY_ADAPTER_ENDPOINTS', '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f2e3a3a12aa6804.txt'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1553'), ('BUNDLED_DEBUGPY_PATH', '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2248'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aidan'), ('JOURNAL_STREAM', '8:14487'), ('_', '/home/aidan/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aidan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aidan/.local/bin:/opt/ros/humble/bin:/home/aidan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/LittleMan:@/tmp/.ICE-unix/1524,unix/LittleMan:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', 'eaf13b90b6044fb38f1bf3fd7f3ad746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NGU622'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-72e3824407.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble')]), 'shell': False}
+[11.952135] (tnsy_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.952668] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/rosidl_interfaces/tnsy_interfaces\n'}
+[11.953033] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.953321] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.953531] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/tnsy_controller.h\n'}
+[11.953707] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.953878] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.954057] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__struct.h\n'}
+[11.954535] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__functions.h\n'}
+[11.954773] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__functions.c\n'}
+[11.954953] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.h\n'}
+[11.955077] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/library_path.sh\n'}
+[11.955212] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/library_path.dsv\n'}
+[11.955601] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_c.so\n'}
+[11.956324] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.956812] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.957250] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.957439] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.957622] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.957835] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_fastrtps_c.h\n'}
+[11.961534] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.962099] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.962334] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.962515] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.964222] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.965467] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_introspection_c.h\n'}
+[11.965859] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.c\n'}
+[11.966947] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.967193] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.967597] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.968216] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_c.so\n'}
+[11.968678] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.968957] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.969167] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.969341] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/tnsy_controller.hpp\n'}
+[11.969512] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.969681] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__traits.hpp\n'}
+[11.969886] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.hpp\n'}
+[11.970093] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__builder.hpp\n'}
+[11.970279] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__struct.hpp\n'}
+[11.970462] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.970821] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.971011] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.971227] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.971401] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.971581] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/dds_fastrtps\n'}
+[11.971745] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.971913] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.972224] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.972452] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces\n'}
+[11.972621] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg\n'}
+[11.972797] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail\n'}
+[11.972968] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp\n'}
+[11.973193] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.973750] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.974012] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.976244] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.977723] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.979840] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/pythonpath.sh\n'}
+[11.980260] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/pythonpath.dsv\n'}
+[11.980585] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info\n'}
+[11.980940] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.981477] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.981778] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.982164] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.982490] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces\n'}
+[11.982750] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.983054] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.983330] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/__init__.py\n'}
+[11.983594] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg\n'}
+[11.983789] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/_tnsy_controller.py\n'}
+[11.984065] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/__init__.py\n'}
+[11.984331] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/_tnsy_controller_s.c\n'}
+[11.984576] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.984836] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/libtnsy_interfaces__rosidl_generator_py.so\n'}
+[11.985136] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.985461] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.985798] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.003824] (-) TimerEvent: {}
+[12.080124] (tnsy_interfaces) StdoutLine: {'line': b"Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces'...\n"}
+[12.080443] (tnsy_interfaces) StdoutLine: {'line': b"Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/__init__.py'...\n"}
+[12.080620] (tnsy_interfaces) StdoutLine: {'line': b"Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg'...\n"}
+[12.080777] (tnsy_interfaces) StdoutLine: {'line': b"Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/__init__.py'...\n"}
+[12.081401] (tnsy_interfaces) StdoutLine: {'line': b"Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/_tnsy_controller.py'...\n"}
+[12.091070] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.091818] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.092576] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.093995] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.095066] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.096083] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.098652] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_py.so\n'}
+[12.099596] (tnsy_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.099947] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/msg/TnsyController.idl\n'}
+[12.100268] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/msg/TnsyController.msg\n'}
+[12.100631] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/package_run_dependencies/tnsy_interfaces\n'}
+[12.100867] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/parent_prefix_path/tnsy_interfaces\n'}
+[12.101045] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/ament_prefix_path.sh\n'}
+[12.102522] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.102748] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/path.sh\n'}
+[12.103126] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/path.dsv\n'}
+[12.103384] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.bash\n'}
+[12.103551] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.sh\n'}
+[12.103699] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.zsh\n'}
+[12.103840] (-) TimerEvent: {}
+[12.104058] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.dsv\n'}
+[12.104257] (tnsy_interfaces) StdoutLine: {'line': b'-- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/package.dsv\n'}
+[12.104412] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/packages/tnsy_interfaces\n'}
+[12.104863] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.105188] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.105483] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.105715] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.106338] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.107217] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.108711] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.109196] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.111839] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.113851] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.114203] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.115605] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.115921] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.117029] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.117315] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.117995] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.118341] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.119094] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.119577] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.120106] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.120586] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.121085] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.121557] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.122066] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.122581] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfacesConfig.cmake\n'}
+[12.122953] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfacesConfig-version.cmake\n'}
+[12.123545] (tnsy_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/package.xml\n'}
+[12.132276] (tnsy_interfaces) CommandEnded: {'returncode': 0}
+[12.204006] (-) TimerEvent: {}
+[12.305387] (-) TimerEvent: {}
+[12.406874] (-) TimerEvent: {}
+[12.422349] (tnsy_interfaces) JobEnded: {'identifier': 'tnsy_interfaces', 'rc': 0}
+[12.426158] (tnsy_swrv_controller) JobStarted: {'identifier': 'tnsy_swrv_controller'}
+[12.507075] (-) TimerEvent: {}
+[12.609293] (-) TimerEvent: {}
+[12.710779] (-) TimerEvent: {}
+[12.812463] (-) TimerEvent: {}
+[12.914980] (-) TimerEvent: {}
+[13.016103] (-) TimerEvent: {}
+[13.117222] (-) TimerEvent: {}
+[13.219099] (-) TimerEvent: {}
+[13.319667] (-) TimerEvent: {}
+[13.423305] (-) TimerEvent: {}
+[13.523954] (-) TimerEvent: {}
+[13.624388] (-) TimerEvent: {}
+[13.725795] (-) TimerEvent: {}
+[13.826768] (-) TimerEvent: {}
+[13.929458] (-) TimerEvent: {}
+[14.030147] (-) TimerEvent: {}
+[14.131771] (-) TimerEvent: {}
+[14.233385] (-) TimerEvent: {}
+[14.334407] (-) TimerEvent: {}
+[14.434915] (-) TimerEvent: {}
+[14.535304] (-) TimerEvent: {}
+[14.635844] (-) TimerEvent: {}
+[14.689934] (tnsy_swrv_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build'], 'cwd': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidan', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aidan', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f2e3a3a12aa6804.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1384', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1553', 'BUNDLED_DEBUGPY_PATH': '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2248', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aidan', 'JOURNAL_STREAM': '8:14487', '_': '/home/aidan/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aidan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aidan/.local/bin:/opt/ros/humble/bin:/home/aidan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/LittleMan:@/tmp/.ICE-unix/1524,unix/LittleMan:/tmp/.ICE-unix/1524', 'INVOCATION_ID': 'eaf13b90b6044fb38f1bf3fd7f3ad746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NGU622', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-72e3824407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces'}, 'shell': False}
+[14.735948] (-) TimerEvent: {}
+[14.836329] (-) TimerEvent: {}
+[14.936634] (-) TimerEvent: {}
+[15.039093] (-) TimerEvent: {}
+[15.140354] (-) TimerEvent: {}
+[15.241602] (-) TimerEvent: {}
+[15.341945] (-) TimerEvent: {}
+[15.442375] (-) TimerEvent: {}
+[15.528318] (tnsy_swrv_controller) StdoutLine: {'line': b'running develop\n'}
+[15.542500] (-) TimerEvent: {}
+[15.642949] (-) TimerEvent: {}
+[15.743439] (-) TimerEvent: {}
+[15.843823] (-) TimerEvent: {}
+[15.944214] (-) TimerEvent: {}
+[15.960071] (tnsy_swrv_controller) StdoutLine: {'line': b'Removing /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy-swrv-controller.egg-link (link to .)\n'}
+[16.040005] (tnsy_swrv_controller) CommandEnded: {'returncode': 0}
+[16.041861] (tnsy_swrv_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tnsy_swrv_controller', 'build', '--build-base', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build', 'install', '--record', '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidan', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aidan', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f2e3a3a12aa6804.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1384', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1553', 'BUNDLED_DEBUGPY_PATH': '/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2248', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aidan', 'JOURNAL_STREAM': '8:14487', '_': '/home/aidan/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aidan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/aidan/.local/bin:/opt/ros/humble/bin:/home/aidan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aidan/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/LittleMan:@/tmp/.ICE-unix/1524,unix/LittleMan:/tmp/.ICE-unix/1524', 'INVOCATION_ID': 'eaf13b90b6044fb38f1bf3fd7f3ad746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NGU622', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-72e3824407.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces'}, 'shell': False}
+[16.044305] (-) TimerEvent: {}
+[16.144655] (-) TimerEvent: {}
+[16.245347] (-) TimerEvent: {}
+[16.346052] (-) TimerEvent: {}
+[16.448060] (-) TimerEvent: {}
+[16.549118] (-) TimerEvent: {}
+[16.650162] (-) TimerEvent: {}
+[16.726393] (tnsy_swrv_controller) StdoutLine: {'line': b'running egg_info\n'}
+[16.727549] (tnsy_swrv_controller) StdoutLine: {'line': b'writing ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/PKG-INFO\n'}
+[16.727953] (tnsy_swrv_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/dependency_links.txt\n'}
+[16.729468] (tnsy_swrv_controller) StdoutLine: {'line': b'writing entry points to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/entry_points.txt\n'}
+[16.729977] (tnsy_swrv_controller) StdoutLine: {'line': b'writing requirements to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/requires.txt\n'}
+[16.730293] (tnsy_swrv_controller) StdoutLine: {'line': b'writing top-level names to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/top_level.txt\n'}
+[16.735131] (tnsy_swrv_controller) StdoutLine: {'line': b"reading manifest file '../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/SOURCES.txt'\n"}
+[16.738767] (tnsy_swrv_controller) StdoutLine: {'line': b"writing manifest file '../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/SOURCES.txt'\n"}
+[16.740157] (tnsy_swrv_controller) StdoutLine: {'line': b'running build\n'}
+[16.740563] (tnsy_swrv_controller) StdoutLine: {'line': b'running build_py\n'}
+[16.741158] (tnsy_swrv_controller) StdoutLine: {'line': b'copying tnsy_swrv_controller/joy_translator.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller\n'}
+[16.741931] (tnsy_swrv_controller) StdoutLine: {'line': b'running install\n'}
+[16.742313] (tnsy_swrv_controller) StdoutLine: {'line': b'running install_lib\n'}
+[16.743660] (tnsy_swrv_controller) StdoutLine: {'line': b'creating /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.744355] (tnsy_swrv_controller) StdoutLine: {'line': b'copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/__init__.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.744604] (tnsy_swrv_controller) StdoutLine: {'line': b'copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/my_first_node.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.744800] (tnsy_swrv_controller) StdoutLine: {'line': b'copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/publisher_member_function.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.745922] (tnsy_swrv_controller) StdoutLine: {'line': b'copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/joy_translator.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.746428] (tnsy_swrv_controller) StdoutLine: {'line': b'copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/subscriber_member_function.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller\n'}
+[16.748145] (tnsy_swrv_controller) StdoutLine: {'line': b'byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[16.751220] (-) TimerEvent: {}
+[16.752010] (tnsy_swrv_controller) StdoutLine: {'line': b'byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[16.752307] (tnsy_swrv_controller) StdoutLine: {'line': b'byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[16.752495] (tnsy_swrv_controller) StdoutLine: {'line': b'byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/joy_translator.py to joy_translator.cpython-310.pyc\n'}
+[16.752983] (tnsy_swrv_controller) StdoutLine: {'line': b'byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[16.754256] (tnsy_swrv_controller) StdoutLine: {'line': b'running install_data\n'}
+[16.755098] (tnsy_swrv_controller) StdoutLine: {'line': b'copying resource/tnsy_swrv_controller -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/share/ament_index/resource_index/packages\n'}
+[16.756694] (tnsy_swrv_controller) StdoutLine: {'line': b'copying package.xml -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/share/tnsy_swrv_controller\n'}
+[16.758199] (tnsy_swrv_controller) StdoutLine: {'line': b'copying launch/joystick.launch.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/share/tnsy_swrv_controller/launch\n'}
+[16.759261] (tnsy_swrv_controller) StdoutLine: {'line': b'copying config/joystick.yaml -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/share/tnsy_swrv_controller/config\n'}
+[16.763098] (tnsy_swrv_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.766126] (tnsy_swrv_controller) StdoutLine: {'line': b'Copying ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller-0.0.0-py3.10.egg-info\n'}
+[16.770101] (tnsy_swrv_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[16.812243] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing joy_translator script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[16.813528] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing pub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[16.813914] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing sub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[16.814509] (tnsy_swrv_controller) StdoutLine: {'line': b'Installing test_node script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller\n'}
+[16.820106] (tnsy_swrv_controller) StdoutLine: {'line': b"writing list of installed files to '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/install.log'\n"}
+[16.851319] (-) TimerEvent: {}
+[16.881467] (tnsy_swrv_controller) CommandEnded: {'returncode': 0}
+[16.900902] (tnsy_swrv_controller) JobEnded: {'identifier': 'tnsy_swrv_controller', 'rc': 0}
+[16.902454] (-) EventReactorShutdown: {}

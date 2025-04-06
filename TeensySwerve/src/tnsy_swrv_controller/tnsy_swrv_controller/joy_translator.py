@@ -4,14 +4,7 @@ import rclpy
 import rclpy.exceptions
 from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
-from tnsy_interfaces.msg._tnsy_controller import Metaclass_TnsyController
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
-
-
-"""
-LAST: solved ctl-c handling, and made a custom message in it's own package
-NEXT: fix the issue that happens at runtime related to expeccting a class and getting a metaclass
-"""
 
 class MyNode(LifecycleNode):
       def __init__(self):
@@ -65,7 +58,7 @@ class MyNode(LifecycleNode):
             return super().on_error(state)
 
       def timerCallback(self):
-            lX, lY, rX, rY, throttle, robotThrottle = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+            lX, lY, rX, rY, throttle, translationSpeed = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
             if self.joyMsg:
                   """ xbox controller axes:
                   0 = left x
@@ -88,23 +81,23 @@ class MyNode(LifecycleNode):
                   if rightMagnitude > 1.0:
                         rightMagnitude = 1.0
 
-                  robotThrottle = throttle*leftMagnitude
+                  translationSpeed = throttle*leftMagnitude
                   
                   # Output angles are +/-180, with 0 at the up position of the joystick
                   leftAngle  = np.rad2deg(np.arctan2(lX, lY))
                   rightAngle = np.rad2deg(np.arctan2(rX, rY))
 
                   self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
-            self.publisher(robotThrottle)
+            self.publisher(translationSpeed)
 
       def listener_callback(self, msg):
             self.joyMsg = msg
       
       def publisher(self, msg):
-            pub_msg = TnsyController
-            #pub_msg.translation_magnitude = msg
+            pub_msg = TnsyController()
+            pub_msg.translation_magnitude = msg
             self.pub_.publish(pub_msg)
-            
+
 
 def main(args=None):
       # everything between init and shutdown is the node
