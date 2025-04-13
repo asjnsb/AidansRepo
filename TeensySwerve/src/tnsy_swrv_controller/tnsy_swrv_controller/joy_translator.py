@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import rclpy
-import rclpy.exceptions
+#import rclpy.exceptions
 from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
@@ -59,6 +59,7 @@ class MyNode(LifecycleNode):
 
       def timerCallback(self):
             lX, lY, rX, rY, throttle, translationSpeed = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+            pub_msg = TnsyController()
             if self.joyMsg:
                   """ xbox controller axes:
                   0 = left x
@@ -81,22 +82,20 @@ class MyNode(LifecycleNode):
                   if rightMagnitude > 1.0:
                         rightMagnitude = 1.0
 
-                  translationSpeed = throttle*leftMagnitude
+                  pub_msg.translation_magnitude = throttle*leftMagnitude
                   
                   # Output angles are +/-180, with 0 at the up position of the joystick
                   leftAngle  = np.rad2deg(np.arctan2(lX, lY))
                   rightAngle = np.rad2deg(np.arctan2(rX, rY))
 
                   self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
-            self.publisher(translationSpeed)
+            self.publisher(pub_msg)
 
       def listener_callback(self, msg):
             self.joyMsg = msg
       
       def publisher(self, msg):
-            pub_msg = TnsyController()
-            pub_msg.translation_magnitude = msg
-            self.pub_.publish(pub_msg)
+            self.pub_.publish(msg)
 
 
 def main(args=None):
@@ -108,7 +107,7 @@ def main(args=None):
             rclpy.spin(node)
             node.destroy_node()
             rclpy.shutdown()
-      except (KeyboardInterrupt):
+      except (KeyboardInterrupt): # this try:except catches the user using ctl-c to stop the node from running
             pass      
 
 

@@ -35,7 +35,7 @@ def generate_launch_description():
         package= 'micro_ros_agent',
         executable= 'micro_ros_agent',
         name= 'micro_ros_agent',
-        #parameters=['serial --dev /dev/ttyACM0']
+        parameters=['serial --dev /dev/ttyACM0']
     )
 
     # Make joy_translator take the 'configure' transition

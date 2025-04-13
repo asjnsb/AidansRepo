@@ -1,11 +1,12 @@
 #include <Arduino.h>
+#include <Wire.h>
+#include <Motoron.h>
+
 #include <micro_ros_platformio.h>
 #include <micro_ros_utilities/string_utilities.h>
-
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
-
 #include <std_msgs/msg/string.h>
 
 rcl_publisher_t publisher;
@@ -39,10 +40,15 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     sprintf(msg.data.data, "Look at me! #%d", counter++);
     msg.data.size = strlen(msg.data.data);
     RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
+
+
   }
 }
 
 void setup(){
+  //i2c setup
+  Wire.begin();
+
   // Configure serial transport
   Serial.begin(115200);
   set_microros_serial_transports(Serial);
