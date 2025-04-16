@@ -88,7 +88,7 @@ class MyNode(LifecycleNode):
                   leftAngle  = np.rad2deg(np.arctan2(lX, lY))
                   rightAngle = np.rad2deg(np.arctan2(rX, rY))
 
-                  self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
+                  #self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
             self.publisher(pub_msg)
 
       def listener_callback(self, msg):
