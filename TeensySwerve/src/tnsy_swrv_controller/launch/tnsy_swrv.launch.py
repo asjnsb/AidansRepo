@@ -13,6 +13,18 @@ from launch.substitutions import (EnvironmentVariable, FindExecutable, LaunchCon
 from launch_ros.event_handlers import OnStateTransition
 import lifecycle_msgs.msg
 
+# COLORS for text. Tell me if there's a better way of implementing this
+RED    = '\033[31m'
+GREEN  = '\033[32m'
+YELLOW = '\033[33m'
+BLUE   = '\033[34m'
+PURPLE = '\033[35m'
+CYAN   = '\033[36m'
+GRAY   = '\033[37m'
+BLINK  = '\033[5m'
+RESET  = '\033[0m'
+
+
 def generate_launch_description():
     tnsy_params = os.path.join(get_package_share_directory('tnsy_swrv_controller'), 'config', 'tnsy_swrv.yaml')
     
@@ -35,8 +47,11 @@ def generate_launch_description():
         package= 'micro_ros_agent',
         executable= 'micro_ros_agent',
         name= 'micro_ros_agent',
-        arguments=['serial', '--dev', '/dev/ttyACM0']
+        output={'stdout':'screen'}, # this line will make the launch file display micro_ros_agent's standard output in the terminal but not the log
+        arguments=['serial', '--dev', '/dev/ttyACM0'],
     )
+
+    
 
     # Make joy_translator take the 'configure' transition
     joy_translator_configure_transition_event = EmitEvent(
@@ -56,12 +71,22 @@ def generate_launch_description():
 
     return LaunchDescription([
         joy_node,
-        joy_translator_node,
+
+        RegisterEventHandler(
+            OnProcessStart(
+                target_action=joy_node,
+                on_start=[
+                    LogInfo(msg = GREEN + "[joy_node] started. Starting [joy_translator_node]" + RESET),
+                    joy_translator_node
+                ]
+            )
+        ),
 
         RegisterEventHandler(
             OnProcessStart(
                 target_action=joy_translator_node,
                 on_start=[
+                    LogInfo(msg = GREEN + "[joy_translator_node] started. CONFIGURING" + RESET),
                     joy_translator_configure_transition_event
                 ]
             )
@@ -71,8 +96,7 @@ def generate_launch_description():
                 target_lifecycle_node=joy_translator_node,
                 goal_state='inactive',
                 entities=[
-                    LogInfo( msg = "'joy_translator_node' reached the 'INACTIVE' state"),
-                    # you could put "joy_node" here in order to only launch that node when joy_translator_node reaches the inactive state
+                    LogInfo( msg = GREEN + "[joy_translator_node] INACTIVE. ACTIVATING" + RESET),
                     joy_translator_activate_transition_event,
                 ],
             )
@@ -82,7 +106,7 @@ def generate_launch_description():
                 target_lifecycle_node=joy_translator_node,
                 goal_state='active',
                 entities=[
-                    LogInfo(msg = "'joy_translator_node' reached the 'ACTIVE' state"),
+                    LogInfo(msg = GREEN + "[joy_translator_node] ACTIVE. Starting [micro_ros_agent]" + RESET),
                     micro_ros_agent
                 ]
             )

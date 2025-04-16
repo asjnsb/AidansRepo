@@ -37,16 +37,32 @@ private:
   ::tnsy_interfaces::msg::TnsyController msg_;
 };
 
+class Init_TnsyController_rotation_speed
+{
+public:
+  explicit Init_TnsyController_rotation_speed(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  Init_TnsyController_enable_switch rotation_speed(::tnsy_interfaces::msg::TnsyController::_rotation_speed_type arg)
+  {
+    msg_.rotation_speed = std::move(arg);
+    return Init_TnsyController_enable_switch(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
 class Init_TnsyController_pointing_angle
 {
 public:
   explicit Init_TnsyController_pointing_angle(::tnsy_interfaces::msg::TnsyController & msg)
   : msg_(msg)
   {}
-  Init_TnsyController_enable_switch pointing_angle(::tnsy_interfaces::msg::TnsyController::_pointing_angle_type arg)
+  Init_TnsyController_rotation_speed pointing_angle(::tnsy_interfaces::msg::TnsyController::_pointing_angle_type arg)
   {
     msg_.pointing_angle = std::move(arg);
-    return Init_TnsyController_enable_switch(msg_);
+    return Init_TnsyController_rotation_speed(msg_);
   }
 
 private:
@@ -69,32 +85,16 @@ private:
   ::tnsy_interfaces::msg::TnsyController msg_;
 };
 
-class Init_TnsyController_rotation_speed
-{
-public:
-  explicit Init_TnsyController_rotation_speed(::tnsy_interfaces::msg::TnsyController & msg)
-  : msg_(msg)
-  {}
-  Init_TnsyController_pointing_magnitude rotation_speed(::tnsy_interfaces::msg::TnsyController::_rotation_speed_type arg)
-  {
-    msg_.rotation_speed = std::move(arg);
-    return Init_TnsyController_pointing_magnitude(msg_);
-  }
-
-private:
-  ::tnsy_interfaces::msg::TnsyController msg_;
-};
-
 class Init_TnsyController_translation_angle
 {
 public:
   explicit Init_TnsyController_translation_angle(::tnsy_interfaces::msg::TnsyController & msg)
   : msg_(msg)
   {}
-  Init_TnsyController_rotation_speed translation_angle(::tnsy_interfaces::msg::TnsyController::_translation_angle_type arg)
+  Init_TnsyController_pointing_magnitude translation_angle(::tnsy_interfaces::msg::TnsyController::_translation_angle_type arg)
   {
     msg_.translation_angle = std::move(arg);
-    return Init_TnsyController_rotation_speed(msg_);
+    return Init_TnsyController_pointing_magnitude(msg_);
   }
 
 private:

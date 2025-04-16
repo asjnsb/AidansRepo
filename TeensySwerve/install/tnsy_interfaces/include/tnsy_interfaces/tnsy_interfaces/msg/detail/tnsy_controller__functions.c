@@ -21,12 +21,12 @@ tnsy_interfaces__msg__TnsyController__init(tnsy_interfaces__msg__TnsyController 
   msg->translation_magnitude = 0.0f;
   // translation_angle
   msg->translation_angle = 0.0f;
-  // rotation_speed
-  msg->rotation_speed = 0.0f;
   // pointing_magnitude
   msg->pointing_magnitude = 0.0f;
   // pointing_angle
   msg->pointing_angle = 0.0f;
+  // rotation_speed
+  msg->rotation_speed = 0.0f;
   // enable_switch
   msg->enable_switch = false;
   return true;
@@ -40,9 +40,9 @@ tnsy_interfaces__msg__TnsyController__fini(tnsy_interfaces__msg__TnsyController 
   }
   // translation_magnitude
   // translation_angle
-  // rotation_speed
   // pointing_magnitude
   // pointing_angle
+  // rotation_speed
   // enable_switch
 }
 
@@ -60,16 +60,16 @@ tnsy_interfaces__msg__TnsyController__are_equal(const tnsy_interfaces__msg__Tnsy
   if (lhs->translation_angle != rhs->translation_angle) {
     return false;
   }
-  // rotation_speed
-  if (lhs->rotation_speed != rhs->rotation_speed) {
-    return false;
-  }
   // pointing_magnitude
   if (lhs->pointing_magnitude != rhs->pointing_magnitude) {
     return false;
   }
   // pointing_angle
   if (lhs->pointing_angle != rhs->pointing_angle) {
+    return false;
+  }
+  // rotation_speed
+  if (lhs->rotation_speed != rhs->rotation_speed) {
     return false;
   }
   // enable_switch
@@ -91,12 +91,12 @@ tnsy_interfaces__msg__TnsyController__copy(
   output->translation_magnitude = input->translation_magnitude;
   // translation_angle
   output->translation_angle = input->translation_angle;
-  // rotation_speed
-  output->rotation_speed = input->rotation_speed;
   // pointing_magnitude
   output->pointing_magnitude = input->pointing_magnitude;
   // pointing_angle
   output->pointing_angle = input->pointing_angle;
+  // rotation_speed
+  output->rotation_speed = input->rotation_speed;
   // enable_switch
   output->enable_switch = input->enable_switch;
   return true;

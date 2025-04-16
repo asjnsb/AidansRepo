@@ -4,3 +4,5 @@ tnsy_interfaces.egg-info/PKG-INFO
 tnsy_interfaces.egg-info/SOURCES.txt
 tnsy_interfaces.egg-info/dependency_links.txt
 tnsy_interfaces.egg-info/top_level.txt
+tnsy_interfaces/msg/__init__.py
+tnsy_interfaces/msg/_tnsy_controller.py

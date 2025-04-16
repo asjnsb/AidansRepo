@@ -40,16 +40,16 @@ struct TnsyController_
     {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
-      this->rotation_speed = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
+      this->rotation_speed = 0.0f;
       this->enable_switch = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
-      this->rotation_speed = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
+      this->rotation_speed = 0.0f;
       this->enable_switch = false;
     }
   }
@@ -62,16 +62,16 @@ struct TnsyController_
     {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
-      this->rotation_speed = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
+      this->rotation_speed = 0.0f;
       this->enable_switch = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
-      this->rotation_speed = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
+      this->rotation_speed = 0.0f;
       this->enable_switch = false;
     }
   }
@@ -83,15 +83,15 @@ struct TnsyController_
   using _translation_angle_type =
     float;
   _translation_angle_type translation_angle;
-  using _rotation_speed_type =
-    float;
-  _rotation_speed_type rotation_speed;
   using _pointing_magnitude_type =
     float;
   _pointing_magnitude_type pointing_magnitude;
   using _pointing_angle_type =
     float;
   _pointing_angle_type pointing_angle;
+  using _rotation_speed_type =
+    float;
+  _rotation_speed_type rotation_speed;
   using _enable_switch_type =
     bool;
   _enable_switch_type enable_switch;
@@ -109,12 +109,6 @@ struct TnsyController_
     this->translation_angle = _arg;
     return *this;
   }
-  Type & set__rotation_speed(
-    const float & _arg)
-  {
-    this->rotation_speed = _arg;
-    return *this;
-  }
   Type & set__pointing_magnitude(
     const float & _arg)
   {
@@ -125,6 +119,12 @@ struct TnsyController_
     const float & _arg)
   {
     this->pointing_angle = _arg;
+    return *this;
+  }
+  Type & set__rotation_speed(
+    const float & _arg)
+  {
+    this->rotation_speed = _arg;
     return *this;
   }
   Type & set__enable_switch(
@@ -182,13 +182,13 @@ struct TnsyController_
     if (this->translation_angle != other.translation_angle) {
       return false;
     }
-    if (this->rotation_speed != other.rotation_speed) {
-      return false;
-    }
     if (this->pointing_magnitude != other.pointing_magnitude) {
       return false;
     }
     if (this->pointing_angle != other.pointing_angle) {
+      return false;
+    }
+    if (this->rotation_speed != other.rotation_speed) {
       return false;
     }
     if (this->enable_switch != other.enable_switch) {

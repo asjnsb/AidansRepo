@@ -22,9 +22,9 @@ typedef struct tnsy_interfaces__msg__TnsyController
 {
   float translation_magnitude;
   float translation_angle;
-  float rotation_speed;
   float pointing_magnitude;
   float pointing_angle;
+  float rotation_speed;
   bool enable_switch;
 } tnsy_interfaces__msg__TnsyController;
 

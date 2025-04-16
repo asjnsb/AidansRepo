@@ -13,13 +13,13 @@ module tnsy_interfaces {
       float translation_angle;
 
       @default (value=0.0)
-      float rotation_speed;
-
-      @default (value=0.0)
       float pointing_magnitude;
 
       @default (value=0.0)
       float pointing_angle;
+
+      @default (value=0.0)
+      float rotation_speed;
 
       @default (value=FALSE)
       boolean enable_switch;

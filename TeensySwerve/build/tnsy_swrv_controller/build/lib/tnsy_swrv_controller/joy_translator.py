@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import numpy as np
 import rclpy
-import rclpy.exceptions
+#import rclpy.exceptions
 from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
@@ -13,7 +13,7 @@ class MyNode(LifecycleNode):
             self.timer_ = None
             self.sub_ = None
             self.pub_ = None
-            self.timer_period = 0.25
+            self.timer_period = 0.05 # lower is faster
             #self.get_logger().info("IN constructor")
             
       def on_configure(self, state):
@@ -58,38 +58,11 @@ class MyNode(LifecycleNode):
             return super().on_error(state)
 
       def timerCallback(self):
-            lX, lY, rX, rY, throttle, translationSpeed = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
-            pub_msg = TnsyController()
-            if self.joyMsg:
-                  """ xbox controller axes:
-                  0 = left x
-                  1 = left y
-                  2 = right x
-                  3 = right y
-                  4 = left trigger
-                  5 = right trigger
-                  """
-                  lX = self.joyMsg.axes[0]
-                  lY = self.joyMsg.axes[1]
-                  rX = self.joyMsg.axes[2]
-                  rY = self.joyMsg.axes[3]
-                  throttle = abs(self.joyMsg.axes[5])
-
-                  leftMagnitude  = np.sqrt(lX**2 + lY**2)
-                  rightMagnitude = np.sqrt(rX**2 + rY**2)
-                  if leftMagnitude > 1.0:
-                        leftMagnitude = 1.0
-                  if rightMagnitude > 1.0:
-                        rightMagnitude = 1.0
-
-                  pub_msg.translation_magnitude = throttle*leftMagnitude
-                  
-                  # Output angles are +/-180, with 0 at the up position of the joystick
-                  leftAngle  = np.rad2deg(np.arctan2(lX, lY))
-                  rightAngle = np.rad2deg(np.arctan2(rX, rY))
-
-                  self.get_logger().info("| LMag:%.2f LAng:%.2f | Throttle:%.2f |" %(leftMagnitude,leftAngle, throttle))
-            self.publisher(translationSpeed)
+            if self.joyMsg: # if the joyMsg contains information, update pub_msg
+                  pub_msg = Controller.update(TnsyController())
+                  self.publisher(pub_msg)
+            else: # else return an empty message of type TnsyController
+                  self.publisher(TnsyController())
 
       def listener_callback(self, msg):
             self.joyMsg = msg
@@ -97,6 +70,67 @@ class MyNode(LifecycleNode):
       def publisher(self, msg):
             self.pub_.publish(msg)
 
+class Controller:
+      def __init__(self):
+            self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
+            self.enable = False
+
+      def update(self, pub_msg = TnsyController()):
+            """ xbox controller axes:
+            0 = left x
+            1 = left y
+            2 = right x
+            3 = right y
+            4 = left trigger
+            5 = right trigger
+            """
+            # =============Start of axes mapping==================
+            self.lX = MyNode.joyMsg.axes[0]
+            self.lY = MyNode.joyMsg.axes[1]
+            self.rX = MyNode.joyMsg.axes[2]
+            self.rY = MyNode.joyMsg.axes[3]
+            self.throttle = abs(MyNode.joyMsg.axes[5])
+
+            leftMagnitude  = np.sqrt(self.lX**2 + self.lY**2)
+            rightMagnitude = np.sqrt(self.rX**2 + self.rY**2)
+            if leftMagnitude > 1.0:
+                  leftMagnitude = 1.0
+            if rightMagnitude > 1.0:
+                  rightMagnitude = 1.0
+            
+            # Output angles are +/-180, with 0 at the up position of the joystick, and +90 to the left
+            # if Magnitude is something other than 0, set the angle it's pointing. Otherwise assume it's 0deg
+            if leftMagnitude:
+                  leftAngle = np.rad2deg(np.arctan2(self.lX, self.lY))
+            else:
+                  leftAngle  = 0.0
+            
+            if rightMagnitude:
+                  rightAngle = np.rad2deg(np.arctan2(self.rX, self.rY))
+            else:
+                  rightAngle = 0.0
+
+            pub_msg.translation_magnitude = self.throttle*leftMagnitude
+            pub_msg.translation_angle = leftAngle
+            pub_msg.pointing_magnitude = rightMagnitude
+            pub_msg.pointing_angle = rightAngle
+            pub_msg.rotation_speed = self.rX
+            # =============End of axes mapping==================
+            """ xbox controller buttons
+            0 = A
+            1 = B
+            2 = X
+            3 = Y
+            4 = Pizza box
+            5 = ?
+            6 = Hamburger
+            """
+            # =============Start of button mapping==================
+            enable = MyNode.joyMsg.buttons[6]
+
+            pub_msg.enable_switch = bool(enable)
+            # =============End of button mapping==================
+            return(pub_msg)
 
 def main(args=None):
       # everything between init and shutdown is the node
@@ -107,7 +141,7 @@ def main(args=None):
             rclpy.spin(node)
             node.destroy_node()
             rclpy.shutdown()
-      except (KeyboardInterrupt):
+      except (KeyboardInterrupt): # this try:except catches the user using ctl-c to stop the node from running
             pass      
 
 

@@ -36,12 +36,12 @@ cdr_serialize(
   cdr << ros_message.translation_magnitude;
   // Member: translation_angle
   cdr << ros_message.translation_angle;
-  // Member: rotation_speed
-  cdr << ros_message.rotation_speed;
   // Member: pointing_magnitude
   cdr << ros_message.pointing_magnitude;
   // Member: pointing_angle
   cdr << ros_message.pointing_angle;
+  // Member: rotation_speed
+  cdr << ros_message.rotation_speed;
   // Member: enable_switch
   cdr << (ros_message.enable_switch ? true : false);
   return true;
@@ -59,14 +59,14 @@ cdr_deserialize(
   // Member: translation_angle
   cdr >> ros_message.translation_angle;
 
-  // Member: rotation_speed
-  cdr >> ros_message.rotation_speed;
-
   // Member: pointing_magnitude
   cdr >> ros_message.pointing_magnitude;
 
   // Member: pointing_angle
   cdr >> ros_message.pointing_angle;
+
+  // Member: rotation_speed
+  cdr >> ros_message.rotation_speed;
 
   // Member: enable_switch
   {
@@ -103,12 +103,6 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: rotation_speed
-  {
-    size_t item_size = sizeof(ros_message.rotation_speed);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: pointing_magnitude
   {
     size_t item_size = sizeof(ros_message.pointing_magnitude);
@@ -118,6 +112,12 @@ get_serialized_size(
   // Member: pointing_angle
   {
     size_t item_size = sizeof(ros_message.pointing_angle);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: rotation_speed
+  {
+    size_t item_size = sizeof(ros_message.rotation_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -169,15 +169,6 @@ max_serialized_size_TnsyController(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: rotation_speed
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-
   // Member: pointing_magnitude
   {
     size_t array_size = 1;
@@ -188,6 +179,15 @@ max_serialized_size_TnsyController(
   }
 
   // Member: pointing_angle
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  // Member: rotation_speed
   {
     size_t array_size = 1;
 

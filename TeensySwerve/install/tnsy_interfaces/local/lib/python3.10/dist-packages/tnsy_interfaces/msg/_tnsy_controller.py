@@ -52,9 +52,9 @@ class Metaclass_TnsyController(type):
         return {
             'TRANSLATION_MAGNITUDE__DEFAULT': 0.0,
             'TRANSLATION_ANGLE__DEFAULT': 0.0,
-            'ROTATION_SPEED__DEFAULT': 0.0,
             'POINTING_MAGNITUDE__DEFAULT': 0.0,
             'POINTING_ANGLE__DEFAULT': 0.0,
+            'ROTATION_SPEED__DEFAULT': 0.0,
             'ENABLE_SWITCH__DEFAULT': False,
         }
 
@@ -69,11 +69,6 @@ class Metaclass_TnsyController(type):
         return 0.0
 
     @property
-    def ROTATION_SPEED__DEFAULT(cls):
-        """Return default value for message field 'rotation_speed'."""
-        return 0.0
-
-    @property
     def POINTING_MAGNITUDE__DEFAULT(cls):
         """Return default value for message field 'pointing_magnitude'."""
         return 0.0
@@ -81,6 +76,11 @@ class Metaclass_TnsyController(type):
     @property
     def POINTING_ANGLE__DEFAULT(cls):
         """Return default value for message field 'pointing_angle'."""
+        return 0.0
+
+    @property
+    def ROTATION_SPEED__DEFAULT(cls):
+        """Return default value for message field 'rotation_speed'."""
         return 0.0
 
     @property
@@ -95,18 +95,18 @@ class TnsyController(metaclass=Metaclass_TnsyController):
     __slots__ = [
         '_translation_magnitude',
         '_translation_angle',
-        '_rotation_speed',
         '_pointing_magnitude',
         '_pointing_angle',
+        '_rotation_speed',
         '_enable_switch',
     ]
 
     _fields_and_field_types = {
         'translation_magnitude': 'float',
         'translation_angle': 'float',
-        'rotation_speed': 'float',
         'pointing_magnitude': 'float',
         'pointing_angle': 'float',
+        'rotation_speed': 'float',
         'enable_switch': 'boolean',
     }
 
@@ -127,12 +127,12 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             'translation_magnitude', TnsyController.TRANSLATION_MAGNITUDE__DEFAULT)
         self.translation_angle = kwargs.get(
             'translation_angle', TnsyController.TRANSLATION_ANGLE__DEFAULT)
-        self.rotation_speed = kwargs.get(
-            'rotation_speed', TnsyController.ROTATION_SPEED__DEFAULT)
         self.pointing_magnitude = kwargs.get(
             'pointing_magnitude', TnsyController.POINTING_MAGNITUDE__DEFAULT)
         self.pointing_angle = kwargs.get(
             'pointing_angle', TnsyController.POINTING_ANGLE__DEFAULT)
+        self.rotation_speed = kwargs.get(
+            'rotation_speed', TnsyController.ROTATION_SPEED__DEFAULT)
         self.enable_switch = kwargs.get(
             'enable_switch', TnsyController.ENABLE_SWITCH__DEFAULT)
 
@@ -169,11 +169,11 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             return False
         if self.translation_angle != other.translation_angle:
             return False
-        if self.rotation_speed != other.rotation_speed:
-            return False
         if self.pointing_magnitude != other.pointing_magnitude:
             return False
         if self.pointing_angle != other.pointing_angle:
+            return False
+        if self.rotation_speed != other.rotation_speed:
             return False
         if self.enable_switch != other.enable_switch:
             return False
@@ -215,21 +215,6 @@ class TnsyController(metaclass=Metaclass_TnsyController):
         self._translation_angle = value
 
     @builtins.property
-    def rotation_speed(self):
-        """Message field 'rotation_speed'."""
-        return self._rotation_speed
-
-    @rotation_speed.setter
-    def rotation_speed(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'rotation_speed' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'rotation_speed' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._rotation_speed = value
-
-    @builtins.property
     def pointing_magnitude(self):
         """Message field 'pointing_magnitude'."""
         return self._pointing_magnitude
@@ -258,6 +243,21 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'pointing_angle' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._pointing_angle = value
+
+    @builtins.property
+    def rotation_speed(self):
+        """Message field 'rotation_speed'."""
+        return self._rotation_speed
+
+    @rotation_speed.setter
+    def rotation_speed(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'rotation_speed' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'rotation_speed' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._rotation_speed = value
 
     @builtins.property
     def enable_switch(self):

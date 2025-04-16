@@ -59,11 +59,6 @@ static bool _TnsyController__cdr_serialize(
     cdr << ros_message->translation_angle;
   }
 
-  // Field name: rotation_speed
-  {
-    cdr << ros_message->rotation_speed;
-  }
-
   // Field name: pointing_magnitude
   {
     cdr << ros_message->pointing_magnitude;
@@ -72,6 +67,11 @@ static bool _TnsyController__cdr_serialize(
   // Field name: pointing_angle
   {
     cdr << ros_message->pointing_angle;
+  }
+
+  // Field name: rotation_speed
+  {
+    cdr << ros_message->rotation_speed;
   }
 
   // Field name: enable_switch
@@ -101,11 +101,6 @@ static bool _TnsyController__cdr_deserialize(
     cdr >> ros_message->translation_angle;
   }
 
-  // Field name: rotation_speed
-  {
-    cdr >> ros_message->rotation_speed;
-  }
-
   // Field name: pointing_magnitude
   {
     cdr >> ros_message->pointing_magnitude;
@@ -114,6 +109,11 @@ static bool _TnsyController__cdr_deserialize(
   // Field name: pointing_angle
   {
     cdr >> ros_message->pointing_angle;
+  }
+
+  // Field name: rotation_speed
+  {
+    cdr >> ros_message->rotation_speed;
   }
 
   // Field name: enable_switch
@@ -152,12 +152,6 @@ size_t get_serialized_size_tnsy_interfaces__msg__TnsyController(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name rotation_speed
-  {
-    size_t item_size = sizeof(ros_message->rotation_speed);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name pointing_magnitude
   {
     size_t item_size = sizeof(ros_message->pointing_magnitude);
@@ -167,6 +161,12 @@ size_t get_serialized_size_tnsy_interfaces__msg__TnsyController(
   // field.name pointing_angle
   {
     size_t item_size = sizeof(ros_message->pointing_angle);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name rotation_speed
+  {
+    size_t item_size = sizeof(ros_message->rotation_speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -221,14 +221,6 @@ size_t max_serialized_size_tnsy_interfaces__msg__TnsyController(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: rotation_speed
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
   // member: pointing_magnitude
   {
     size_t array_size = 1;
@@ -238,6 +230,14 @@ size_t max_serialized_size_tnsy_interfaces__msg__TnsyController(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: pointing_angle
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+  // member: rotation_speed
   {
     size_t array_size = 1;
 

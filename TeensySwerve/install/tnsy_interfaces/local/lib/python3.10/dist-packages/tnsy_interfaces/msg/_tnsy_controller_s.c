@@ -68,15 +68,6 @@ bool tnsy_interfaces__msg__tnsy_controller__convert_from_py(PyObject * _pymsg, v
     ros_message->translation_angle = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // rotation_speed
-    PyObject * field = PyObject_GetAttrString(_pymsg, "rotation_speed");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->rotation_speed = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
   {  // pointing_magnitude
     PyObject * field = PyObject_GetAttrString(_pymsg, "pointing_magnitude");
     if (!field) {
@@ -93,6 +84,15 @@ bool tnsy_interfaces__msg__tnsy_controller__convert_from_py(PyObject * _pymsg, v
     }
     assert(PyFloat_Check(field));
     ros_message->pointing_angle = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // rotation_speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "rotation_speed");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->rotation_speed = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // enable_switch
@@ -148,17 +148,6 @@ PyObject * tnsy_interfaces__msg__tnsy_controller__convert_to_py(void * raw_ros_m
       }
     }
   }
-  {  // rotation_speed
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->rotation_speed);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "rotation_speed", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // pointing_magnitude
     PyObject * field = NULL;
     field = PyFloat_FromDouble(ros_message->pointing_magnitude);
@@ -175,6 +164,17 @@ PyObject * tnsy_interfaces__msg__tnsy_controller__convert_to_py(void * raw_ros_m
     field = PyFloat_FromDouble(ros_message->pointing_angle);
     {
       int rc = PyObject_SetAttrString(_pymessage, "pointing_angle", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // rotation_speed
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->rotation_speed);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "rotation_speed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

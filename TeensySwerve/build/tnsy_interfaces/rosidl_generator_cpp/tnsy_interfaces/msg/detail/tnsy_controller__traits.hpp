@@ -39,13 +39,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: rotation_speed
-  {
-    out << "rotation_speed: ";
-    rosidl_generator_traits::value_to_yaml(msg.rotation_speed, out);
-    out << ", ";
-  }
-
   // member: pointing_magnitude
   {
     out << "pointing_magnitude: ";
@@ -57,6 +50,13 @@ inline void to_flow_style_yaml(
   {
     out << "pointing_angle: ";
     rosidl_generator_traits::value_to_yaml(msg.pointing_angle, out);
+    out << ", ";
+  }
+
+  // member: rotation_speed
+  {
+    out << "rotation_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.rotation_speed, out);
     out << ", ";
   }
 
@@ -92,16 +92,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: rotation_speed
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "rotation_speed: ";
-    rosidl_generator_traits::value_to_yaml(msg.rotation_speed, out);
-    out << "\n";
-  }
-
   // member: pointing_magnitude
   {
     if (indentation > 0) {
@@ -119,6 +109,16 @@ inline void to_block_style_yaml(
     }
     out << "pointing_angle: ";
     rosidl_generator_traits::value_to_yaml(msg.pointing_angle, out);
+    out << "\n";
+  }
+
+  // member: rotation_speed
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "rotation_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.rotation_speed, out);
     out << "\n";
   }
 
