@@ -8,6 +8,8 @@
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
 #include <std_msgs/msg/string.h>
+//from tnsy_interfaces.msg._tnsy_controller import TnsyController
+#include <install/tnsy_interfaces/include/tnsy_interfaces/tsn_interfaces/msg/tnsy_controller.h>
 
 rcl_publisher_t publisher;
 std_msgs__msg__String msg;
@@ -66,7 +68,9 @@ void setup(){
   RCCHECK(rclc_publisher_init_default(
     &publisher,
     &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
+    //ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
+    ROSIDL_GET_MSG_TYPE_SUPPORT(),
+    ROSIDL_GET_MSG_TYPE_SUPPORT()
     "/InputPub"));
   
   // create timer

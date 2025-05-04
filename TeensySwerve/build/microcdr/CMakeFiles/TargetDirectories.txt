@@ -1,0 +1,7 @@
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/microcdr.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/edit_cache.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/rebuild_cache.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/list_install_components.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/install.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/install/local.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/install/strip.dir

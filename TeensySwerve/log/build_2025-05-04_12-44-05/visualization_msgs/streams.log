@@ -1,0 +1,413 @@
+[0.161s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs -- -j4 -l4
+[0.550s] [  0%] Built target visualization_msgs__cpp
+[0.708s] [  0%] Built target ament_cmake_python_copy_visualization_msgs
+[0.833s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.024s] [ 12%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[1.078s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.176s] [ 24%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[2.687s] running egg_info
+[2.695s] writing visualization_msgs.egg-info/PKG-INFO
+[2.695s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[2.699s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[2.718s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[2.721s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[2.909s] [ 24%] Built target ament_cmake_python_build_visualization_msgs_egg
+[2.992s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_cpp[0m
+[3.086s] [ 36%] Built target visualization_msgs__rosidl_typesupport_cpp
+[3.174s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_generator_c[0m
+[3.199s] [ 48%] Built target visualization_msgs__rosidl_generator_c
+[3.371s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.413s] [ 60%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[3.481s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_c[0m
+[3.571s] [ 72%] Built target visualization_msgs__rosidl_typesupport_c
+[3.633s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_introspection_c[0m
+[3.719s] [ 84%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[3.787s] [ 84%] Built target visualization_msgs
+[3.856s] [ 85%] Built target visualization_msgs__py
+[3.915s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_generator_py[0m
+[4.012s] [ 96%] Built target visualization_msgs__rosidl_generator_py
+[4.056s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.116s] [ 97%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.148s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_c__pyext[0m
+[4.213s] [ 98%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+[4.243s] [35m[1mConsolidate compiler generated dependencies of target visualization_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.280s] [100%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[4.962s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs -- -j4 -l4
+[6.487s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs
+[6.583s] -- Install configuration: ""
+[6.583s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[6.583s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.584s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.584s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[6.584s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.584s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[6.587s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[6.588s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[6.588s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[6.594s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.595s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[6.595s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[6.595s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[6.595s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+[6.595s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[6.596s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[6.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[6.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[6.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[6.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[6.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[6.613s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[6.613s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[6.613s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[6.614s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[6.614s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[6.617s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[6.619s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[6.624s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[6.624s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[6.624s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[6.625s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[6.626s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[6.630s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[6.635s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[6.637s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[6.637s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[6.637s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[6.638s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[6.638s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[6.643s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[6.644s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[6.645s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[6.646s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[6.646s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[6.646s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[6.647s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[6.655s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[6.660s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[6.660s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[6.661s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[6.661s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[6.664s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[6.664s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[6.665s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[6.672s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[6.672s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[6.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[6.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[6.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[6.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[6.676s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[6.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[6.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[6.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[6.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[6.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[6.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[6.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[6.682s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[6.682s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[6.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[6.685s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[6.686s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.688s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[6.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.696s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.696s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.696s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[6.700s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[6.701s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[6.701s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[6.702s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[6.702s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[6.712s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[6.712s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[6.712s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[6.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[6.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[6.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[6.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[6.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[6.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[6.727s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[6.733s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[6.733s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+[6.733s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.734s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[6.735s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[6.735s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[6.735s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[6.735s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[6.742s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[6.742s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[6.742s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[6.742s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[6.743s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[6.743s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.743s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+[6.743s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[6.743s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[6.744s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[6.744s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[6.744s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[6.745s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[6.750s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[6.751s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[6.751s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[6.751s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[6.751s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[6.751s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[6.752s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+[6.752s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[6.753s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[6.763s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[6.764s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+[6.764s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[6.765s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+[6.765s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[6.765s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[6.766s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[6.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[6.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+[6.768s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+[6.768s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[6.768s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+[6.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[6.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[6.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+[6.770s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[6.777s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[6.781s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+[6.782s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[6.782s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[6.782s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+[6.783s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+[6.784s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[6.789s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[6.790s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[6.790s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[6.793s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[6.793s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[6.797s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[6.798s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+[6.798s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[6.798s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[6.803s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[6.803s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[6.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[6.805s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.805s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.806s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.806s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[6.806s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[6.806s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[6.806s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.807s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[6.807s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.807s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[6.807s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[6.807s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.808s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[6.812s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[6.812s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[6.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[6.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.822s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[6.828s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[6.829s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.829s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[6.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[6.831s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[6.839s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[6.840s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[6.840s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[6.841s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[6.841s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[6.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[6.849s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[6.850s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[6.851s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[6.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[6.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[6.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[6.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[6.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[6.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[6.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[6.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[6.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[6.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[6.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[6.864s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[6.865s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[6.869s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[6.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[6.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[6.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[6.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[6.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[6.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[6.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[6.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[6.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[6.872s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[6.874s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[6.875s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[6.875s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[6.876s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[6.877s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[6.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[6.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[6.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[6.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[6.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[6.883s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[6.883s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.883s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[6.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[6.887s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[6.891s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[6.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.8.0-py3.10.egg-info
+[6.892s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.8.0-py3.10.egg-info/PKG-INFO
+[6.892s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.8.0-py3.10.egg-info/SOURCES.txt
+[6.892s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.8.0-py3.10.egg-info/dependency_links.txt
+[6.893s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs-4.8.0-py3.10.egg-info/top_level.txt
+[6.893s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs
+[6.893s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv
+[6.894s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers.py
+[6.897s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/__init__.py
+[6.897s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[6.897s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/__init__.py
+[6.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.899s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg
+[6.902s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control.py
+[6.902s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update.py
+[6.902s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[6.903s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry.py
+[6.903s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[6.903s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[6.903s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[6.903s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_s.c
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker.py
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array.py
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_uv_coordinate.py
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/__init__.py
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[6.904s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker.py
+[6.905s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker.py
+[6.910s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[6.911s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_array_s.c
+[6.911s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[6.912s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[6.912s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_menu_entry_s.c
+[6.935s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_image_marker_s.c
+[6.936s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file_s.c
+[6.937s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_mesh_file.py
+[6.938s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_marker_s.c
+[6.939s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg/_interactive_marker_init.py
+[6.939s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/libvisualization_msgs__rosidl_generator_py.so
+[6.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[6.948s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs'...
+[6.949s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/msg'...
+[6.949s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/srv'...
+[6.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.950s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+[6.953s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[6.953s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[6.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[6.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[6.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[6.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[6.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[6.955s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[6.955s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[6.955s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[6.955s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+[6.956s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+[6.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[6.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[6.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[6.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[6.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[6.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[6.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[6.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[6.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[6.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[6.970s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[6.970s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+[6.970s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+[6.970s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[6.971s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+[6.972s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+[6.972s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[6.973s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[6.984s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[6.984s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[6.984s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[6.985s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[6.985s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[6.985s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[6.985s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[6.986s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[6.986s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/package.dsv
+[6.986s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[6.986s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[6.986s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[6.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[6.992s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.992s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.992s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.992s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[6.992s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.993s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[6.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[6.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.998s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.998s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.999s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.015s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.015s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[7.015s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[7.015s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/package.xml
+[7.016s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/visualization_msgs

@@ -1,0 +1,8 @@
+{
+  "package_name": "statistics_msgs",
+  "non_idl_tuples": [
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/statistics_msgs:msg/MetricsMessage.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataPoint.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/statistics_msgs:msg/StatisticDataType.msg"
+  ]
+}

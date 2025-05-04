@@ -1,0 +1,1074 @@
+[0.122s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs
+[0.456s] -- The C compiler identification is GNU 11.4.0
+[0.630s] -- The CXX compiler identification is GNU 11.4.0
+[0.685s] -- Detecting C compiler ABI info
+[1.093s] -- Detecting C compiler ABI info - done
+[1.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.168s] -- Detecting C compile features
+[1.181s] -- Detecting C compile features - done
+[1.193s] -- Detecting CXX compiler ABI info
+[1.637s] -- Detecting CXX compiler ABI info - done
+[1.675s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.678s] -- Detecting CXX compile features
+[1.680s] -- Detecting CXX compile features - done
+[1.708s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.332s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.655s] -- Found builtin_interfaces: 1.2.1 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[2.908s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.924s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.947s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.255s] -- Found geometry_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.427s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.076s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[6.097s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[6.105s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[6.109s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.328s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.336s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.518s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.519s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.519s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.519s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.614s] -- Found PythonExtra: .so  
+[10.122s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[10.130s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[10.140s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.169s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.180s] -- Looking for pthread.h
+[10.511s] -- Looking for pthread.h - found
+[10.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.809s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.814s] -- Found Threads: TRUE  
+[10.859s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.862s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/sensor_msgs/include>
+[10.863s] -- Configured cppcheck exclude dirs and/or files: 
+[10.870s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.870s] -- Configured cpplint exclude dirs and/or files: 
+[10.892s] -- Added test 'uncrustify' to check C / C++ code style
+[10.892s] -- Configured uncrustify additional arguments: 
+[10.899s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.905s] -- Added test 'lint_cmake' to check CMake code style
+[10.910s] -- Added test 'xmllint' to check XML markup files
+[10.932s] -- Configuring done
+[11.518s] -- Generating done
+[11.545s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs
+[11.599s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs
+[11.615s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs -- -j4 -l4
+[11.831s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[33.351s] [  0%] Built target sensor_msgs__cpp
+[33.445s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[35.306s] [  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[35.629s] [  1%] Built target gtest_main
+[35.753s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[46.540s] [  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[46.880s] [  1%] Built target gtest
+[46.963s] [  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[60.246s] [  1%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[61.136s] [  2%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[62.499s] [  2%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[63.596s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[64.485s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[65.566s] [  3%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[66.936s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[67.877s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[68.767s] [  4%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[69.969s] [  5%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[70.933s] [  5%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[72.130s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[73.618s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[74.822s] [  6%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[75.882s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[76.743s] [  7%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[77.571s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[78.692s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[80.109s] [  8%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[81.117s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[82.233s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[83.499s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[84.836s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[85.656s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[86.428s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[88.042s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[89.174s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[90.517s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[91.888s] [ 12%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[92.017s] [ 12%] Built target sensor_msgs__rosidl_typesupport_cpp
+[92.059s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[108.534s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[110.964s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[112.353s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[114.809s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[116.310s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[118.469s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[120.315s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[123.163s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[124.697s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[128.019s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[131.136s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[133.274s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[134.537s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[136.713s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[138.869s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[140.936s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[143.983s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[146.206s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[148.297s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[150.109s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[152.542s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[155.323s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[157.516s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[159.258s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[160.832s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[162.741s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[164.785s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[166.942s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[168.917s] [ 24%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[169.437s] [ 24%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[169.500s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[182.041s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[183.329s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[184.583s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[185.695s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[186.797s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[187.885s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[189.000s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[190.097s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[191.280s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[192.542s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[193.853s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[194.718s] [ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[195.394s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[196.093s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[197.029s] [ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[197.952s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[199.152s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[200.297s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[201.288s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[202.240s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[203.107s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[204.304s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[205.209s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[205.964s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[206.639s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[207.242s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[207.825s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[208.428s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[209.057s] [ 36%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[209.234s] [ 36%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[209.269s] [ 36%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o[0m
+[210.431s] [ 37%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o[0m
+[212.169s] [ 37%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o[0m
+[213.832s] [ 38%] [32m[1mLinking CXX executable test_sensor_msgs[0m
+[214.090s] [ 38%] Built target test_sensor_msgs
+[214.131s] [ 38%] Built target ament_cmake_python_copy_sensor_msgs
+[214.148s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[221.769s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[221.853s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[221.931s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[222.013s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[222.085s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[222.157s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[222.233s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[222.310s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[222.386s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[222.460s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[222.530s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[222.600s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[222.669s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[222.746s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[222.819s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[222.894s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[222.974s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[223.050s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[223.119s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[223.197s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[223.304s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[223.377s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[223.448s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[223.520s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[223.594s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[223.674s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[223.747s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[223.840s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[223.916s] [ 50%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[223.992s] [ 50%] Built target sensor_msgs__rosidl_generator_c
+[224.436s] running egg_info
+[224.437s] creating sensor_msgs.egg-info
+[224.438s] writing sensor_msgs.egg-info/PKG-INFO
+[224.438s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[224.438s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[224.439s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[224.442s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[224.443s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[224.487s] [ 50%] Built target ament_cmake_python_build_sensor_msgs_egg
+[224.502s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[229.097s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[229.167s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[229.237s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[229.305s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[229.349s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[229.399s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[229.446s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[229.491s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[229.534s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[229.579s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[229.630s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[229.672s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[229.716s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[229.758s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[229.807s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[229.859s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[229.907s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[229.951s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[230.004s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[230.049s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[230.095s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[230.144s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[230.188s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[230.234s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[230.279s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[230.323s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[230.370s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[230.415s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[230.463s] [ 62%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[230.545s] [ 62%] Built target sensor_msgs__rosidl_typesupport_c
+[230.561s] [ 62%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[236.243s] [ 62%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[236.308s] [ 62%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[236.361s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[236.417s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[236.466s] [ 63%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[236.519s] [ 64%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[236.576s] [ 64%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[236.638s] [ 65%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[236.712s] [ 65%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[236.773s] [ 65%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[236.824s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[236.876s] [ 66%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[236.932s] [ 67%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[236.991s] [ 67%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[237.051s] [ 67%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[237.128s] [ 68%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[237.188s] [ 68%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[237.243s] [ 68%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[237.291s] [ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[237.351s] [ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[237.415s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[237.496s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[237.573s] [ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[237.651s] [ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[237.702s] [ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[237.754s] [ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[237.807s] [ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[237.863s] [ 73%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[237.931s] [ 73%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[237.988s] [ 73%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[238.005s] [ 74%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[243.613s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[244.154s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[244.682s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[245.291s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[245.803s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[246.347s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[246.880s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[247.419s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[247.932s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[248.555s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[249.071s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[249.582s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[250.174s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[250.686s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[251.233s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[251.777s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[252.393s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[252.920s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[253.481s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[254.023s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[254.585s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[255.128s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[255.659s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[256.171s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[256.675s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[257.204s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[257.750s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[258.323s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[258.857s] [ 85%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[258.992s] [ 85%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[259.023s] [ 85%] Built target sensor_msgs
+[259.056s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[270.131s] [ 86%] Built target sensor_msgs__py
+[270.173s] [ 86%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[270.174s] [ 86%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[270.366s] [ 86%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[270.485s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[270.565s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[270.690s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[270.816s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[270.880s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[271.071s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[271.087s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[271.340s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[271.345s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[271.591s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[271.597s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[271.855s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[271.884s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[272.143s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[272.161s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[272.318s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[272.421s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[272.575s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[272.689s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[272.823s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[272.893s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[273.077s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[273.110s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[273.342s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[273.344s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[273.594s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__rosidl_generator_py.so[0m
+[273.676s] [ 97%] Built target sensor_msgs__rosidl_generator_py
+[273.708s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[273.720s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[274.014s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[274.083s] [ 99%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[274.115s] [ 99%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[274.217s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[274.329s] [ 99%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[274.552s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[274.618s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[274.641s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs -- -j4 -l4
+[275.545s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs
+[275.557s] -- Install configuration: ""
+[275.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[275.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[275.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.559s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[275.559s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[275.559s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[275.560s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[275.560s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.560s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[275.560s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[275.561s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[275.561s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[275.561s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[275.562s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[275.562s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[275.562s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[275.562s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[275.563s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[275.563s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[275.563s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[275.563s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[275.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[275.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[275.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[275.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[275.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[275.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[275.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[275.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[275.566s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[275.566s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[275.566s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[275.566s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.567s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[275.567s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[275.567s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[275.567s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[275.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[275.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[275.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[275.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[275.569s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[275.569s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[275.569s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[275.569s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[275.570s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[275.570s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[275.570s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[275.570s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[275.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[275.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[275.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[275.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[275.572s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[275.572s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[275.572s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[275.572s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[275.572s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[275.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[275.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[275.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[275.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[275.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[275.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[275.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[275.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[275.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[275.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[275.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[275.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[275.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[275.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[275.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[275.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[275.577s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[275.577s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[275.577s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[275.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[275.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[275.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[275.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[275.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[275.579s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[275.579s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[275.579s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[275.579s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[275.580s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[275.580s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[275.580s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[275.580s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[275.581s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[275.581s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[275.581s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[275.581s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[275.582s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[275.582s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[275.582s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[275.582s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[275.583s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[275.583s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[275.583s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[275.583s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[275.584s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[275.584s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[275.584s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[275.584s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[275.585s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[275.585s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[275.585s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[275.585s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[275.586s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[275.586s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[275.586s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[275.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[275.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[275.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[275.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[275.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[275.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[275.591s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[275.592s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[275.592s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[275.593s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[275.594s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[275.594s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[275.594s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[275.595s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[275.595s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[275.596s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[275.596s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[275.596s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[275.597s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[275.597s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[275.597s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[275.597s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[275.597s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[275.598s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[275.598s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[275.598s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[275.599s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[275.599s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[275.599s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[275.599s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[275.600s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[275.600s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[275.600s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[275.600s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[275.601s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[275.601s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[275.601s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.601s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.602s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.602s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[275.602s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.602s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[275.603s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.603s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[275.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[275.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[275.605s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[275.605s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[275.605s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[275.605s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[275.606s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[275.606s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[275.606s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[275.606s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[275.607s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[275.607s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[275.607s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[275.607s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[275.607s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[275.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[275.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[275.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[275.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[275.609s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[275.609s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[275.609s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[275.609s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[275.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[275.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[275.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[275.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[275.611s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[275.611s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.611s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.611s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[275.612s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.612s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[275.612s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[275.612s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp
+[275.612s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[275.613s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.613s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[275.613s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[275.613s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[275.614s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[275.614s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[275.614s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[275.614s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[275.615s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[275.615s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[275.615s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[275.616s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[275.616s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[275.616s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[275.616s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[275.616s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[275.617s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[275.617s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.617s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[275.618s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[275.618s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp
+[275.618s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[275.618s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp
+[275.619s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[275.619s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.hpp
+[275.619s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[275.619s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[275.620s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[275.620s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[275.620s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.hpp
+[275.620s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.hpp
+[275.621s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[275.621s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[275.621s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.hpp
+[275.621s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp
+[275.622s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[275.622s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[275.622s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[275.622s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[275.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[275.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.hpp
+[275.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.hpp
+[275.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[275.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[275.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[275.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[275.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[275.625s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[275.625s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[275.625s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[275.625s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[275.626s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[275.626s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.hpp
+[275.626s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp
+[275.626s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[275.627s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[275.627s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.hpp
+[275.627s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[275.627s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.hpp
+[275.627s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[275.628s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.hpp
+[275.628s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[275.628s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[275.628s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp
+[275.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[275.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[275.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[275.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[275.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[275.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[275.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.hpp
+[275.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[275.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
+[275.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.hpp
+[275.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp
+[275.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[275.632s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[275.632s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[275.632s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[275.633s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[275.633s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
+[275.633s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.hpp
+[275.633s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[275.634s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
+[275.634s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[275.634s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.hpp
+[275.635s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[275.635s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+[275.635s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[275.635s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[275.636s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[275.636s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[275.636s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[275.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[275.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp
+[275.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[275.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[275.638s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[275.638s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[275.638s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[275.638s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[275.639s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[275.639s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[275.639s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.hpp
+[275.639s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[275.640s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp
+[275.640s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[275.640s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[275.640s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[275.641s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[275.641s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[275.641s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[275.641s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[275.642s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[275.642s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[275.642s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[275.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[275.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[275.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[275.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[275.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[275.644s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[275.644s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[275.644s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[275.644s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[275.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[275.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[275.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[275.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[275.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[275.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[275.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[275.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[275.647s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[275.647s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[275.647s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[275.647s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[275.648s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[275.648s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.648s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.648s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.649s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[275.649s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[275.649s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.649s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[275.650s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[275.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[275.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[275.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[275.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[275.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[275.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[275.652s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[275.652s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[275.652s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[275.652s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[275.653s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[275.653s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[275.653s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[275.653s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[275.654s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[275.654s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[275.654s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[275.655s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[275.655s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[275.655s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[275.655s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[275.656s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[275.656s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[275.656s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[275.656s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[275.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[275.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[275.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[275.658s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[275.658s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.659s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.659s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.659s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[275.659s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[275.659s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.660s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.660s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[275.660s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[275.660s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[275.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[275.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[275.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[275.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[275.662s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[275.662s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[275.662s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[275.662s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[275.663s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[275.663s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[275.663s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[275.663s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[275.664s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[275.664s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[275.664s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[275.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[275.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[275.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[275.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[275.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[275.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[275.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[275.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[275.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[275.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[275.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[275.668s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[275.668s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[275.668s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[275.669s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[275.669s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[275.669s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[275.669s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[275.670s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[275.670s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[275.670s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[275.671s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[275.671s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[275.671s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[275.671s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[275.672s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[275.672s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[275.672s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[275.672s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[275.673s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[275.673s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[275.673s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[275.674s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[275.674s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[275.674s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[275.674s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[275.675s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[275.675s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[275.676s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[275.677s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[275.677s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[275.677s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[275.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[275.678s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[275.678s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[275.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[275.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[275.679s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[275.679s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[275.680s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[275.680s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[275.680s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[275.680s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[275.681s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[275.681s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[275.681s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[275.681s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[275.682s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[275.683s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[275.683s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[275.684s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[275.685s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[275.685s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[275.685s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[275.686s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[275.686s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[275.686s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[275.686s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[275.687s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[275.687s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[275.687s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[275.687s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[275.687s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[275.688s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[275.688s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[275.688s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[275.689s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[275.689s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[275.689s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[275.689s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[275.689s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[275.690s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[275.690s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[275.690s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[275.690s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[275.691s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[275.691s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[275.691s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[275.692s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[275.692s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[275.692s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[275.692s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[275.693s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[275.693s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[275.693s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[275.693s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[275.694s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[275.694s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[275.694s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[275.695s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[275.695s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[275.696s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[275.697s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[275.697s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[275.698s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[275.698s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[275.699s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[275.699s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.8.0-py3.10.egg-info
+[275.699s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.8.0-py3.10.egg-info/PKG-INFO
+[275.700s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.8.0-py3.10.egg-info/SOURCES.txt
+[275.700s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.8.0-py3.10.egg-info/dependency_links.txt
+[275.700s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs-4.8.0-py3.10.egg-info/top_level.txt
+[275.701s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs
+[275.701s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv
+[275.702s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info_s.c
+[275.702s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py
+[275.702s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py
+[275.703s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[275.703s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py
+[275.703s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/libsensor_msgs__rosidl_generator_py.so
+[275.703s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg
+[275.704s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest_s.c
+[275.704s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py
+[275.705s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[275.705s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py
+[275.705s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info_s.c
+[275.705s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py
+[275.706s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py
+[275.706s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py
+[275.706s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud_s.c
+[275.706s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[275.707s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py
+[275.707s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py
+[275.707s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py
+[275.707s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_s.c
+[275.708s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py
+[275.708s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py
+[275.708s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance_s.c
+[275.708s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py
+[275.709s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py
+[275.709s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py
+[275.709s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py
+[275.709s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py
+[275.710s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference_s.c
+[275.711s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[275.711s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[275.711s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py
+[275.712s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py
+[275.712s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image_s.c
+[275.712s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py
+[275.713s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image_s.c
+[275.713s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[275.713s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py
+[275.714s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu_s.c
+[275.714s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature_s.c
+[275.714s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity_s.c
+[275.714s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py
+[275.715s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field_s.c
+[275.715s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_s.c
+[275.715s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2_s.c
+[275.716s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[275.716s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan_s.c
+[275.716s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32_s.c
+[275.716s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py
+[275.717s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo_s.c
+[275.717s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[275.717s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field_s.c
+[275.717s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[275.717s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py
+[275.718s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state_s.c
+[275.718s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py
+[275.718s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py
+[275.719s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py
+[275.719s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py
+[275.719s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range_s.c
+[275.719s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state_s.c
+[275.719s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[275.720s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[275.720s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[275.720s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[275.721s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[275.844s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs'...
+[275.845s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/__init__.py'...
+[275.845s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg'...
+[275.845s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/__init__.py'...
+[275.845s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_battery_state.py'...
+[275.845s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_camera_info.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_channel_float32.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_compressed_image.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_illuminance.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_image.py'...
+[275.846s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_imu.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joint_state.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_echo.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_laser_scan.py'...
+[275.847s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_magnetic_field.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud.py'...
+[275.848s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_cloud2.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_point_field.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_range.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_region_of_interest.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_relative_humidity.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_temperature.py'...
+[275.849s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/msg/_time_reference.py'...
+[275.849s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv'...
+[275.850s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/__init__.py'...
+[275.850s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/srv/_set_camera_info.py'...
+[275.855s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[275.856s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[275.857s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[275.858s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[275.858s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[275.859s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[275.859s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[275.860s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[275.861s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[275.861s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[275.862s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[275.862s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[275.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[275.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[275.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[275.864s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[275.864s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[275.864s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[275.865s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[275.865s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[275.866s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[275.866s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[275.866s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[275.867s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[275.867s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[275.868s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[275.868s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[275.868s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[275.869s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[275.869s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[275.870s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[275.870s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[275.871s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[275.871s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[275.871s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[275.872s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[275.872s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[275.873s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[275.873s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[275.874s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[275.874s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[275.874s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[275.875s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[275.875s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[275.876s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[275.876s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[275.876s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[275.877s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[275.877s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[275.878s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[275.878s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[275.879s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[275.879s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[275.879s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[275.880s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[275.880s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[275.881s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[275.881s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[275.882s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[275.882s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[275.882s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[275.883s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[275.883s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[275.884s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[275.884s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[275.885s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[275.885s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs
+[275.885s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[275.885s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[275.886s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[275.886s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[275.886s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[275.887s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[275.887s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[275.887s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[275.887s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[275.888s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[275.888s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[275.889s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[275.889s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[275.890s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[275.890s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[275.890s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[275.891s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[275.891s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[275.892s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[275.892s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/package.dsv
+[275.893s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[275.893s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[275.893s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[275.894s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[275.894s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[275.895s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[275.895s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[275.896s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[275.896s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[275.897s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[275.898s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[275.898s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[275.898s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[275.899s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[275.899s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[275.899s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[275.900s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[275.900s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[275.901s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[275.901s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[275.901s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[275.902s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[275.903s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[275.904s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[275.904s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[275.905s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[275.906s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[275.906s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[275.906s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/package.xml
+[275.911s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/sensor_msgs

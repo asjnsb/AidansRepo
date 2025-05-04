@@ -1,0 +1,8 @@
+{
+  "package_name": "std_srvs",
+  "non_idl_tuples": [
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/std_srvs:srv/Empty.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/std_srvs:srv/SetBool.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/std_srvs:srv/Trigger.srv"
+  ]
+}

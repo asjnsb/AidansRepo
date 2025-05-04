@@ -1,0 +1,66 @@
+[0.562s] DEBUG:colcon:Command line arguments: ['/home/aidan/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/aidan/GitHub/AidansRepo/TeensySwerve']
+[0.562s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/aidan/GitHub/AidansRepo/TeensySwerve'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ea72810d150>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7ea728276da0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7ea728276da0>>)
+[1.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aidan/GitHub/AidansRepo/TeensySwerve'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['ignore', 'ignore_ament_install']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'ignore'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'ignore_ament_install'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['ros']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'ros'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['cmake', 'python']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'cmake'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'python'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extensions ['python_setup_py']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve) by extension 'python_setup_py'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/build) by extensions ['ignore', 'ignore_ament_install']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/build) by extension 'ignore'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/build) ignored
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/install) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/install) by extension 'ignore'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/install) ignored
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/log) by extensions ['ignore', 'ignore_ament_install']
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/log) by extension 'ignore'
+[1.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/log) ignored
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['ignore', 'ignore_ament_install']
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'ignore'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'ignore_ament_install'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['colcon_pkg']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'colcon_pkg'
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['colcon_meta']
+[1.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'colcon_meta'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['ros']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'ros'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['cmake', 'python']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'cmake'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'python'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extensions ['python_setup_py']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src) by extension 'python_setup_py'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extension 'ignore'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extension 'ignore_ament_install'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extensions ['colcon_pkg']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extension 'colcon_pkg'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extensions ['colcon_meta']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extension 'colcon_meta'
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extensions ['ros']
+[1.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces) by extension 'ros'
+[1.301s] DEBUG:colcon.colcon_core.package_identification:Package '/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces' with type 'ros.ament_cmake' and name 'tnsy_interfaces'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extension 'ignore_ament_install'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extensions ['colcon_pkg']
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller) by extension 'ros'
+[1.306s] DEBUG:colcon.colcon_core.package_identification:Package '/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller' with type 'ros.ament_python' and name 'tnsy_swrv_controller'
+[1.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

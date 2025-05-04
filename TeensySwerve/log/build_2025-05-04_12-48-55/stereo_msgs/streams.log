@@ -1,0 +1,144 @@
+[0.182s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs -- -j4 -l4
+[0.607s] [  3%] Built target stereo_msgs__cpp
+[0.850s] [  3%] Built target ament_cmake_python_copy_stereo_msgs
+[1.031s] [ 12%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.163s] [ 22%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[2.548s] running egg_info
+[2.550s] writing stereo_msgs.egg-info/PKG-INFO
+[2.550s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[2.551s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[2.558s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.562s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.654s] [ 22%] Built target ament_cmake_python_build_stereo_msgs_egg
+[2.765s] [ 32%] Built target stereo_msgs__rosidl_typesupport_cpp
+[2.888s] [ 41%] Built target stereo_msgs__rosidl_generator_c
+[3.050s] [ 51%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[3.178s] [ 61%] Built target stereo_msgs__rosidl_typesupport_c
+[3.320s] [ 70%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[3.431s] [ 70%] Built target stereo_msgs
+[3.574s] [ 74%] Built target stereo_msgs__py
+[3.719s] [ 80%] Built target stereo_msgs__rosidl_generator_py
+[3.874s] [ 87%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.056s] [ 93%] Built target stereo_msgs__rosidl_typesupport_c__pyext
+[4.226s] [100%] Built target stereo_msgs__rosidl_typesupport_introspection_c__pyext
+[4.318s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs -- -j4 -l4
+[4.758s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs
+[4.812s] -- Install configuration: ""
+[4.814s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[4.814s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.814s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.814s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[4.822s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.822s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[4.822s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[4.822s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[4.827s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[4.827s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[4.831s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[4.841s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[4.849s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[4.852s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[4.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[4.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[4.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[4.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[4.866s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[4.866s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp
+[4.867s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.867s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.867s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.872s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.873s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.873s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[4.873s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[4.873s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.875s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[4.875s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[4.876s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[4.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[4.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[4.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[4.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[4.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[4.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[4.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.8.0-py3.10.egg-info
+[4.881s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.8.0-py3.10.egg-info/PKG-INFO
+[4.881s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.8.0-py3.10.egg-info/SOURCES.txt
+[4.884s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.8.0-py3.10.egg-info/dependency_links.txt
+[4.885s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs-4.8.0-py3.10.egg-info/top_level.txt
+[4.885s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs
+[4.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/__init__.py
+[4.891s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[4.891s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg
+[4.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image_s.c
+[4.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/__init__.py
+[4.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg/_disparity_image.py
+[4.892s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.901s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.901s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/libstereo_msgs__rosidl_generator_py.so
+[5.202s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs'...
+[5.202s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/msg'...
+[5.256s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.261s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/local/lib/python3.10/dist-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[5.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[5.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[5.271s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[5.272s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[5.272s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[5.272s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[5.272s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[5.272s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/package.dsv
+[5.300s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[5.301s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[5.302s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.302s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.302s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.302s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.308s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.319s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[5.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[5.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[5.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.327s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.327s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[5.329s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[5.329s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/package.xml
+[5.358s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/stereo_msgs

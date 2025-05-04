@@ -1,0 +1,206 @@
+[0.040s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs -- -j4 -l4
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_generator_c[0m
+[0.242s] [ 10%] Built target std_srvs__rosidl_generator_c
+[0.266s] [ 12%] Built target std_srvs__cpp
+[0.297s] [ 12%] Built target ament_cmake_python_copy_std_srvs
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_c[0m
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_c[0m
+[0.318s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_c[0m
+[0.352s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[0.355s] [ 23%] Built target std_srvs__rosidl_typesupport_c
+[0.361s] [ 34%] Built target std_srvs__rosidl_typesupport_introspection_c
+[0.388s] [ 44%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[0.417s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_cpp[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_cpp[0m
+[0.441s] [ 55%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[0.482s] [ 68%] Built target std_srvs__rosidl_typesupport_cpp
+[0.484s] [ 76%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[0.554s] [ 76%] Built target std_srvs
+[0.640s] [ 78%] Built target std_srvs__py
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_generator_py[0m
+[0.746s] [ 87%] Built target std_srvs__rosidl_generator_py
+[0.808s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[0.808s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_c__pyext[0m
+[0.814s] [35m[1mConsolidate compiler generated dependencies of target std_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.871s] [ 91%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[0.882s] [ 95%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.892s] [100%] Built target std_srvs__rosidl_typesupport_c__pyext
+[1.663s] running egg_info
+[1.663s] writing std_srvs.egg-info/PKG-INFO
+[1.665s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[1.666s] writing top-level names to std_srvs.egg-info/top_level.txt
+[1.672s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[1.697s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[2.209s] [100%] Built target ament_cmake_python_build_std_srvs_egg
+[2.330s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs -- -j4 -l4
+[3.269s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs
+[3.310s] -- Install configuration: ""
+[3.314s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[3.314s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.316s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.316s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[3.323s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[3.323s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[3.323s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.323s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[3.323s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[3.324s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[3.324s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[3.331s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[3.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[3.341s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[3.341s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg
+[3.341s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[3.341s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/library_path.sh
+[3.343s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[3.344s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[3.344s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.344s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.344s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.348s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[3.348s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[3.348s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[3.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg
+[3.358s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.358s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[3.358s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[3.359s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[3.360s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[3.367s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[3.368s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg
+[3.368s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.368s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[3.368s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[3.369s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.369s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.369s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[3.370s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[3.370s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[3.370s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.381s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[3.382s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[3.382s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[3.382s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[3.382s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
+[3.385s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[3.385s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[3.385s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[3.385s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp
+[3.385s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[3.386s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[3.386s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp
+[3.386s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg
+[3.386s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.391s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.391s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.391s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.391s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[3.392s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[3.392s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[3.392s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[3.392s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg
+[3.393s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.393s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[3.393s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs
+[3.398s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv
+[3.402s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[3.405s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[3.406s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[3.406s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[3.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[3.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[3.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[3.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[3.409s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[3.412s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[3.412s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[3.413s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.8.0-py3.10.egg-info
+[3.415s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.8.0-py3.10.egg-info/PKG-INFO
+[3.415s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.8.0-py3.10.egg-info/SOURCES.txt
+[3.416s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.8.0-py3.10.egg-info/dependency_links.txt
+[3.416s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs-4.8.0-py3.10.egg-info/top_level.txt
+[3.416s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs
+[3.416s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.416s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.416s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[3.417s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv
+[3.417s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger_s.c
+[3.417s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/__init__.py
+[3.421s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty_s.c
+[3.421s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool_s.c
+[3.421s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_set_bool.py
+[3.421s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_trigger.py
+[3.422s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv/_empty.py
+[3.422s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/__init__.py
+[3.422s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[3.422s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.425s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.425s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/libstd_srvs__rosidl_generator_py.so
+[3.618s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs'...
+[3.619s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/srv'...
+[3.665s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.674s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/local/lib/python3.10/dist-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.678s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[3.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Empty.idl
+[3.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[3.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[3.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Empty.srv
+[3.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[3.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[3.685s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[3.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[3.695s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[3.696s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[3.698s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[3.699s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[3.699s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[3.699s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[3.702s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[3.703s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[3.703s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/path.sh
+[3.703s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/environment/path.dsv
+[3.704s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/local_setup.bash
+[3.704s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/local_setup.sh
+[3.705s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/local_setup.zsh
+[3.705s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/local_setup.dsv
+[3.705s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/package.dsv
+[3.705s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[3.706s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[3.706s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[3.707s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.708s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.708s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[3.708s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[3.714s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[3.715s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[3.716s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.716s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.716s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[3.716s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.725s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[3.726s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.726s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[3.726s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[3.727s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[3.727s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.727s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.727s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[3.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.745s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.746s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.746s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[3.747s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[3.747s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/package.xml
+[3.748s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/std_srvs

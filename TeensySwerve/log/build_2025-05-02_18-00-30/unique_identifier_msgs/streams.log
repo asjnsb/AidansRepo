@@ -1,0 +1,229 @@
+[0.058s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/unique_identifier_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs
+[0.283s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- The CXX compiler identification is GNU 11.4.0
+[0.531s] -- Detecting C compiler ABI info
+[0.732s] -- Detecting C compiler ABI info - done
+[0.781s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.783s] -- Detecting C compile features - done
+[0.846s] -- Detecting CXX compiler ABI info
+[1.274s] -- Detecting CXX compiler ABI info - done
+[1.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.333s] -- Detecting CXX compile features
+[1.338s] -- Detecting CXX compile features - done
+[1.359s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.174s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.776s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.787s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.846s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.542s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.569s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.582s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.688s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.689s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.689s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.689s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.748s] -- Found PythonExtra: .so  
+[6.915s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.041s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.077s] -- Added test 'lint_cmake' to check CMake code style
+[7.105s] -- Added test 'xmllint' to check XML markup files
+[7.117s] -- Configuring done
+[7.258s] -- Generating done
+[7.288s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs
+[7.370s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/unique_identifier_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs
+[7.376s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs -- -j4 -l4
+[7.742s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.742s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.766s] [  6%] Built target ament_cmake_python_copy_unique_identifier_msgs
+[11.491s] [  6%] Built target unique_identifier_msgs__cpp
+[11.600s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.680s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.134s] [ 16%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[13.572s] [ 19%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_c.dir/rosidl_generator_c/unique_identifier_msgs/msg/detail/uuid__functions.c.o[0m
+[14.037s] running egg_info
+[14.050s] creating unique_identifier_msgs.egg-info
+[14.051s] writing unique_identifier_msgs.egg-info/PKG-INFO
+[14.101s] writing dependency_links to unique_identifier_msgs.egg-info/dependency_links.txt
+[14.101s] writing top-level names to unique_identifier_msgs.egg-info/top_level.txt
+[14.101s] writing manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[14.112s] reading manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[14.119s] writing manifest file 'unique_identifier_msgs.egg-info/SOURCES.txt'
+[14.401s] [ 19%] Built target ament_cmake_python_build_unique_identifier_msgs_egg
+[14.644s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.702s] [ 25%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_generator_c.so[0m
+[15.012s] [ 25%] Built target unique_identifier_msgs__rosidl_generator_c
+[15.096s] [ 29%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unique_identifier_msgs/msg/detail/dds_fastrtps/uuid__type_support.cpp.o[0m
+[17.880s] [ 32%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_cpp.so[0m
+[18.553s] [ 32%] Built target unique_identifier_msgs__rosidl_typesupport_cpp
+[19.086s] [ 35%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unique_identifier_msgs/msg/detail/uuid__type_support.cpp.o[0m
+[19.480s] [ 38%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.526s] [ 38%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp
+[23.275s] [ 41%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.180s] [ 41%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_cpp
+[24.214s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.184s] [ 48%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/unique_identifier_msgs/msg/uuid__type_support.cpp.o[0m
+[26.488s] [ 51%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_c.so[0m
+[26.831s] [ 51%] Built target unique_identifier_msgs__rosidl_typesupport_c
+[26.955s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.506s] [ 58%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unique_identifier_msgs/msg/detail/uuid__type_support.c.o[0m
+[28.712s] [ 61%] [32m[1mLinking C shared library libunique_identifier_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.892s] [ 61%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_c
+[28.982s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[30.363s] [ 67%] [32mBuilding CXX object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unique_identifier_msgs/msg/detail/uuid__type_support_c.cpp.o[0m
+[33.345s] [ 70%] [32m[1mLinking CXX shared library libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[33.971s] [ 70%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_c
+[34.096s] [ 70%] Built target unique_identifier_msgs
+[34.254s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.640s] [ 74%] Built target unique_identifier_msgs__py
+[36.705s] [ 77%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_generator_py.dir/rosidl_generator_py/unique_identifier_msgs/msg/_uuid_s.c.o[0m
+[37.513s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/unique_identifier_msgs/libunique_identifier_msgs__rosidl_generator_py.so[0m
+[37.736s] [ 80%] Built target unique_identifier_msgs__rosidl_generator_py
+[37.831s] [ 83%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.646s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.895s] [ 87%] Built target unique_identifier_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.093s] [ 90%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.449s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[39.734s] [ 93%] Built target unique_identifier_msgs__rosidl_typesupport_c__pyext
+[39.874s] [ 96%] [32mBuilding C object CMakeFiles/unique_identifier_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[40.539s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[40.782s] [100%] Built target unique_identifier_msgs__rosidl_typesupport_introspection_c__pyext
+[40.863s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs -- -j4 -l4
+[41.396s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs
+[41.472s] -- Install configuration: ""
+[41.477s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/ament_index/resource_index/rosidl_interfaces/unique_identifier_msgs
+[41.477s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.478s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.480s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h
+[41.481s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.h
+[41.484s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.487s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
+[41.496s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.h
+[41.496s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h
+[41.500s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.c
+[41.501s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.sh
+[41.506s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/library_path.dsv
+[41.507s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so
+[41.508s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_c.so" to ""
+[41.509s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.510s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.511s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.511s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.512s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_c.h
+[41.513s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+[41.519s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[41.524s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.524s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.525s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.525s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.c
+[41.531s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_c.h
+[41.532s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.536s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+[41.538s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so" to ""
+[41.538s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+[41.539s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_c.so" to ""
+[41.542s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.543s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.543s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.544s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp
+[41.545s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.hpp
+[41.549s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__builder.hpp
+[41.554s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp
+[41.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.hpp
+[41.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[41.564s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.564s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.565s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_fastrtps_cpp.hpp
+[41.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/dds_fastrtps
+[41.565s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+[41.571s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[41.572s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs
+[41.572s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg
+[41.573s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail
+[41.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_cpp.hpp
+[41.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.cpp
+[41.574s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+[41.574s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[41.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+[41.577s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so" to ""
+[41.577s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.sh
+[41.580s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/pythonpath.dsv
+[41.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs-2.2.1-py3.10.egg-info
+[41.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs-2.2.1-py3.10.egg-info/PKG-INFO
+[41.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs-2.2.1-py3.10.egg-info/SOURCES.txt
+[41.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs-2.2.1-py3.10.egg-info/dependency_links.txt
+[41.589s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs-2.2.1-py3.10.egg-info/top_level.txt
+[41.589s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs
+[41.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.591s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[41.599s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/__init__.py
+[41.603s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg
+[41.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py
+[41.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py
+[41.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid_s.c
+[41.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/libunique_identifier_msgs__rosidl_generator_py.so
+[41.608s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.609s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/_unique_identifier_msgs_s.ep.rosidl_typesupport_c.c
+[41.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.997s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs'...
+[41.998s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/__init__.py'...
+[42.004s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg'...
+[42.004s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py'...
+[42.007s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py'...
+[42.042s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.043s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.044s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.051s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.051s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.053s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages/unique_identifier_msgs/unique_identifier_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.056s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so
+[42.057s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_generator_py.so" to ""
+[42.063s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl
+[42.068s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.msg
+[42.069s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/ament_index/resource_index/package_run_dependencies/unique_identifier_msgs
+[42.069s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/ament_index/resource_index/parent_prefix_path/unique_identifier_msgs
+[42.070s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.sh
+[42.076s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/ament_prefix_path.dsv
+[42.077s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.sh
+[42.078s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/environment/path.dsv
+[42.085s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.bash
+[42.085s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.sh
+[42.085s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.zsh
+[42.086s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/local_setup.dsv
+[42.094s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/package.dsv
+[42.094s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/ament_index/resource_index/packages/unique_identifier_msgs
+[42.102s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport.cmake
+[42.103s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cExport-noconfig.cmake
+[42.103s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[42.103s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[42.107s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport.cmake
+[42.108s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[42.117s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport.cmake
+[42.121s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[42.121s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_cppExport.cmake
+[42.121s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[42.125s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[42.133s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[42.133s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[42.141s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport.cmake
+[42.141s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[42.141s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport.cmake
+[42.141s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/export_unique_identifier_msgs__rosidl_generator_pyExport-noconfig.cmake
+[42.142s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake-extras.cmake
+[42.142s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.148s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[42.150s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[42.150s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.151s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.152s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.156s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig.cmake
+[42.159s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake
+[42.165s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/package.xml
+[42.172s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/share/unique_identifier_msgs/mapping_rules.yaml
+[42.188s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/unique_identifier_msgs

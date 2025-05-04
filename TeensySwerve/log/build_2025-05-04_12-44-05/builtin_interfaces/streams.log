@@ -1,0 +1,175 @@
+[0.094s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces -- -j4 -l4
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_c[0m
+[0.378s] [ 10%] Built target builtin_interfaces__rosidl_generator_c
+[0.379s] [ 12%] Built target builtin_interfaces__cpp
+[0.404s] [ 12%] Built target ament_cmake_python_copy_builtin_interfaces
+[0.541s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c[0m
+[0.541s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_cpp[0m
+[0.621s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c[0m
+[0.787s] [ 23%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[0.819s] [ 33%] Built target builtin_interfaces__rosidl_typesupport_c
+[0.857s] [ 43%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[0.894s] [ 53%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[1.032s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.327s] [ 64%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.352s] [ 74%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[1.611s] [ 74%] Built target builtin_interfaces
+[1.920s] [ 76%] Built target builtin_interfaces__py
+[2.061s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_generator_py[0m
+[2.278s] [ 84%] Built target builtin_interfaces__rosidl_generator_py
+[2.424s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.453s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_c__pyext[0m
+[2.478s] [35m[1mConsolidate compiler generated dependencies of target builtin_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.652s] [ 89%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.709s] [ 94%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[2.795s] [100%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.877s] running egg_info
+[3.884s] writing builtin_interfaces.egg-info/PKG-INFO
+[3.884s] writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+[3.887s] writing top-level names to builtin_interfaces.egg-info/top_level.txt
+[3.903s] reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[3.908s] writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[4.123s] [100%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[4.172s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces -- -j4 -l4
+[4.675s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces
+[4.746s] -- Install configuration: ""
+[4.746s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[4.747s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.752s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.753s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.753s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+[4.755s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+[4.755s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.756s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+[4.756s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+[4.762s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+[4.762s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+[4.762s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.c
+[4.763s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.c
+[4.766s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+[4.766s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+[4.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[4.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[4.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[4.767s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.768s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.769s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[4.770s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[4.776s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.777s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.778s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.784s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.797s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[4.800s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.c
+[4.800s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.c
+[4.804s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[4.808s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.808s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[4.809s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[4.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+[4.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.820s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+[4.821s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+[4.829s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+[4.829s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+[4.830s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+[4.831s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.838s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.838s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.838s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.841s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.842s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/dds_fastrtps
+[4.852s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[4.852s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[4.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces
+[4.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg
+[4.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail
+[4.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.cpp
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.cpp
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[4.854s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[4.860s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info
+[4.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[4.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[4.863s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[4.864s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[4.864s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces
+[4.864s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.864s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+[4.864s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/__init__.py
+[4.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg
+[4.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/__init__.py
+[4.871s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration_s.c
+[4.876s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time_s.c
+[4.877s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_duration.py
+[4.877s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg/_time.py
+[4.884s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.884s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/libbuiltin_interfaces__rosidl_generator_py.so
+[4.884s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.114s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces'...
+[5.114s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/msg'...
+[5.148s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.148s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.149s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.151s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+[5.155s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[5.155s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[5.161s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[5.164s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[5.164s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[5.164s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[5.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[5.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[5.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[5.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[5.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[5.166s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[5.166s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[5.166s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[5.166s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[5.172s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[5.176s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+[5.176s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.177s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.177s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.177s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.177s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.183s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[5.183s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.183s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+[5.184s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.184s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.184s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.184s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.185s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[5.186s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.186s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+[5.186s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.186s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.188s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.188s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.188s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[5.191s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[5.192s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[5.197s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/builtin_interfaces

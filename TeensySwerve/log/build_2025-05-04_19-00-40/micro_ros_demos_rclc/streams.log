@@ -1,0 +1,318 @@
+[0.292s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/common_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/home/aidan/microros_ws/install/micro_ros_agent/lib:/home/aidan/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc -- -j4 -l4
+[0.585s] [  1%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[0.816s] [100%] Built target graph_visualizer
+[0.908s] [  1%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[1.082s] [100%] Built target graph_visualizer
+[1.147s] [36mInstall the project...[0m
+[1.187s] -- Install configuration: ""
+[1.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[1.282s] [  1%] [34m[1mCompleted 'graph_visualizer'[0m
+[1.413s] [  4%] Built target graph_visualizer
+[1.494s] [  4%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[1.616s] [100%] Built target int32_publisher
+[1.674s] [  5%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[1.823s] [100%] Built target int32_publisher
+[1.896s] [36mInstall the project...[0m
+[1.918s] -- Install configuration: ""
+[1.920s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[1.984s] [  6%] [34m[1mCompleted 'int32_publisher'[0m
+[2.114s] [  8%] Built target int32_publisher
+[2.187s] [  9%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[2.339s] [100%] Built target int32_subscriber
+[2.388s] [  9%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[2.518s] [100%] Built target int32_subscriber
+[2.568s] [36mInstall the project...[0m
+[2.593s] -- Install configuration: ""
+[2.596s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[2.667s] [  9%] [34m[1mCompleted 'int32_subscriber'[0m
+[2.784s] [ 11%] Built target int32_subscriber
+[2.845s] [ 12%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[2.974s] [100%] Built target configured_publisher
+[3.023s] [ 12%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[3.181s] [100%] Built target configured_publisher
+[3.250s] [36mInstall the project...[0m
+[3.278s] -- Install configuration: ""
+[3.281s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[3.328s] [ 12%] [34m[1mCompleted 'configured_publisher'[0m
+[3.417s] [ 15%] Built target configured_publisher
+[3.480s] [ 16%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[3.603s] [100%] Built target configured_subscriber
+[3.654s] [ 16%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[3.800s] [100%] Built target configured_subscriber
+[3.866s] [36mInstall the project...[0m
+[3.899s] -- Install configuration: ""
+[3.901s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[3.952s] [ 16%] [34m[1mCompleted 'configured_subscriber'[0m
+[4.037s] [ 18%] Built target configured_subscriber
+[4.101s] [ 18%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[4.219s] [100%] Built target addtwoints_server
+[4.275s] [ 19%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[4.424s] [100%] Built target addtwoints_server
+[4.499s] [36mInstall the project...[0m
+[4.519s] -- Install configuration: ""
+[4.519s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[4.571s] [ 20%] [34m[1mCompleted 'addtwoints_server'[0m
+[4.701s] [ 22%] Built target addtwoints_server
+[4.765s] [ 22%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[4.903s] [100%] Built target addtwoints_client
+[4.950s] [ 23%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[5.091s] [100%] Built target addtwoints_client
+[5.169s] [36mInstall the project...[0m
+[5.201s] -- Install configuration: ""
+[5.203s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[5.268s] [ 23%] [34m[1mCompleted 'addtwoints_client'[0m
+[5.399s] [ 25%] Built target addtwoints_client
+[5.478s] [ 26%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[5.650s] [100%] Built target fibonacci_action_server
+[5.732s] [ 26%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[5.939s] [100%] Built target fibonacci_action_server
+[6.012s] [36mInstall the project...[0m
+[6.043s] -- Install configuration: ""
+[6.045s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[6.110s] [ 26%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[6.214s] [ 29%] Built target fibonacci_action_server
+[6.278s] [ 29%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[6.390s] [100%] Built target fibonacci_action_client
+[6.443s] [ 29%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[6.580s] [100%] Built target fibonacci_action_client
+[6.648s] [36mInstall the project...[0m
+[6.680s] -- Install configuration: ""
+[6.681s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[6.742s] [ 30%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[6.826s] [ 33%] Built target fibonacci_action_client
+[6.883s] [ 34%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[7.005s] [100%] Built target int32_multinode
+[7.060s] [ 34%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[7.195s] [100%] Built target int32_multinode
+[7.272s] [36mInstall the project...[0m
+[7.307s] -- Install configuration: ""
+[7.309s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[7.372s] [ 34%] [34m[1mCompleted 'int32_multinode'[0m
+[7.460s] [ 36%] Built target int32_multinode
+[7.521s] [ 36%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[7.655s] [100%] Built target int32_publisher_subscriber
+[7.711s] [ 36%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[7.841s] [100%] Built target int32_publisher_subscriber
+[7.910s] [36mInstall the project...[0m
+[7.944s] -- Install configuration: ""
+[7.945s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[8.006s] [ 37%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[8.093s] [ 40%] Built target int32_publisher_subscriber
+[8.172s] [ 41%] [34m[1mPerforming build step for 'ping_pong'[0m
+[8.367s] [100%] Built target ping_pong
+[8.450s] [ 41%] [34m[1mPerforming install step for 'ping_pong'[0m
+[8.626s] [100%] Built target ping_pong
+[8.690s] [36mInstall the project...[0m
+[8.711s] -- Install configuration: ""
+[8.711s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[8.765s] [ 41%] [34m[1mCompleted 'ping_pong'[0m
+[8.858s] [ 44%] Built target ping_pong
+[8.914s] [ 45%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[9.031s] [100%] Built target ping_uros_agent
+[9.088s] [ 46%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[9.214s] [100%] Built target ping_uros_agent
+[9.284s] [36mInstall the project...[0m
+[9.310s] -- Install configuration: ""
+[9.311s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[9.362s] [ 46%] [34m[1mCompleted 'ping_uros_agent'[0m
+[9.490s] [ 47%] Built target ping_uros_agent
+[9.562s] [ 47%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[9.695s] [100%] Built target fragmented_publication
+[9.769s] [ 48%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[9.921s] [100%] Built target fragmented_publication
+[9.970s] [36mInstall the project...[0m
+[9.992s] -- Install configuration: ""
+[9.993s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[10.055s] [ 48%] [34m[1mCompleted 'fragmented_publication'[0m
+[10.188s] [ 50%] Built target fragmented_publication
+[10.315s] [ 50%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[10.534s] [100%] Built target fragmented_subscription
+[10.601s] [ 51%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[10.758s] [100%] Built target fragmented_subscription
+[10.811s] [36mInstall the project...[0m
+[10.844s] -- Install configuration: ""
+[10.846s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[10.911s] [ 52%] [34m[1mCompleted 'fragmented_subscription'[0m
+[11.018s] [ 54%] Built target fragmented_subscription
+[11.080s] [ 55%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[11.213s] [100%] Built target complex_msg_publisher
+[11.265s] [ 56%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[11.406s] [100%] Built target complex_msg_publisher
+[11.464s] [36mInstall the project...[0m
+[11.484s] -- Install configuration: ""
+[11.487s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[11.577s] [ 56%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[11.712s] [ 57%] Built target complex_msg_publisher
+[11.772s] [ 57%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[11.909s] [100%] Built target complex_msg_subscriber
+[11.963s] [ 58%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[12.081s] [100%] Built target complex_msg_subscriber
+[12.135s] [36mInstall the project...[0m
+[12.165s] -- Install configuration: ""
+[12.165s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[12.218s] [ 59%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[12.333s] [ 61%] Built target complex_msg_subscriber
+[12.426s] [ 62%] [34m[1mPerforming build step for 'timer'[0m
+[12.586s] [100%] Built target timer
+[12.645s] [ 62%] [34m[1mPerforming install step for 'timer'[0m
+[12.781s] [100%] Built target timer
+[12.866s] [36mInstall the project...[0m
+[12.897s] -- Install configuration: ""
+[12.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/timer/timer
+[12.955s] [ 62%] [34m[1mCompleted 'timer'[0m
+[13.046s] [ 65%] Built target timer
+[13.100s] [ 66%] [34m[1mPerforming build step for 'string_publisher'[0m
+[13.232s] [100%] Built target string_publisher
+[13.284s] [ 66%] [34m[1mPerforming install step for 'string_publisher'[0m
+[13.426s] [100%] Built target string_publisher
+[13.498s] [36mInstall the project...[0m
+[13.531s] -- Install configuration: ""
+[13.533s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[13.583s] [ 66%] [34m[1mCompleted 'string_publisher'[0m
+[13.666s] [ 68%] Built target string_publisher
+[13.722s] [ 68%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[13.839s] [100%] Built target string_subscriber
+[13.899s] [ 69%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[14.035s] [100%] Built target string_subscriber
+[14.086s] [36mInstall the project...[0m
+[14.113s] -- Install configuration: ""
+[14.113s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[14.187s] [ 70%] [34m[1mCompleted 'string_subscriber'[0m
+[14.307s] [ 72%] Built target string_subscriber
+[14.365s] [ 73%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[14.501s] [100%] Built target autodiscover_agent
+[14.551s] [ 73%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[14.684s] [100%] Built target autodiscover_agent
+[14.737s] [36mInstall the project...[0m
+[14.763s] -- Install configuration: ""
+[14.763s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[14.839s] [ 73%] [34m[1mCompleted 'autodiscover_agent'[0m
+[14.976s] [ 76%] Built target autodiscover_agent
+[15.063s] [ 77%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[15.225s] [100%] Built target static_type_handling
+[15.287s] [ 77%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[15.434s] [100%] Built target static_type_handling
+[15.502s] [36mInstall the project...[0m
+[15.533s] -- Install configuration: ""
+[15.534s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[15.606s] [ 77%] [34m[1mCompleted 'static_type_handling'[0m
+[15.701s] [ 80%] Built target static_type_handling
+[15.755s] [ 80%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[15.879s] [100%] Built target epoch_synchronization
+[15.933s] [ 81%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[16.072s] [100%] Built target epoch_synchronization
+[16.127s] [36mInstall the project...[0m
+[16.153s] -- Install configuration: ""
+[16.154s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[16.222s] [ 82%] [34m[1mCompleted 'epoch_synchronization'[0m
+[16.367s] [ 84%] Built target epoch_synchronization
+[16.455s] [ 84%] [34m[1mPerforming build step for 'parameter_server'[0m
+[16.637s] [100%] Built target parameter_server
+[16.697s] [ 84%] [34m[1mPerforming install step for 'parameter_server'[0m
+[16.871s] [100%] Built target parameter_server
+[16.934s] [36mInstall the project...[0m
+[16.956s] -- Install configuration: ""
+[16.956s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[17.006s] [ 85%] [34m[1mCompleted 'parameter_server'[0m
+[17.091s] [ 88%] Built target parameter_server
+[17.151s] [ 88%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[17.277s] [100%] Built target multithread_publisher_subscriber
+[17.339s] [ 89%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[17.552s] [100%] Built target multithread_publisher_subscriber
+[17.631s] [36mInstall the project...[0m
+[17.666s] -- Install configuration: ""
+[17.666s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[17.753s] [ 90%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[17.892s] [ 92%] Built target multithread_publisher_subscriber
+[17.957s] [ 92%] [34m[1mPerforming build step for 'publisher_count'[0m
+[18.110s] [100%] Built target publisher_count
+[18.177s] [ 93%] [34m[1mPerforming install step for 'publisher_count'[0m
+[18.328s] [100%] Built target publisher_count
+[18.388s] [36mInstall the project...[0m
+[18.411s] -- Install configuration: ""
+[18.412s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[18.474s] [ 94%] [34m[1mCompleted 'publisher_count'[0m
+[18.588s] [ 96%] Built target publisher_count
+[18.689s] [ 96%] [34m[1mPerforming build step for 'subscription_count'[0m
+[18.842s] [100%] Built target subscription_count
+[18.903s] [ 96%] [34m[1mPerforming install step for 'subscription_count'[0m
+[19.042s] [100%] Built target subscription_count
+[19.110s] [36mInstall the project...[0m
+[19.149s] -- Install configuration: ""
+[19.151s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[19.208s] [ 97%] [34m[1mCompleted 'subscription_count'[0m
+[19.303s] [100%] Built target subscription_count
+[19.346s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/common_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/home/aidan/microros_ws/install/micro_ros_agent/lib:/home/aidan/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc -- -j4 -l4
+[19.642s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/common_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/home/aidan/microros_ws/install/micro_ros_agent/lib:/home/aidan/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc
+[19.664s] -- Install configuration: ""
+[19.664s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[19.666s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[19.666s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[19.667s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[19.667s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[19.667s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[19.667s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[19.668s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[19.669s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[19.670s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[19.670s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[19.671s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[19.671s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[19.672s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[19.673s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[19.673s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[19.674s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[19.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[19.675s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[19.676s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[19.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[19.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[19.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[19.679s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[19.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[19.680s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[19.682s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[19.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[19.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[19.683s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[19.684s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[19.685s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[19.685s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[19.685s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[19.686s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[19.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[19.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[19.687s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[19.688s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[19.689s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[19.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[19.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[19.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[19.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[19.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[19.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[19.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[19.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[19.694s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[19.694s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[19.694s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[19.695s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[19.695s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[19.696s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/common_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c_tests:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/test_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_test_msg/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/lifecycle_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib:/home/aidan/microros_ws/install/micro_ros_agent/lib:/home/aidan/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc

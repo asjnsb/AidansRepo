@@ -1,0 +1,7 @@
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/edit_cache.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/rebuild_cache.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/list_install_components.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/install.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/install/local.dir
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client/CMakeFiles/install/strip.dir

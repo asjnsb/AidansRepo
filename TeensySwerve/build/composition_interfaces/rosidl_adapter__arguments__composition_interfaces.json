@@ -1,0 +1,8 @@
+{
+  "package_name": "composition_interfaces",
+  "non_idl_tuples": [
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/composition_interfaces:srv/LoadNode.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/composition_interfaces:srv/ListNodes.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/composition_interfaces:srv/UnloadNode.srv"
+  ]
+}

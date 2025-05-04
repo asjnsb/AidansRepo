@@ -1,0 +1,320 @@
+[0.098s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs
+[0.453s] -- The C compiler identification is GNU 11.4.0
+[0.722s] -- The CXX compiler identification is GNU 11.4.0
+[0.768s] -- Detecting C compiler ABI info
+[1.209s] -- Detecting C compiler ABI info - done
+[1.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.282s] -- Detecting C compile features
+[1.291s] -- Detecting C compile features - done
+[1.308s] -- Detecting CXX compiler ABI info
+[1.701s] -- Detecting CXX compiler ABI info - done
+[1.757s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.765s] -- Detecting CXX compile features
+[1.767s] -- Detecting CXX compile features - done
+[1.786s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.661s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.265s] -- Found builtin_interfaces: 1.2.1 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[3.441s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.468s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.516s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.685s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.734s] -- Found geometry_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.861s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.183s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[6.196s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[6.203s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[6.222s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.983s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.069s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.267s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[10.273s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.273s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.274s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.453s] -- Found PythonExtra: .so  
+[11.097s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[11.113s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[11.197s] -- Configuring done
+[11.534s] -- Generating done
+[11.556s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs
+[11.615s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs
+[11.619s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs -- -j4 -l4
+[11.960s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.529s] [  1%] Built target trajectory_msgs__cpp
+[16.683s] [  1%] Built target ament_cmake_python_copy_trajectory_msgs
+[16.749s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.015s] [  5%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[22.416s] [  7%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[25.037s] [  9%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[27.942s] [ 10%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[30.782s] [ 12%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[31.198s] [ 12%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[31.266s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.943s] [ 16%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[36.457s] [ 18%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[38.405s] [ 20%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[41.102s] [ 21%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[43.165s] [ 23%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[43.675s] [ 23%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[45.488s] running egg_info
+[45.489s] creating trajectory_msgs.egg-info
+[45.490s] writing trajectory_msgs.egg-info/PKG-INFO
+[45.490s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[45.497s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[45.505s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[45.505s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[45.508s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[45.663s] [ 23%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[45.723s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[47.673s] [ 27%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[48.619s] [ 29%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[49.664s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[50.655s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[51.619s] [ 34%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[51.859s] [ 34%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[51.929s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[54.633s] [ 38%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[54.751s] [ 40%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[54.901s] [ 41%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[55.036s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[55.166s] [ 45%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[55.367s] [ 45%] Built target trajectory_msgs__rosidl_generator_c
+[55.431s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[57.011s] [ 49%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[57.952s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[58.830s] [ 52%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[59.851s] [ 54%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[60.746s] [ 56%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[60.944s] [ 56%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[60.970s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[62.453s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[62.529s] [ 61%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[62.606s] [ 63%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[62.680s] [ 65%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[62.777s] [ 67%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[62.884s] [ 67%] Built target trajectory_msgs__rosidl_typesupport_c
+[62.913s] [ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[64.524s] [ 70%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[64.629s] [ 72%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[64.736s] [ 74%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[64.846s] [ 76%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[64.953s] [ 78%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[65.033s] [ 78%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[65.080s] [ 78%] Built target trajectory_msgs
+[65.129s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[67.944s] [ 80%] Built target trajectory_msgs__py
+[67.987s] [ 81%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[68.259s] [ 83%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[68.612s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[68.889s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[69.299s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so[0m
+[69.400s] [ 89%] Built target trajectory_msgs__rosidl_generator_py
+[69.448s] [ 90%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[69.823s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[69.932s] [ 92%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c__pyext
+[69.991s] [ 94%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[70.313s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[70.423s] [ 96%] Built target trajectory_msgs__rosidl_typesupport_c__pyext
+[70.485s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[70.771s] [100%] [32m[1mLinking C shared library rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[70.876s] [100%] Built target trajectory_msgs__rosidl_typesupport_introspection_c__pyext
+[70.907s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs -- -j4 -l4
+[71.235s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs
+[71.251s] -- Install configuration: ""
+[71.252s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[71.253s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.254s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.255s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[71.256s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[71.257s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[71.258s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[71.258s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.260s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[71.260s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[71.261s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[71.261s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[71.262s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[71.263s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[71.263s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[71.264s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[71.265s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[71.267s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[71.268s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[71.268s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[71.269s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[71.270s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[71.271s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[71.272s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[71.272s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[71.272s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[71.272s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[71.273s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[71.274s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[71.274s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.276s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.278s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.278s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[71.279s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[71.279s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[71.279s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[71.279s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[71.279s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[71.280s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.282s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.283s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[71.284s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[71.284s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[71.284s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.289s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[71.289s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[71.289s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[71.289s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[71.290s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[71.290s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[71.290s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[71.290s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[71.291s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[71.296s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[71.296s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[71.296s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[71.297s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[71.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.297s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[71.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.297s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[71.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[71.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[71.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[71.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[71.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[71.298s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[71.301s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.301s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.301s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.301s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[71.302s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[71.302s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[71.302s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[71.302s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[71.302s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[71.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[71.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[71.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[71.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[71.303s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[71.309s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[71.309s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[71.310s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[71.310s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[71.310s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[71.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[71.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[71.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[71.315s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[71.315s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[71.316s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[71.316s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[71.316s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[71.317s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[71.317s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[71.317s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[71.317s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[71.317s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[71.317s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.8.0-py3.10.egg-info
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.8.0-py3.10.egg-info/PKG-INFO
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.8.0-py3.10.egg-info/SOURCES.txt
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.8.0-py3.10.egg-info/dependency_links.txt
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs-4.8.0-py3.10.egg-info/top_level.txt
+[71.318s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs
+[71.319s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[71.322s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[71.322s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py
+[71.322s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg
+[71.322s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[71.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[71.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[71.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[71.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[71.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py
+[71.324s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[71.324s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py
+[71.324s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[71.324s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[71.325s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[71.325s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/libtrajectory_msgs__rosidl_generator_py.so
+[71.325s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[71.325s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[71.399s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs'...
+[71.399s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/__init__.py'...
+[71.399s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg'...
+[71.399s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/__init__.py'...
+[71.400s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[71.400s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[71.400s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[71.400s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[71.411s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[71.412s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.413s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[71.415s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.416s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[71.417s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/local/lib/python3.10/dist-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[71.420s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[71.420s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[71.420s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[71.420s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[71.421s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[71.422s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[71.422s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[71.423s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[71.425s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[71.425s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[71.426s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[71.427s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[71.428s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[71.429s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[71.430s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[71.430s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[71.431s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[71.432s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[71.433s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[71.434s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[71.435s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[71.435s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[71.437s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[71.437s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[71.438s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[71.439s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[71.440s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[71.441s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[71.441s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[71.443s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[71.444s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[71.444s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[71.445s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[71.446s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[71.447s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[71.450s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[71.451s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[71.452s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[71.452s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[71.454s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[71.456s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.457s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.458s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[71.458s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[71.459s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[71.460s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[71.461s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[71.462s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[71.464s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[71.469s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/trajectory_msgs

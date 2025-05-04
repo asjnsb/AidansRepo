@@ -1,0 +1,130 @@
+[0.076s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/eProsima/Micro-XRCE-DDS-Client -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client
+[0.450s] -- The C compiler identification is GNU 11.4.0
+[0.524s] -- Detecting C compiler ABI info
+[1.074s] -- Detecting C compiler ABI info - done
+[1.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.157s] -- Detecting C compile features
+[1.165s] -- Detecting C compile features - done
+[1.172s] -- Setting build type to 'Release' as none was specified.
+[1.229s] -- Looking for pthread.h
+[1.781s] -- Looking for pthread.h - found
+[1.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.360s] -- Found Threads: TRUE  
+[2.383s] -- Configuring done
+[2.488s] -- Generating done
+[2.507s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client
+[2.534s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/eProsima/Micro-XRCE-DDS-Client -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client
+[2.536s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client -- -j4 -l4
+[2.862s] [  2%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[3.069s] [  5%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[3.848s] [  8%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[4.101s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[4.365s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[4.550s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[5.483s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[5.937s] [ 23%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[6.100s] [ 26%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[6.262s] [ 29%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[7.742s] [ 32%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[7.820s] [ 35%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[7.932s] [ 38%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[8.064s] [ 41%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[8.470s] [ 44%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[8.659s] [ 47%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[8.869s] [ 50%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[9.145s] [ 52%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[9.676s] [ 55%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[10.060s] [ 58%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[10.763s] [ 61%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[11.746s] [ 64%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[12.141s] [ 67%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[12.566s] [ 70%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[13.018s] [ 73%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[13.523s] [ 76%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[13.841s] [ 79%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[14.126s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[14.424s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[14.924s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[15.405s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[15.770s] [ 94%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[16.114s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[16.800s] [100%] [32m[1mLinking C static library libmicroxrcedds_client.a[0m
+[17.468s] [100%] Built target microxrcedds_client
+[17.590s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client -- -j4 -l4
+[18.408s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client
+[18.476s] -- Install configuration: "Release"
+[18.481s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/lib/libmicroxrcedds_client.a
+[18.484s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client
+[18.488s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core
+[18.488s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session
+[18.489s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[18.490s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[18.492s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[18.493s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[18.496s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream
+[18.497s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[18.500s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[18.503s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[18.509s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[18.509s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[18.510s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[18.510s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[18.510s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[18.521s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[18.521s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[18.521s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[18.522s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[18.522s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[18.526s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[18.526s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/communication
+[18.526s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[18.526s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/type
+[18.527s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[18.527s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/util
+[18.535s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/util/ping.h
+[18.535s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/util/time.h
+[18.538s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/transport.h
+[18.538s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile
+[18.539s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/discovery
+[18.539s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[18.542s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/multithread
+[18.543s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[18.543s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport
+[18.544s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[18.544s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[18.545s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[18.545s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[18.545s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[18.546s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[18.548s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[18.548s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[18.553s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[18.556s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[18.557s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[18.558s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[18.559s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[18.561s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[18.562s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[18.563s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[18.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[18.568s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[18.569s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[18.573s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[18.575s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[18.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[18.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[18.583s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[18.584s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[18.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[18.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[18.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[18.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/client.h
+[18.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/visibility.h
+[18.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/defines.h
+[18.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/include/uxr/client/config.h
+[18.592s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[18.602s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[18.602s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[18.602s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[18.614s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microxrcedds_client

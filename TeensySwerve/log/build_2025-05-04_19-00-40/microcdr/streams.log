@@ -1,0 +1,15 @@
+[0.089s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+[0.521s] [100%] Built target microcdr
+[0.737s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+[1.804s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr
+[1.874s] -- Install configuration: "Release"
+[1.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/lib/libmicrocdr.a
+[1.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr
+[1.887s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/microcdr.h
+[1.888s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/visibility.h
+[1.888s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/config.h
+[1.900s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.906s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.906s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.907s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.907s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr

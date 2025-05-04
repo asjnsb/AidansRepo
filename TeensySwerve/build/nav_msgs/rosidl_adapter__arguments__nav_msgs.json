@@ -1,0 +1,15 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/Goals.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:srv/LoadMap.srv",
+    "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

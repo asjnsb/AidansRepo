@@ -1,0 +1,155 @@
+[0.064s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs -- -j4 -l4
+[0.430s] [  3%] Built target rosgraph_msgs__cpp
+[0.646s] [  3%] Built target ament_cmake_python_copy_rosgraph_msgs
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.776s] [ 12%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_cpp
+[0.832s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.887s] [ 22%] Built target rosgraph_msgs__rosidl_typesupport_introspection_cpp
+[2.165s] running egg_info
+[2.179s] writing rosgraph_msgs.egg-info/PKG-INFO
+[2.179s] writing dependency_links to rosgraph_msgs.egg-info/dependency_links.txt
+[2.179s] writing top-level names to rosgraph_msgs.egg-info/top_level.txt
+[2.180s] reading manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[2.186s] writing manifest file 'rosgraph_msgs.egg-info/SOURCES.txt'
+[2.292s] [ 22%] Built target ament_cmake_python_build_rosgraph_msgs_egg
+[2.388s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_cpp[0m
+[2.443s] [ 32%] Built target rosgraph_msgs__rosidl_typesupport_cpp
+[2.500s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_generator_c[0m
+[2.568s] [ 41%] Built target rosgraph_msgs__rosidl_generator_c
+[2.650s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.724s] [ 51%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c
+[2.763s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_c[0m
+[2.821s] [ 61%] Built target rosgraph_msgs__rosidl_typesupport_c
+[2.869s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c[0m
+[2.936s] [ 70%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+[3.133s] [ 70%] Built target rosgraph_msgs
+[3.298s] [ 74%] Built target rosgraph_msgs__py
+[3.348s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_generator_py[0m
+[3.411s] [ 80%] Built target rosgraph_msgs__rosidl_generator_py
+[3.466s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.537s] [ 87%] Built target rosgraph_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.588s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_c__pyext[0m
+[3.655s] [ 93%] Built target rosgraph_msgs__rosidl_typesupport_c__pyext
+[3.718s] [35m[1mConsolidate compiler generated dependencies of target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.798s] [100%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c__pyext
+[3.863s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs -- -j4 -l4
+[4.258s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs
+[4.317s] -- Install configuration: ""
+[4.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+[4.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.320s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.h
+[4.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.326s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.328s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.h
+[4.333s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.c
+[4.333s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.h
+[4.334s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.h
+[4.337s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.sh
+[4.337s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/library_path.dsv
+[4.338s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_c.so
+[4.338s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.338s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.339s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.339s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.339s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_c.h
+[4.354s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+[4.354s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.hpp
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__traits.hpp
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__builder.hpp
+[4.355s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.hpp
+[4.356s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/clock.hpp
+[4.356s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.356s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.356s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.357s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.362s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.370s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/dds_fastrtps
+[4.371s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_fastrtps_cpp.hpp
+[4.371s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.371s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.375s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.375s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.376s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.c
+[4.376s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+[4.377s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.388s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+[4.388s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_c.so
+[4.389s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs
+[4.389s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg
+[4.389s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+[4.390s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_cpp.hpp
+[4.390s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.cpp
+[4.390s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+[4.390s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+[4.391s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.sh
+[4.400s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/pythonpath.dsv
+[4.400s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info
+[4.400s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[4.400s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[4.400s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[4.401s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[4.401s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs
+[4.401s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/librosgraph_msgs__rosidl_generator_py.so
+[4.401s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.401s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_c.c
+[4.402s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/__init__.py
+[4.406s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg
+[4.406s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock_s.c
+[4.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/__init__.py
+[4.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg/_clock.py
+[4.407s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.408s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.408s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.408s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/_rosgraph_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.822s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs'...
+[4.823s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/msg'...
+[4.916s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.917s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.917s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/local/lib/python3.10/dist-packages/rosgraph_msgs/rosgraph_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.917s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/lib/librosgraph_msgs__rosidl_generator_py.so
+[5.014s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.idl
+[5.014s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/msg/Clock.msg
+[5.018s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+[5.018s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+[5.018s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.sh
+[5.019s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+[5.019s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.sh
+[5.027s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/environment/path.dsv
+[5.027s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.bash
+[5.027s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.sh
+[5.028s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.zsh
+[5.028s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/local_setup.dsv
+[5.028s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/package.dsv
+[5.028s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/ament_index/resource_index/packages/rosgraph_msgs
+[5.028s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport.cmake
+[5.028s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cppExport.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.029s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.030s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+[5.106s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.106s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.107s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.107s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport.cmake
+[5.107s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.107s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport.cmake
+[5.112s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.112s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+[5.112s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.112s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.113s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.116s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.116s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.119s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.119s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+[5.119s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+[5.119s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosgraph_msgs/share/rosgraph_msgs/package.xml
+[5.246s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosgraph_msgs

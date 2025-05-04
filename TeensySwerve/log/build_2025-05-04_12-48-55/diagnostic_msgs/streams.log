@@ -1,0 +1,244 @@
+[0.141s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs -- -j4 -l4
+[0.579s] [  1%] Built target diagnostic_msgs__cpp
+[0.865s] [  1%] Built target ament_cmake_python_copy_diagnostic_msgs
+[1.025s] [ 12%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[1.233s] [ 23%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[2.549s] running egg_info
+[2.550s] writing diagnostic_msgs.egg-info/PKG-INFO
+[2.550s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[2.557s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[2.560s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[2.564s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[2.710s] [ 23%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[2.920s] [ 34%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[3.108s] [ 46%] Built target diagnostic_msgs__rosidl_generator_c
+[3.322s] [ 57%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[3.486s] [ 68%] Built target diagnostic_msgs__rosidl_typesupport_c
+[3.607s] [ 79%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[3.762s] [ 79%] Built target diagnostic_msgs
+[3.928s] [ 80%] Built target diagnostic_msgs__py
+[4.098s] [ 90%] Built target diagnostic_msgs__rosidl_generator_py
+[4.273s] [ 93%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.430s] [ 96%] Built target diagnostic_msgs__rosidl_typesupport_c__pyext
+[4.594s] [100%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c__pyext
+[4.804s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs -- -j4 -l4
+[5.840s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs
+[5.873s] -- Install configuration: ""
+[5.874s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[5.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[5.879s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[5.880s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[5.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[5.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[5.881s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[5.886s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.887s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[5.887s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.887s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.888s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[5.888s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[5.890s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[5.891s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[5.891s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[5.894s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[5.894s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[5.895s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[5.895s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[5.895s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[5.895s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[5.895s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[5.897s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[5.897s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[5.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[5.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[5.898s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[5.901s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.901s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.902s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.902s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[5.908s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[5.909s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.916s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.918s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.919s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[5.919s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[5.920s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[5.920s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[5.920s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.920s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.921s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.925s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[5.925s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[5.925s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[5.925s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[5.926s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.926s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.931s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[5.932s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[5.932s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[5.933s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[5.933s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[5.939s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[5.939s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.939s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[5.940s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.941s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[5.941s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[5.941s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[5.941s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[5.943s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[5.943s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.hpp
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.hpp
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[5.944s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[5.945s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.945s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[5.945s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp
+[5.948s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[5.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[5.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.hpp
+[5.949s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[5.953s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[5.953s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp
+[5.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[5.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[5.954s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[5.962s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[5.963s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.963s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.963s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.963s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.963s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[5.964s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[5.964s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[5.964s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.965s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.965s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.965s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[5.965s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[5.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[5.967s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[5.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[5.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[5.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[5.968s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[5.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[5.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[5.969s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[5.977s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[5.981s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[5.981s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[5.982s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[5.983s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[5.983s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.8.0-py3.10.egg-info
+[5.983s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.8.0-py3.10.egg-info/PKG-INFO
+[5.989s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.8.0-py3.10.egg-info/SOURCES.txt
+[5.989s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.8.0-py3.10.egg-info/dependency_links.txt
+[5.989s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs-4.8.0-py3.10.egg-info/top_level.txt
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/libdiagnostic_msgs__rosidl_generator_py.so
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test.py
+[5.990s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/__init__.py
+[5.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_self_test_s.c
+[5.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[5.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[5.991s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.995s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/__init__.py
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg
+[5.996s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/__init__.py
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value_s.c
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[5.997s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg/_key_value.py
+[6.200s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs'...
+[6.201s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/msg'...
+[6.201s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/srv'...
+[6.251s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.251s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/local/lib/python3.10/dist-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.258s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[6.269s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[6.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[6.270s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[6.272s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[6.273s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Request.msg
+[6.274s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics_Response.msg
+[6.274s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[6.274s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Request.msg
+[6.277s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest_Response.msg
+[6.278s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[6.278s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[6.278s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[6.278s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[6.279s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[6.279s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[6.279s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[6.279s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[6.279s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[6.280s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[6.280s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[6.288s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[6.288s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[6.288s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.289s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.295s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.295s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.296s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.296s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[6.296s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[6.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.297s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.298s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.298s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[6.298s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.317s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[6.317s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.318s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[6.318s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.318s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.318s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.318s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.319s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.319s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.319s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[6.321s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[6.322s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[6.328s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/diagnostic_msgs

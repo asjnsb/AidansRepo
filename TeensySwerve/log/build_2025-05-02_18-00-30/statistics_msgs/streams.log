@@ -1,0 +1,285 @@
+[0.096s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/statistics_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs
+[0.418s] -- The C compiler identification is GNU 11.4.0
+[0.796s] -- The CXX compiler identification is GNU 11.4.0
+[0.838s] -- Detecting C compiler ABI info
+[1.233s] -- Detecting C compiler ABI info - done
+[1.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.302s] -- Detecting C compile features
+[1.303s] -- Detecting C compile features - done
+[1.337s] -- Detecting CXX compiler ABI info
+[1.697s] -- Detecting CXX compiler ABI info - done
+[1.768s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.775s] -- Detecting CXX compile features
+[1.776s] -- Detecting CXX compile features - done
+[1.792s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.289s] -- Found builtin_interfaces: 1.2.1 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[3.455s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.479s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.517s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.788s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.297s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.490s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.577s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.578s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.671s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.671s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.672s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.672s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.930s] -- Found PythonExtra: .so  
+[9.386s] -- Configuring done
+[9.671s] -- Generating done
+[9.685s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs
+[9.727s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/statistics_msgs -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs
+[9.744s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs -- -j4 -l4
+[10.133s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.688s] [  2%] Built target statistics_msgs__cpp
+[15.829s] [  2%] Built target ament_cmake_python_copy_statistics_msgs
+[15.883s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.125s] [  6%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/metrics_message__type_support.cpp.o[0m
+[21.432s] [  8%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp.o[0m
+[23.290s] [ 10%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp.o[0m
+[26.624s] [ 12%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.243s] [ 12%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[27.348s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[31.354s] [ 17%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[34.200s] [ 19%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[35.261s] [ 21%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[36.638s] [ 23%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_cpp.so[0m
+[36.887s] [ 23%] Built target statistics_msgs__rosidl_typesupport_cpp
+[39.536s] running egg_info
+[39.540s] creating statistics_msgs.egg-info
+[39.546s] writing statistics_msgs.egg-info/PKG-INFO
+[39.547s] writing dependency_links to statistics_msgs.egg-info/dependency_links.txt
+[39.547s] writing top-level names to statistics_msgs.egg-info/top_level.txt
+[39.552s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[39.567s] reading manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[39.576s] writing manifest file 'statistics_msgs.egg-info/SOURCES.txt'
+[39.786s] [ 23%] Built target ament_cmake_python_build_statistics_msgs_egg
+[39.853s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[42.118s] [ 27%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/metrics_message__type_support.cpp.o[0m
+[45.659s] [ 29%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_type__type_support.cpp.o[0m
+[47.564s] [ 31%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_point__type_support.cpp.o[0m
+[48.938s] [ 34%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[49.455s] [ 34%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[49.535s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[52.850s] [ 38%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/metrics_message__functions.c.o[0m
+[53.267s] [ 40%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_type__functions.c.o[0m
+[53.603s] [ 42%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_point__functions.c.o[0m
+[53.988s] [ 44%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_generator_c.so[0m
+[54.354s] [ 44%] Built target statistics_msgs__rosidl_generator_c
+[54.440s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[57.766s] [ 48%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/metrics_message__type_support.c.o[0m
+[58.006s] [ 51%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_point__type_support.c.o[0m
+[58.099s] [ 53%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_type__type_support.c.o[0m
+[58.345s] [ 55%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_typesupport_introspection_c.so[0m
+[58.555s] [ 55%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[58.635s] [ 57%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[62.152s] [ 59%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/metrics_message__type_support_c.cpp.o[0m
+[63.464s] [ 61%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_type__type_support_c.cpp.o[0m
+[66.348s] [ 63%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_point__type_support_c.cpp.o[0m
+[69.296s] [ 65%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[69.915s] [ 65%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[70.006s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[72.394s] [ 70%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[72.650s] [ 72%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[72.922s] [ 74%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[73.203s] [ 76%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_c.so[0m
+[73.571s] [ 76%] Built target statistics_msgs__rosidl_typesupport_c
+[73.726s] [ 76%] Built target statistics_msgs
+[73.883s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[77.198s] [ 78%] Built target statistics_msgs__py
+[77.365s] [ 80%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_metrics_message_s.c.o[0m
+[78.161s] [ 82%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_type_s.c.o[0m
+[78.988s] [ 85%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_py.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_point_s.c.o[0m
+[79.793s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so[0m
+[79.995s] [ 87%] Built target statistics_msgs__rosidl_generator_py
+[80.153s] [ 89%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[80.861s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[81.221s] [ 91%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[81.402s] [ 93%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[82.239s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[82.564s] [ 95%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[82.739s] [ 97%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[83.604s] [100%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[83.942s] [100%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[84.043s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs -- -j4 -l4
+[84.935s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs
+[85.027s] -- Install configuration: ""
+[85.038s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+[85.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.049s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.059s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.h
+[85.070s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+[85.071s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.076s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.c
+[85.076s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.h
+[85.077s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.h
+[85.077s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.h
+[85.077s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.c
+[85.083s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+[85.084s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__functions.h
+[85.084s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.h
+[85.086s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__functions.h
+[85.088s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+[85.091s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.h
+[85.095s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__functions.c
+[85.100s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.h
+[85.100s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.h
+[85.103s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+[85.109s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+[85.125s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+[85.137s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so" to ""
+[85.138s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.138s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.141s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[85.154s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.154s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+[85.155s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+[85.155s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+[85.160s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+[85.161s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[85.174s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.186s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.187s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_type.hpp
+[85.187s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/statistic_data_point.hpp
+[85.187s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.187s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+[85.187s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+[85.187s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+[85.188s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+[85.189s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.hpp
+[85.189s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp
+[85.198s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp
+[85.202s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[85.207s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
+[85.208s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.208s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.208s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[85.217s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.218s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+[85.229s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.229s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/dds_fastrtps
+[85.229s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+[85.238s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[85.250s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[85.250s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.250s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.251s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.251s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+[85.255s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+[85.255s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+[85.255s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+[85.256s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.c
+[85.256s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+[85.257s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[85.257s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+[85.260s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so" to ""
+[85.261s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+[85.261s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so" to ""
+[85.266s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs
+[85.276s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg
+[85.276s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+[85.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+[85.285s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+[85.286s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[85.286s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+[85.286s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so" to ""
+[85.297s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+[85.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+[85.298s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info
+[85.300s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/PKG-INFO
+[85.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/SOURCES.txt
+[85.303s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/dependency_links.txt
+[85.308s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs-1.2.1-py3.10.egg-info/top_level.txt
+[85.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs
+[85.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[85.310s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py
+[85.320s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[85.320s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[85.320s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg
+[85.321s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message_s.c
+[85.321s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py
+[85.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py
+[85.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type_s.c
+[85.327s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py
+[85.332s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py
+[85.333s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point_s.c
+[85.333s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/libstatistics_msgs__rosidl_generator_py.so
+[85.345s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[85.346s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[85.346s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c
+[85.730s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs'...
+[85.730s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/__init__.py'...
+[85.731s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg'...
+[85.731s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/__init__.py'...
+[85.731s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_metrics_message.py'...
+[85.731s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_point.py'...
+[85.732s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/msg/_statistic_data_type.py'...
+[85.795s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[85.798s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.800s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[85.810s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.811s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[85.815s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/local/lib/python3.10/dist-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[85.817s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so
+[85.826s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_py.so" to ""
+[85.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+[85.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+[85.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+[85.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+[85.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+[85.830s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+[85.835s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+[85.844s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+[85.845s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+[85.857s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+[85.858s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+[85.858s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+[85.858s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+[85.858s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+[85.874s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+[85.875s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+[85.883s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/package.dsv
+[85.884s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+[85.888s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport.cmake
+[85.888s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+[85.899s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[85.900s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[85.900s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_cppExport.cmake
+[85.913s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[85.913s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[85.924s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+[85.929s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[85.930s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+[85.931s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[85.932s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[85.932s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[85.932s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+[85.944s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[85.945s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport.cmake
+[85.945s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/export_statistics_msgs__rosidl_generator_pyExport-noconfig.cmake
+[85.953s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+[85.954s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.954s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[85.962s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[85.963s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[85.963s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[85.963s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[85.963s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+[85.964s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+[85.965s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/statistics_msgs/share/statistics_msgs/package.xml
+[85.992s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/statistics_msgs

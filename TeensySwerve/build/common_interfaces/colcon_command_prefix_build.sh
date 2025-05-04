@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/share/builtin_interfaces/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_srvs/share/std_srvs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/actionlib_msgs/share/actionlib_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/share/geometry_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/diagnostic_msgs/share/diagnostic_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/nav_msgs/share/nav_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/share/sensor_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/shape_msgs/share/shape_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/trajectory_msgs/share/trajectory_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/stereo_msgs/share/stereo_msgs/package.sh"
+. "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/package.sh"

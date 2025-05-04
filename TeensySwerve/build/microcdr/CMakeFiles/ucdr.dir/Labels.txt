@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/ucdr
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/ucdr.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/CMakeFiles/ucdr-complete.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule

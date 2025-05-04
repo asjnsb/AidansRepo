@@ -1,0 +1,4 @@
+Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr
+Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr

@@ -1,0 +1,99 @@
+[0.030s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c
+[0.293s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.744s] -- Detecting C compile features
+[0.745s] -- Detecting C compile features - done
+[0.754s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.799s] -- Found rosidl_runtime_c: 3.1.6 (/opt/ros/humble/share/rosidl_runtime_c/cmake)
+[2.927s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.063s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.087s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.088s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/aidan/GitHub/AidansRepo/TeensySwerve/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/include>
+[4.088s] -- Configured cppcheck exclude dirs and/or files: 
+[4.115s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.115s] -- Configured cpplint exclude dirs and/or files: 
+[4.134s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.148s] -- Added test 'lint_cmake' to check CMake code style
+[4.149s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.180s] -- Added test 'uncrustify' to check C / C++ code style
+[4.182s] -- Configured uncrustify additional arguments: 
+[4.191s] -- Added test 'xmllint' to check XML markup files
+[4.233s] -- Configuring done
+[4.323s] -- Generating done
+[4.354s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c
+[4.418s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c
+[4.422s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4
+[4.777s] [ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[4.924s] [100%] [32m[1mLinking C static library librosidl_typesupport_microxrcedds_c.a[0m
+[4.998s] [100%] Built target ament_cmake_python_copy_rosidl_typesupport_microxrcedds_c
+[5.968s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[6.905s] running egg_info
+[6.908s] creating rosidl_typesupport_microxrcedds_c.egg-info
+[6.909s] writing rosidl_typesupport_microxrcedds_c.egg-info/PKG-INFO
+[6.909s] writing dependency_links to rosidl_typesupport_microxrcedds_c.egg-info/dependency_links.txt
+[6.910s] writing top-level names to rosidl_typesupport_microxrcedds_c.egg-info/top_level.txt
+[6.910s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[6.910s] reading manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[6.910s] writing manifest file 'rosidl_typesupport_microxrcedds_c.egg-info/SOURCES.txt'
+[7.200s] [100%] Built target ament_cmake_python_build_rosidl_typesupport_microxrcedds_c_egg
+[7.334s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4
+[7.703s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c
+[7.725s] -- Install configuration: ""
+[7.725s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[7.725s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[7.725s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.1-py3.10.egg-info
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.1-py3.10.egg-info/PKG-INFO
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.1-py3.10.egg-info/SOURCES.txt
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.1-py3.10.egg-info/dependency_links.txt
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c-3.0.1-py3.10.egg-info/top_level.txt
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c
+[7.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[8.133s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c'...
+[8.139s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[8.259s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[8.260s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[8.260s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[8.267s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[8.275s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[8.276s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[8.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[8.277s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[8.286s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[8.287s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[8.309s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[8.323s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[8.331s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[8.334s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[8.334s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[8.339s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[8.350s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[8.353s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[8.354s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.377s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.377s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[8.377s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[8.398s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[8.398s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[8.402s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[8.418s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[8.422s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[8.426s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[8.426s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[8.426s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[8.431s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[8.431s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[8.433s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[8.439s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[8.440s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[8.451s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[8.452s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include
+[8.452s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[8.456s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[8.456s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[8.462s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[8.468s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[8.468s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.a
+[8.509s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/rosidl_typesupport_microxrcedds_c

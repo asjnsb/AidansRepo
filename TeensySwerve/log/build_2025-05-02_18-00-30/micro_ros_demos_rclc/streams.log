@@ -1,0 +1,1413 @@
+[0.087s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/uros/micro-ROS-demos/rclc -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.406s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.418s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.608s] -- Detecting CXX compile features
+[0.609s] -- Detecting CXX compile features - done
+[0.620s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.981s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.926s] -- Configuring done
+[1.998s] -- Generating done
+[2.004s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc
+[2.026s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/uros/micro-ROS-demos/rclc -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc
+[2.029s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc -- -j4 -l4
+[2.160s] [  1%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[2.167s] [  1%] [34m[1mCreating directories for 'publisher_count'[0m
+[2.180s] [  2%] [34m[1mCreating directories for 'subscription_count'[0m
+[2.363s] [  3%] [34m[1mNo download step for 'graph_visualizer'[0m
+[2.396s] [  3%] [34m[1mNo download step for 'publisher_count'[0m
+[2.423s] [  4%] [34m[1mNo download step for 'subscription_count'[0m
+[2.425s] [  5%] [34m[1mNo update step for 'graph_visualizer'[0m
+[2.488s] [  5%] [34m[1mNo update step for 'publisher_count'[0m
+[2.496s] [  6%] [34m[1mNo update step for 'subscription_count'[0m
+[2.503s] [  6%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[2.564s] [  6%] [34m[1mNo patch step for 'subscription_count'[0m
+[2.569s] [  6%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[2.577s] [  7%] [34m[1mNo patch step for 'publisher_count'[0m
+[2.591s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[2.643s] [  7%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[2.649s] [  8%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[2.665s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[2.693s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[2.711s] -- The C compiler identification is GNU 11.4.0
+[2.733s] -- Detecting C compiler ABI info
+[2.805s] -- The C compiler identification is GNU 11.4.0
+[2.821s] -- Detecting C compiler ABI info
+[2.842s] -- The C compiler identification is GNU 11.4.0
+[2.856s] -- Detecting C compiler ABI info
+[2.962s] -- Detecting C compiler ABI info - done
+[2.992s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.001s] -- Detecting C compile features
+[3.001s] -- Detecting C compile features - done
+[3.010s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.051s] -- Detecting C compiler ABI info - done
+[3.097s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.099s] -- Detecting C compile features
+[3.103s] -- Detecting C compile features - done
+[3.118s] -- Detecting C compiler ABI info - done
+[3.121s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.156s] -- Detecting C compile features
+[3.157s] -- Detecting C compile features - done
+[3.185s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.260s] [  8%] [34m[1mCreating directories for 'int32_publisher'[0m
+[3.535s] [  8%] [34m[1mNo download step for 'int32_publisher'[0m
+[3.604s] [  8%] [34m[1mNo update step for 'int32_publisher'[0m
+[3.673s] [  9%] [34m[1mNo patch step for 'int32_publisher'[0m
+[3.706s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.744s] [ 10%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[3.745s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.767s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[3.820s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.895s] -- The C compiler identification is GNU 11.4.0
+[3.924s] -- Detecting C compiler ABI info
+[4.069s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[4.120s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[4.219s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[4.219s] -- Detecting C compiler ABI info - done
+[4.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.255s] -- Detecting C compile features
+[4.257s] -- Detecting C compile features - done
+[4.261s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.270s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.281s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.286s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.305s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.316s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.341s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.351s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.375s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.406s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.636s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.647s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.661s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.703s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.715s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.759s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.934s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.965s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.998s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.013s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.126s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.132s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.193s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[5.209s] -- Looking for pthread.h
+[5.236s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.280s] -- Looking for pthread.h
+[5.289s] -- Looking for pthread.h
+[5.334s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.359s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.388s] -- Looking for pthread.h - found
+[5.395s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.400s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.469s] -- Looking for pthread.h - found
+[5.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.478s] -- Looking for pthread.h - found
+[5.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.584s] -- Found Threads: TRUE  
+[5.605s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[5.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.669s] -- Found Threads: TRUE  
+[5.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.676s] -- Found Threads: TRUE  
+[5.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.694s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[5.703s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.704s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[5.714s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[5.757s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.787s] -- Configuring done
+[5.791s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.809s] -- Generating done
+[5.814s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[5.817s] -- Configuring done
+[5.820s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[5.837s] -- Generating done
+[5.842s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[5.852s] -- Configuring done
+[5.873s] -- Generating done
+[5.875s] [ 11%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[5.880s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[5.902s] [ 11%] [34m[1mPerforming build step for 'subscription_count'[0m
+[5.941s] [ 11%] [34m[1mPerforming build step for 'publisher_count'[0m
+[5.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.990s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[6.015s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[6.042s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.065s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[6.151s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.179s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[6.200s] [100%] [32m[1mLinking C executable subscription_count[0m
+[6.201s] -- Looking for pthread.h
+[6.337s] [100%] [32m[1mLinking C executable publisher_count[0m
+[6.424s] [100%] Built target graph_visualizer
+[6.428s] -- Looking for pthread.h - found
+[6.430s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.455s] [100%] Built target subscription_count
+[6.506s] [ 11%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[6.511s] [ 11%] [34m[1mPerforming install step for 'subscription_count'[0m
+[6.624s] [100%] Built target publisher_count
+[6.634s] [35m[1mConsolidate compiler generated dependencies of target subscription_count[0m
+[6.647s] [35m[1mConsolidate compiler generated dependencies of target graph_visualizer[0m
+[6.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.649s] -- Found Threads: TRUE  
+[6.667s] [100%] Built target subscription_count
+[6.672s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[6.672s] [ 12%] [34m[1mPerforming install step for 'publisher_count'[0m
+[6.690s] [100%] Built target graph_visualizer
+[6.719s] [36mInstall the project...[0m
+[6.734s] [36mInstall the project...[0m
+[6.742s] -- Install configuration: ""
+[6.742s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[6.742s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[6.755s] -- Install configuration: ""
+[6.755s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[6.757s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[6.762s] [35m[1mConsolidate compiler generated dependencies of target publisher_count[0m
+[6.787s] [ 13%] [34m[1mCompleted 'subscription_count'[0m
+[6.797s] [100%] Built target publisher_count
+[6.806s] [ 13%] [34m[1mCompleted 'graph_visualizer'[0m
+[6.812s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[6.846s] [36mInstall the project...[0m
+[6.851s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[6.865s] -- Install configuration: ""
+[6.865s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[6.867s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[6.881s] [ 13%] Built target subscription_count
+[6.888s] -- Configuring done
+[6.889s] [ 13%] Built target graph_visualizer
+[6.915s] [ 14%] [34m[1mCompleted 'publisher_count'[0m
+[6.921s] -- Generating done
+[6.925s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[6.931s] [ 15%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[6.942s] [ 16%] [34m[1mCreating directories for 'configured_publisher'[0m
+[6.993s] [ 16%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[7.009s] [ 16%] Built target publisher_count
+[7.060s] [ 17%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[7.105s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[7.114s] [ 18%] [34m[1mNo download step for 'int32_subscriber'[0m
+[7.127s] [ 19%] [34m[1mNo download step for 'configured_publisher'[0m
+[7.188s] [ 20%] [34m[1mNo update step for 'configured_publisher'[0m
+[7.192s] [ 20%] [34m[1mNo update step for 'int32_subscriber'[0m
+[7.270s] [ 21%] [34m[1mNo download step for 'configured_subscriber'[0m
+[7.284s] [ 21%] [34m[1mNo patch step for 'configured_publisher'[0m
+[7.301s] [ 21%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[7.324s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[7.361s] [ 21%] [34m[1mNo update step for 'configured_subscriber'[0m
+[7.372s] [ 21%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[7.376s] [ 21%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[7.400s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[7.409s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[7.446s] [ 21%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[7.561s] -- The C compiler identification is GNU 11.4.0
+[7.563s] [ 21%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[7.599s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[7.600s] -- Detecting C compiler ABI info
+[7.616s] -- The C compiler identification is GNU 11.4.0
+[7.637s] -- Detecting C compiler ABI info
+[7.648s] [100%] Built target int32_publisher
+[7.716s] [ 22%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[7.786s] -- The C compiler identification is GNU 11.4.0
+[7.808s] -- Detecting C compiler ABI info
+[7.823s] -- Detecting C compiler ABI info - done
+[7.834s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher[0m
+[7.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.857s] -- Detecting C compile features
+[7.858s] -- Detecting C compile features - done
+[7.864s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.883s] [100%] Built target int32_publisher
+[7.902s] -- Detecting C compiler ABI info - done
+[7.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.933s] -- Detecting C compile features
+[7.935s] -- Detecting C compile features - done
+[7.946s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.968s] [36mInstall the project...[0m
+[7.993s] -- Install configuration: ""
+[7.996s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[8.000s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[8.079s] -- Detecting C compiler ABI info - done
+[8.091s] [ 23%] [34m[1mCompleted 'int32_publisher'[0m
+[8.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.119s] -- Detecting C compile features
+[8.122s] -- Detecting C compile features - done
+[8.137s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.209s] [ 23%] Built target int32_publisher
+[8.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.659s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.722s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[8.775s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[8.865s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.877s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.886s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.896s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.908s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.939s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.967s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[8.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.075s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.083s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.103s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.125s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.156s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.226s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.266s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.313s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.423s] -- Looking for pthread.h
+[9.431s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.442s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.500s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.593s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.698s] -- Looking for pthread.h - found
+[9.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.763s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.774s] -- Looking for pthread.h
+[9.830s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.859s] -- Found Threads: TRUE  
+[9.873s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[9.919s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.940s] -- Looking for pthread.h - found
+[9.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.951s] -- Looking for pthread.h
+[9.957s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[9.984s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.004s] -- Configuring done
+[10.027s] -- Generating done
+[10.029s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[10.082s] [ 24%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[10.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.099s] -- Found Threads: TRUE  
+[10.108s] -- Looking for pthread.h - found
+[10.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.112s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[10.181s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[10.188s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[10.211s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.229s] -- Configuring done
+[10.256s] -- Generating done
+[10.256s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[10.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.298s] -- Found Threads: TRUE  
+[10.312s] [ 25%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[10.315s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[10.371s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[10.429s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[10.430s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[10.479s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[10.507s] -- Configuring done
+[10.532s] -- Generating done
+[10.537s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[10.575s] [100%] Built target configured_publisher
+[10.595s] [ 26%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[10.609s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[10.618s] [ 26%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[10.724s] [35m[1mConsolidate compiler generated dependencies of target configured_publisher[0m
+[10.724s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[10.754s] [100%] Built target configured_publisher
+[10.808s] [36mInstall the project...[0m
+[10.830s] [100%] Built target int32_subscriber
+[10.830s] -- Install configuration: ""
+[10.830s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[10.837s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[10.876s] [ 26%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[10.884s] [ 26%] [34m[1mCompleted 'configured_publisher'[0m
+[10.947s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[10.960s] [35m[1mConsolidate compiler generated dependencies of target int32_subscriber[0m
+[10.975s] [ 26%] Built target configured_publisher
+[10.991s] [100%] Built target int32_subscriber
+[11.040s] [36mInstall the project...[0m
+[11.060s] -- Install configuration: ""
+[11.061s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[11.061s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[11.094s] [ 26%] [34m[1mCompleted 'int32_subscriber'[0m
+[11.113s] [100%] Built target configured_subscriber
+[11.142s] [ 26%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[11.150s] [ 26%] Built target int32_subscriber
+[11.195s] [35m[1mConsolidate compiler generated dependencies of target configured_subscriber[0m
+[11.215s] [100%] Built target configured_subscriber
+[11.246s] [36mInstall the project...[0m
+[11.258s] -- Install configuration: ""
+[11.259s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[11.259s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[11.293s] [ 26%] [34m[1mCompleted 'configured_subscriber'[0m
+[11.360s] [ 26%] Built target configured_subscriber
+[11.397s] [ 27%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[11.517s] [ 28%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[11.562s] [ 29%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[11.610s] [ 29%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[11.652s] [ 29%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[11.667s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[11.750s] -- The C compiler identification is GNU 11.4.0
+[11.765s] -- Detecting C compiler ABI info
+[11.873s] -- Detecting C compiler ABI info - done
+[11.886s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.888s] -- Detecting C compile features
+[11.888s] -- Detecting C compile features - done
+[11.895s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.168s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[12.390s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[12.467s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.480s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.498s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.652s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.659s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.823s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.865s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.954s] -- Looking for pthread.h
+[13.062s] -- Looking for pthread.h - found
+[13.062s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.175s] -- Found Threads: TRUE  
+[13.186s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[13.260s] -- Found example_interfaces: 0.9.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/share/example_interfaces/cmake)
+[13.285s] -- Configuring done
+[13.297s] -- Generating done
+[13.300s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[13.338s] [ 30%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[13.408s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[13.416s] [ 31%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[13.545s] [ 31%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[13.594s] [ 32%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[13.603s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[13.645s] [ 32%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[13.717s] [ 33%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[13.739s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[13.766s] [100%] Built target fibonacci_action_server
+[13.813s] [ 33%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[13.846s] -- The C compiler identification is GNU 11.4.0
+[13.864s] -- Detecting C compiler ABI info
+[13.893s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_server[0m
+[13.920s] [100%] Built target fibonacci_action_server
+[13.965s] [36mInstall the project...[0m
+[13.985s] -- Install configuration: ""
+[13.986s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[13.986s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[14.008s] -- Detecting C compiler ABI info - done
+[14.026s] [ 33%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[14.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.029s] -- Detecting C compile features
+[14.029s] -- Detecting C compile features - done
+[14.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.101s] [ 33%] Built target fibonacci_action_server
+[14.131s] [ 33%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[14.154s] [ 33%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[14.289s] [ 33%] [34m[1mNo download step for 'addtwoints_client'[0m
+[14.310s] [ 33%] [34m[1mNo download step for 'addtwoints_server'[0m
+[14.351s] [ 33%] [34m[1mNo update step for 'addtwoints_client'[0m
+[14.368s] [ 34%] [34m[1mNo update step for 'addtwoints_server'[0m
+[14.416s] [ 35%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[14.429s] [ 35%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[14.481s] [ 36%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[14.491s] [ 37%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[14.504s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[14.514s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[14.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[14.630s] -- The C compiler identification is GNU 11.4.0
+[14.641s] -- The C compiler identification is GNU 11.4.0
+[14.650s] -- Detecting C compiler ABI info
+[14.653s] -- Detecting C compiler ABI info
+[14.831s] -- Detecting C compiler ABI info - done
+[14.832s] -- Detecting C compiler ABI info - done
+[14.846s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[14.848s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.848s] -- Detecting C compile features
+[14.849s] -- Detecting C compile features - done
+[14.862s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.868s] -- Detecting C compile features
+[14.871s] -- Detecting C compile features - done
+[14.884s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.994s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.017s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.047s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.192s] [ 37%] [34m[1mCreating directories for 'int32_multinode'[0m
+[15.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.313s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.335s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.350s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.386s] [ 38%] [34m[1mNo download step for 'int32_multinode'[0m
+[15.449s] [ 38%] [34m[1mNo update step for 'int32_multinode'[0m
+[15.516s] [ 39%] [34m[1mNo patch step for 'int32_multinode'[0m
+[15.579s] [ 39%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[15.606s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[15.647s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[15.661s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[15.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.794s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.802s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.806s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.823s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.838s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.855s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.869s] -- The C compiler identification is GNU 11.4.0
+[15.876s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.896s] -- Detecting C compiler ABI info
+[15.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.934s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.042s] -- Looking for pthread.h
+[16.147s] -- Detecting C compiler ABI info - done
+[16.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[16.179s] -- Detecting C compile features
+[16.181s] -- Detecting C compile features - done
+[16.194s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[16.204s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.214s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.236s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[16.253s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.288s] -- Looking for pthread.h - found
+[16.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.498s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.499s] -- Found Threads: TRUE  
+[16.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.521s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[16.555s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.585s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.634s] -- Found example_interfaces: 0.9.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/share/example_interfaces/cmake)
+[16.686s] -- Configuring done
+[16.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[16.719s] -- Generating done
+[16.722s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[16.736s] -- Looking for pthread.h
+[16.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.783s] -- Looking for pthread.h
+[16.797s] [ 39%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[16.914s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[16.926s] -- Looking for pthread.h - found
+[16.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.965s] -- Looking for pthread.h - found
+[16.968s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.081s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[17.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.124s] -- Found Threads: TRUE  
+[17.135s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[17.141s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[17.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.165s] -- Found Threads: TRUE  
+[17.183s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[17.220s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.242s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.243s] -- Found example_interfaces: 0.9.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/share/example_interfaces/cmake)
+[17.275s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.289s] -- Configuring done
+[17.297s] -- Found example_interfaces: 0.9.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/share/example_interfaces/cmake)
+[17.305s] -- Generating done
+[17.310s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[17.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.339s] [100%] Built target fibonacci_action_client
+[17.353s] -- Configuring done
+[17.366s] [ 39%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[17.379s] -- Generating done
+[17.382s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[17.391s] [ 39%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[17.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.451s] [ 39%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[17.483s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[17.510s] [35m[1mConsolidate compiler generated dependencies of target fibonacci_action_client[0m
+[17.542s] [100%] Built target fibonacci_action_client
+[17.569s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[17.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.594s] [36mInstall the project...[0m
+[17.606s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.616s] -- Install configuration: ""
+[17.621s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[17.623s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[17.676s] [ 40%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[17.683s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[17.761s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[17.769s] [ 40%] Built target fibonacci_action_client
+[17.842s] [ 41%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[17.999s] [100%] Built target addtwoints_client
+[18.028s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[18.084s] [ 42%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[18.154s] [100%] Built target addtwoints_server
+[18.170s] -- Found FastRTPS: /opt/ros/humble/include  
+[18.196s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_client[0m
+[18.217s] [ 43%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[18.231s] [ 44%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[18.235s] [100%] Built target addtwoints_client
+[18.305s] [36mInstall the project...[0m
+[18.317s] [ 45%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[18.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.346s] -- Install configuration: ""
+[18.349s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[18.352s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[18.354s] [35m[1mConsolidate compiler generated dependencies of target addtwoints_server[0m
+[18.369s] -- Looking for pthread.h
+[18.396s] [100%] Built target addtwoints_server
+[18.404s] [ 45%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[18.425s] [ 45%] [34m[1mCompleted 'addtwoints_client'[0m
+[18.476s] [36mInstall the project...[0m
+[18.497s] [ 45%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[18.501s] -- Install configuration: ""
+[18.501s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[18.501s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[18.533s] [ 45%] Built target addtwoints_client
+[18.541s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[18.557s] [ 46%] [34m[1mCompleted 'addtwoints_server'[0m
+[18.586s] [ 47%] [34m[1mCreating directories for 'ping_pong'[0m
+[18.616s] -- Looking for pthread.h - found
+[18.618s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.657s] [ 47%] Built target addtwoints_server
+[18.674s] -- The C compiler identification is GNU 11.4.0
+[18.693s] -- Detecting C compiler ABI info
+[18.765s] [ 47%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[18.859s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.868s] -- Found Threads: TRUE  
+[18.902s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[18.906s] [ 48%] [34m[1mNo download step for 'ping_pong'[0m
+[19.005s] [ 49%] [34m[1mNo update step for 'ping_pong'[0m
+[19.066s] -- Detecting C compiler ABI info - done
+[19.089s] [ 49%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[19.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[19.097s] -- Detecting C compile features
+[19.101s] -- Detecting C compile features - done
+[19.102s] [ 49%] [34m[1mNo patch step for 'ping_pong'[0m
+[19.117s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[19.153s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[19.162s] [ 49%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[19.168s] [ 49%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[19.192s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[19.225s] -- Configuring done
+[19.253s] -- Generating done
+[19.258s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[19.258s] [ 50%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[19.332s] [ 51%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[19.354s] [ 51%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[19.377s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[19.378s] -- The C compiler identification is GNU 11.4.0
+[19.408s] -- Detecting C compiler ABI info
+[19.524s] -- The C compiler identification is GNU 11.4.0
+[19.554s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[19.555s] -- Detecting C compiler ABI info
+[19.605s] -- Detecting C compiler ABI info - done
+[19.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[19.648s] -- Detecting C compile features
+[19.652s] -- Detecting C compile features - done
+[19.676s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[19.754s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[19.786s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[19.856s] -- Detecting C compiler ABI info - done
+[19.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[19.910s] -- Detecting C compile features
+[19.915s] -- Detecting C compile features - done
+[19.936s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[20.090s] [100%] Built target int32_multinode
+[20.106s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[20.135s] [ 51%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[20.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[20.223s] [35m[1mConsolidate compiler generated dependencies of target int32_multinode[0m
+[20.254s] [100%] Built target int32_multinode
+[20.259s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[20.283s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[20.303s] [36mInstall the project...[0m
+[20.319s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[20.323s] -- Install configuration: ""
+[20.324s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[20.324s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[20.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.370s] [ 51%] [34m[1mCompleted 'int32_multinode'[0m
+[20.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[20.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.456s] [ 51%] Built target int32_multinode
+[20.511s] [ 51%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[20.562s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[20.627s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[20.642s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[20.699s] [ 51%] [34m[1mNo download step for 'fragmented_publication'[0m
+[20.713s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[20.738s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[20.769s] [ 51%] [34m[1mNo update step for 'fragmented_publication'[0m
+[20.776s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[20.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.827s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[20.899s] [ 52%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[20.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.972s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[20.998s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[21.025s] [ 53%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[21.030s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[21.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[21.057s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[21.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.109s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[21.119s] -- Found FastRTPS: /opt/ros/humble/include  
+[21.123s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[21.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.189s] -- The C compiler identification is GNU 11.4.0
+[21.210s] -- Detecting C compiler ABI info
+[21.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.310s] -- Looking for pthread.h
+[21.350s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[21.372s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[21.492s] -- Detecting C compiler ABI info - done
+[21.537s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.537s] -- Detecting C compile features
+[21.546s] -- Detecting C compile features - done
+[21.560s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.623s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[21.696s] -- Looking for pthread.h - found
+[21.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.777s] -- Found FastRTPS: /opt/ros/humble/include  
+[21.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[21.891s] -- Found FastRTPS: /opt/ros/humble/include  
+[21.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.905s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.908s] -- Found Threads: TRUE  
+[21.928s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[21.951s] -- Looking for pthread.h
+[21.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.037s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[22.037s] -- Looking for pthread.h
+[22.079s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[22.108s] -- Configuring done
+[22.135s] -- Generating done
+[22.139s] -- Looking for pthread.h - found
+[22.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.143s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.147s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[22.209s] [ 53%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[22.223s] -- Looking for pthread.h - found
+[22.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.324s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[22.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.338s] -- Found Threads: TRUE  
+[22.355s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[22.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.414s] -- Found Threads: TRUE  
+[22.433s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[22.457s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[22.493s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[22.494s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[22.520s] -- Configuring done
+[22.522s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[22.540s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[22.542s] -- Generating done
+[22.545s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[22.554s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[22.614s] -- Configuring done
+[22.630s] [ 54%] [34m[1mPerforming build step for 'ping_pong'[0m
+[22.642s] -- Generating done
+[22.645s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[22.646s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[22.667s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[22.696s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[22.711s] [ 55%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[22.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.742s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[22.769s] [100%] Built target int32_publisher_subscriber
+[22.817s] [ 55%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[22.830s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[22.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.909s] [35m[1mConsolidate compiler generated dependencies of target int32_publisher_subscriber[0m
+[22.938s] [100%] Built target int32_publisher_subscriber
+[23.006s] [36mInstall the project...[0m
+[23.010s] [100%] [32m[1mLinking C executable ping_pong[0m
+[23.016s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[23.033s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[23.041s] -- Install configuration: ""
+[23.042s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[23.046s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[23.103s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[23.142s] [ 56%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[23.255s] [100%] Built target ping_pong
+[23.295s] [ 56%] Built target int32_publisher_subscriber
+[23.306s] [ 56%] [34m[1mPerforming install step for 'ping_pong'[0m
+[23.324s] [100%] Built target ping_uros_agent
+[23.370s] [ 57%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[23.391s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[23.418s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[23.427s] [100%] Built target ping_pong
+[23.462s] [35m[1mConsolidate compiler generated dependencies of target ping_uros_agent[0m
+[23.471s] [36mInstall the project...[0m
+[23.495s] -- Install configuration: ""
+[23.495s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[23.496s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[23.496s] [100%] Built target ping_uros_agent
+[23.509s] -- Found FastRTPS: /opt/ros/humble/include  
+[23.536s] [ 57%] [34m[1mCompleted 'ping_pong'[0m
+[23.542s] [36mInstall the project...[0m
+[23.564s] -- Install configuration: ""
+[23.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[23.571s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[23.617s] [ 57%] [34m[1mCompleted 'ping_uros_agent'[0m
+[23.618s] [ 57%] Built target ping_pong
+[23.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.669s] -- Looking for pthread.h
+[23.688s] [ 57%] Built target ping_uros_agent
+[23.790s] -- Looking for pthread.h - found
+[23.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.913s] -- Found Threads: TRUE  
+[23.928s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[23.993s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[24.012s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[24.027s] -- Configuring done
+[24.040s] -- Generating done
+[24.042s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[24.079s] [ 57%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[24.150s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[24.259s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[24.380s] [100%] Built target fragmented_publication
+[24.408s] [ 58%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[24.461s] [35m[1mConsolidate compiler generated dependencies of target fragmented_publication[0m
+[24.481s] [100%] Built target fragmented_publication
+[24.511s] [36mInstall the project...[0m
+[24.526s] -- Install configuration: ""
+[24.526s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[24.527s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[24.558s] [ 58%] [34m[1mCompleted 'fragmented_publication'[0m
+[24.614s] [ 58%] Built target fragmented_publication
+[24.648s] [ 58%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[24.765s] [ 58%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[24.814s] [ 58%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[24.856s] [ 59%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[24.897s] [ 60%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[24.912s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[24.999s] -- The C compiler identification is GNU 11.4.0
+[25.009s] -- Detecting C compiler ABI info
+[25.126s] -- Detecting C compiler ABI info - done
+[25.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[25.140s] -- Detecting C compile features
+[25.140s] -- Detecting C compile features - done
+[25.146s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[25.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[25.622s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[25.698s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[25.711s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[25.729s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[25.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.887s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.894s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[26.053s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[26.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[26.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[26.183s] -- Looking for pthread.h
+[26.290s] -- Looking for pthread.h - found
+[26.290s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[26.417s] -- Found Threads: TRUE  
+[26.428s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[26.488s] -- Found complex_msgs: 3.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/share/complex_msgs/cmake)
+[26.506s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[26.519s] -- Configuring done
+[26.533s] -- Generating done
+[26.535s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[26.573s] [ 60%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[26.642s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[26.755s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[26.877s] [100%] Built target complex_msg_subscriber
+[26.906s] [ 61%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[26.960s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_subscriber[0m
+[26.979s] [100%] Built target complex_msg_subscriber
+[27.008s] [36mInstall the project...[0m
+[27.021s] -- Install configuration: ""
+[27.021s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[27.022s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[27.051s] [ 62%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[27.103s] [ 62%] Built target complex_msg_subscriber
+[27.139s] [ 63%] [34m[1mCreating directories for 'timer'[0m
+[27.250s] [ 64%] [34m[1mNo download step for 'timer'[0m
+[27.306s] [ 65%] [34m[1mNo update step for 'timer'[0m
+[27.369s] [ 65%] [34m[1mNo patch step for 'timer'[0m
+[27.444s] [ 65%] [34m[1mPerforming configure step for 'timer'[0m
+[27.475s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[27.584s] -- The C compiler identification is GNU 11.4.0
+[27.599s] -- Detecting C compiler ABI info
+[27.719s] -- Detecting C compiler ABI info - done
+[27.740s] -- Check for working C compiler: /usr/bin/cc - skipped
+[27.740s] -- Detecting C compile features
+[27.741s] -- Detecting C compile features - done
+[27.751s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[28.043s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.245s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[28.320s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[28.333s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[28.351s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[28.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.502s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[28.509s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[28.667s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[28.707s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.798s] -- Looking for pthread.h
+[28.910s] -- Looking for pthread.h - found
+[28.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[29.021s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[29.023s] -- Found Threads: TRUE  
+[29.034s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[29.105s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[29.122s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.137s] -- Configuring done
+[29.150s] -- Generating done
+[29.153s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/timer/src/timer-build
+[29.158s] [ 65%] [34m[1mCreating directories for 'string_publisher'[0m
+[29.195s] [ 66%] [34m[1mPerforming build step for 'timer'[0m
+[29.266s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[29.280s] [ 67%] [34m[1mNo download step for 'string_publisher'[0m
+[29.320s] [ 67%] [34m[1mNo update step for 'string_publisher'[0m
+[29.363s] [ 68%] [34m[1mNo patch step for 'string_publisher'[0m
+[29.381s] [100%] [32m[1mLinking C executable timer[0m
+[29.406s] [ 68%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[29.423s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[29.498s] -- The C compiler identification is GNU 11.4.0
+[29.509s] -- Detecting C compiler ABI info
+[29.516s] [100%] Built target timer
+[29.545s] [ 68%] [34m[1mPerforming install step for 'timer'[0m
+[29.618s] [35m[1mConsolidate compiler generated dependencies of target timer[0m
+[29.649s] [100%] Built target timer
+[29.652s] -- Detecting C compiler ABI info - done
+[29.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[29.674s] -- Detecting C compile features
+[29.674s] -- Detecting C compile features - done
+[29.684s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[29.696s] [36mInstall the project...[0m
+[29.716s] -- Install configuration: ""
+[29.718s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/timer/timer
+[29.718s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[29.765s] [ 68%] [34m[1mCompleted 'timer'[0m
+[29.843s] [ 68%] Built target timer
+[30.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[30.211s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[30.285s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[30.297s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[30.313s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[30.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[30.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[30.465s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[30.472s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[30.629s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[30.674s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.761s] -- Looking for pthread.h
+[30.876s] -- Looking for pthread.h - found
+[30.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.879s] [ 68%] [34m[1mCreating directories for 'string_subscriber'[0m
+[30.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[30.996s] -- Found Threads: TRUE  
+[31.005s] [ 68%] [34m[1mNo download step for 'string_subscriber'[0m
+[31.008s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[31.046s] [ 68%] [34m[1mNo update step for 'string_subscriber'[0m
+[31.068s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[31.087s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[31.088s] [ 69%] [34m[1mNo patch step for 'string_subscriber'[0m
+[31.102s] -- Configuring done
+[31.116s] -- Generating done
+[31.118s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[31.136s] [ 70%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[31.150s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[31.160s] [ 71%] [34m[1mPerforming build step for 'string_publisher'[0m
+[31.228s] -- The C compiler identification is GNU 11.4.0
+[31.240s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[31.240s] -- Detecting C compiler ABI info
+[31.370s] -- Detecting C compiler ABI info - done
+[31.394s] -- Check for working C compiler: /usr/bin/cc - skipped
+[31.396s] -- Detecting C compile features
+[31.399s] -- Detecting C compile features - done
+[31.408s] [100%] [32m[1mLinking C executable string_publisher[0m
+[31.413s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[31.588s] [100%] Built target string_publisher
+[31.618s] [ 71%] [34m[1mPerforming install step for 'string_publisher'[0m
+[31.676s] [35m[1mConsolidate compiler generated dependencies of target string_publisher[0m
+[31.696s] [100%] Built target string_publisher
+[31.725s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[31.727s] [36mInstall the project...[0m
+[31.743s] -- Install configuration: ""
+[31.743s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[31.744s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[31.775s] [ 71%] [34m[1mCompleted 'string_publisher'[0m
+[31.840s] [ 71%] Built target string_publisher
+[31.939s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[32.021s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[32.034s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.054s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[32.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.213s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[32.221s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[32.373s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[32.418s] -- Found FastRTPS: /opt/ros/humble/include  
+[32.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[32.510s] -- Looking for pthread.h
+[32.620s] -- Looking for pthread.h - found
+[32.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.730s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[32.732s] -- Found Threads: TRUE  
+[32.742s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[32.812s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[32.830s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[32.845s] -- Configuring done
+[32.859s] -- Generating done
+[32.861s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[32.878s] [ 72%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[32.902s] [ 72%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[32.976s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[33.001s] [ 73%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[33.045s] [ 74%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[33.085s] [ 74%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[33.091s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[33.129s] [ 74%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[33.147s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[33.222s] [100%] Built target string_subscriber
+[33.225s] -- The C compiler identification is GNU 11.4.0
+[33.237s] -- Detecting C compiler ABI info
+[33.253s] [ 75%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[33.321s] [35m[1mConsolidate compiler generated dependencies of target string_subscriber[0m
+[33.351s] [100%] Built target string_subscriber
+[33.368s] -- Detecting C compiler ABI info - done
+[33.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[33.392s] -- Detecting C compile features
+[33.393s] -- Detecting C compile features - done
+[33.399s] [36mInstall the project...[0m
+[33.401s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[33.421s] -- Install configuration: ""
+[33.421s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[33.422s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[33.457s] [ 76%] [34m[1mCompleted 'string_subscriber'[0m
+[33.538s] [ 76%] Built target string_subscriber
+[33.568s] [ 76%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[33.614s] [ 76%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[33.767s] [ 76%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[33.781s] [ 76%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[33.838s] [ 76%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[33.858s] [ 77%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[33.865s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33.906s] [ 78%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[33.924s] [ 78%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[33.972s] [ 78%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[33.991s] [ 79%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[33.996s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[34.019s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[34.123s] -- The C compiler identification is GNU 11.4.0
+[34.126s] -- The C compiler identification is GNU 11.4.0
+[34.137s] -- Detecting C compiler ABI info
+[34.141s] -- Detecting C compiler ABI info
+[34.198s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[34.306s] -- Detecting C compiler ABI info - done
+[34.322s] -- Detecting C compiler ABI info - done
+[34.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.331s] -- Detecting C compile features
+[34.332s] -- Detecting C compile features - done
+[34.333s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[34.339s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[34.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[34.355s] -- Detecting C compile features
+[34.356s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[34.359s] -- Detecting C compile features - done
+[34.370s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[34.392s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[34.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.633s] [ 80%] [34m[1mCreating directories for 'static_type_handling'[0m
+[34.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[34.681s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[34.805s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[34.840s] [ 81%] [34m[1mNo download step for 'static_type_handling'[0m
+[34.912s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[35.002s] [ 82%] [34m[1mNo update step for 'static_type_handling'[0m
+[35.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[35.119s] -- Found FastRTPS: /opt/ros/humble/include  
+[35.132s] [ 82%] [34m[1mNo patch step for 'static_type_handling'[0m
+[35.220s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35.237s] [ 82%] [34m[1mPerforming configure step for 'static_type_handling'[0m
+[35.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.280s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/static_type_handling/tmp/static_type_handling-cache-.cmake
+[35.287s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[35.316s] -- Looking for pthread.h
+[35.397s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[35.420s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[35.458s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35.468s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[35.490s] -- The C compiler identification is GNU 11.4.0
+[35.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.515s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[35.522s] -- Detecting C compiler ABI info
+[35.562s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35.573s] -- Looking for pthread.h - found
+[35.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[35.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.685s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.721s] -- Detecting C compiler ABI info - done
+[35.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[35.747s] -- Detecting C compile features
+[35.752s] -- Detecting C compile features - done
+[35.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[35.764s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[35.765s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[35.766s] -- Found Threads: TRUE  
+[35.777s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[35.788s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[35.892s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[35.931s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[35.982s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[36.087s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[36.117s] -- Configuring done
+[36.148s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[36.175s] -- Generating done
+[36.181s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[36.229s] -- Found FastRTPS: /opt/ros/humble/include  
+[36.240s] [ 83%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[36.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[36.359s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[36.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[36.382s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[36.434s] -- Looking for pthread.h
+[36.478s] -- Found FastRTPS: /opt/ros/humble/include  
+[36.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[36.624s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[36.685s] -- Looking for pthread.h
+[36.689s] -- Looking for pthread.h - found
+[36.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36.719s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[36.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[36.889s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[36.896s] -- Found Threads: TRUE  
+[36.902s] [100%] Built target autodiscover_agent
+[36.910s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[36.924s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[36.928s] -- Looking for pthread.h - found
+[36.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36.942s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[36.949s] [ 83%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[36.987s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.027s] -- Found complex_msgs: 3.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/share/complex_msgs/cmake)
+[37.036s] [35m[1mConsolidate compiler generated dependencies of target autodiscover_agent[0m
+[37.063s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[37.066s] [100%] Built target autodiscover_agent
+[37.074s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[37.098s] -- Configuring done
+[37.118s] -- Generating done
+[37.119s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[37.123s] -- Found Threads: TRUE  
+[37.125s] [36mInstall the project...[0m
+[37.126s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[37.146s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[37.149s] -- Install configuration: ""
+[37.150s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[37.150s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[37.192s] [ 84%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[37.196s] [ 84%] [34m[1mCompleted 'autodiscover_agent'[0m
+[37.239s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[37.253s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[37.263s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[37.284s] [ 84%] Built target autodiscover_agent
+[37.300s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[37.305s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[37.328s] -- Configuring done
+[37.344s] [ 84%] [34m[1mCreating directories for 'epoch_synchronization'[0m
+[37.350s] -- Generating done
+[37.354s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[37.414s] [ 84%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[37.553s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[37.580s] [ 84%] [34m[1mNo download step for 'epoch_synchronization'[0m
+[37.599s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[37.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[37.681s] [ 84%] [34m[1mNo update step for 'epoch_synchronization'[0m
+[37.704s] -- Found FastRTPS: /opt/ros/humble/include  
+[37.754s] [100%] Built target complex_msg_publisher
+[37.773s] [ 85%] [34m[1mNo patch step for 'epoch_synchronization'[0m
+[37.804s] [ 86%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[37.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[37.842s] [ 87%] [34m[1mPerforming configure step for 'epoch_synchronization'[0m
+[37.867s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/epoch_synchronization/tmp/epoch_synchronization-cache-.cmake
+[37.870s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[37.876s] -- Looking for pthread.h
+[37.894s] [35m[1mConsolidate compiler generated dependencies of target complex_msg_publisher[0m
+[37.928s] [100%] Built target complex_msg_publisher
+[37.981s] [36mInstall the project...[0m
+[37.998s] -- The C compiler identification is GNU 11.4.0
+[38.006s] -- Install configuration: ""
+[38.006s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[38.014s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[38.020s] -- Detecting C compiler ABI info
+[38.062s] [ 87%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[38.067s] -- Looking for pthread.h - found
+[38.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.081s] [100%] Built target fragmented_subscription
+[38.133s] [ 88%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[38.150s] [ 88%] Built target complex_msg_publisher
+[38.195s] -- Detecting C compiler ABI info - done
+[38.205s] [ 89%] [34m[1mCreating directories for 'parameter_server'[0m
+[38.216s] [35m[1mConsolidate compiler generated dependencies of target fragmented_subscription[0m
+[38.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[38.226s] -- Detecting C compile features
+[38.228s] -- Detecting C compile features - done
+[38.242s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[38.252s] [100%] Built target fragmented_subscription
+[38.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[38.278s] -- Found Threads: TRUE  
+[38.303s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[38.331s] [36mInstall the project...[0m
+[38.352s] -- Install configuration: ""
+[38.352s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[38.363s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[38.410s] [ 89%] [34m[1mNo download step for 'parameter_server'[0m
+[38.446s] -- Found visualization_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/share/visualization_msgs/cmake)
+[38.454s] [ 90%] [34m[1mCompleted 'fragmented_subscription'[0m
+[38.501s] [ 91%] [34m[1mNo update step for 'parameter_server'[0m
+[38.587s] [ 91%] [34m[1mNo patch step for 'parameter_server'[0m
+[38.614s] [ 91%] Built target fragmented_subscription
+[38.680s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[38.690s] [ 92%] [34m[1mPerforming configure step for 'parameter_server'[0m
+[38.704s] -- Found micro_ros_utilities: 3.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[38.707s] [ 92%] [34m[1mCreating directories for 'multithread_publisher_subscriber'[0m
+[38.715s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/parameter_server/tmp/parameter_server-cache-.cmake
+[38.735s] -- Configuring done
+[38.771s] -- Generating done
+[38.774s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/static_type_handling/src/static_type_handling-build
+[38.862s] [ 93%] [34m[1mPerforming build step for 'static_type_handling'[0m
+[38.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[38.931s] -- The C compiler identification is GNU 11.4.0
+[38.954s] -- Detecting C compiler ABI info
+[39.011s] [ 50%] [32mBuilding C object CMakeFiles/static_type_handling.dir/main.c.o[0m
+[39.043s] [ 93%] [34m[1mNo download step for 'multithread_publisher_subscriber'[0m
+[39.186s] [ 93%] [34m[1mNo update step for 'multithread_publisher_subscriber'[0m
+[39.257s] -- Detecting C compiler ABI info - done
+[39.287s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[39.316s] [ 94%] [34m[1mNo patch step for 'multithread_publisher_subscriber'[0m
+[39.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[39.333s] -- Detecting C compile features
+[39.334s] -- Detecting C compile features - done
+[39.362s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[39.417s] [ 95%] [34m[1mPerforming configure step for 'multithread_publisher_subscriber'[0m
+[39.426s] [100%] [32m[1mLinking C executable static_type_handling[0m
+[39.441s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/multithread_publisher_subscriber/tmp/multithread_publisher_subscriber-cache-.cmake
+[39.455s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[39.484s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[39.551s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[39.578s] -- The C compiler identification is GNU 11.4.0
+[39.604s] -- Detecting C compiler ABI info
+[39.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[39.784s] -- Detecting C compiler ABI info - done
+[39.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[39.824s] -- Check for working C compiler: /usr/bin/cc - skipped
+[39.824s] -- Detecting C compile features
+[39.827s] -- Detecting C compile features - done
+[39.844s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[39.876s] [100%] Built target static_type_handling
+[39.929s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[39.951s] [ 95%] [34m[1mPerforming install step for 'static_type_handling'[0m
+[40.001s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[40.014s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[40.066s] [35m[1mConsolidate compiler generated dependencies of target static_type_handling[0m
+[40.103s] [100%] Built target static_type_handling
+[40.149s] [36mInstall the project...[0m
+[40.173s] -- Install configuration: ""
+[40.177s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling
+[40.177s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/static_type_handling/static_type_handling" to ""
+[40.224s] [ 95%] [34m[1mCompleted 'static_type_handling'[0m
+[40.295s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[40.310s] [ 95%] Built target static_type_handling
+[40.329s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[40.350s] -- Found FastRTPS: /opt/ros/humble/include  
+[40.364s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[40.459s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[40.460s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[40.481s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[40.505s] -- Looking for pthread.h
+[40.512s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[40.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[40.625s] -- Found rcl: 5.3.9 (/opt/ros/humble/share/rcl/cmake)
+[40.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[40.686s] -- Looking for pthread.h - found
+[40.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[40.757s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[40.783s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[40.796s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[40.809s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[40.818s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[40.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[40.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[40.889s] -- Found Threads: TRUE  
+[40.907s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[40.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[40.987s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[41.013s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[41.034s] -- Configuring done
+[41.051s] -- Generating done
+[41.051s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[41.055s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/epoch_synchronization/src/epoch_synchronization-build
+[41.061s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[41.080s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[41.097s] [ 95%] [34m[1mPerforming build step for 'epoch_synchronization'[0m
+[41.152s] -- Found FastRTPS: /opt/ros/humble/include  
+[41.175s] [ 50%] [32mBuilding C object CMakeFiles/epoch_synchronization.dir/main.c.o[0m
+[41.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.283s] -- Looking for pthread.h
+[41.315s] [100%] [32m[1mLinking C executable epoch_synchronization[0m
+[41.318s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[41.396s] -- Found FastRTPS: /opt/ros/humble/include  
+[41.467s] -- Looking for pthread.h - found
+[41.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[41.522s] -- Looking for pthread.h
+[41.524s] [100%] Built target epoch_synchronization
+[41.564s] [ 96%] [34m[1mPerforming install step for 'epoch_synchronization'[0m
+[41.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[41.622s] -- Found Threads: TRUE  
+[41.635s] [35m[1mConsolidate compiler generated dependencies of target epoch_synchronization[0m
+[41.641s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[41.664s] [100%] Built target epoch_synchronization
+[41.677s] -- Looking for pthread.h - found
+[41.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.706s] [36mInstall the project...[0m
+[41.723s] -- Install configuration: ""
+[41.725s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization
+[41.725s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/epoch_synchronization/epoch_synchronization" to ""
+[41.737s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[41.758s] [ 97%] [34m[1mCompleted 'epoch_synchronization'[0m
+[41.768s] -- Found rclc_parameter: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/share/rclc_parameter/cmake)
+[41.774s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[41.793s] -- Configuring done
+[41.812s] -- Generating done
+[41.816s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/parameter_server/src/parameter_server-build
+[41.841s] [ 97%] Built target epoch_synchronization
+[41.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[41.852s] -- Found Threads: TRUE  
+[41.864s] -- Found rclc: 4.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/share/rclc/cmake)
+[41.870s] [ 97%] [34m[1mPerforming build step for 'parameter_server'[0m
+[41.922s] -- Found std_msgs: 4.8.0 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/share/std_msgs/cmake)
+[41.941s] -- Found rmw_microxrcedds: 3.0.3 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[41.942s] [ 50%] [32mBuilding C object CMakeFiles/parameter_server.dir/main.c.o[0m
+[41.951s] -- Found micro_ros_utilities: 3.0.2 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake)
+[41.965s] -- Configuring done
+[41.979s] -- Generating done
+[41.983s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/multithread_publisher_subscriber/src/multithread_publisher_subscriber-build
+[42.023s] [ 97%] [34m[1mPerforming build step for 'multithread_publisher_subscriber'[0m
+[42.108s] [ 50%] [32mBuilding C object CMakeFiles/multithread_publisher_subscriber.dir/main.c.o[0m
+[42.109s] [100%] [32m[1mLinking C executable parameter_server[0m
+[42.247s] [100%] Built target parameter_server
+[42.277s] [ 97%] [34m[1mPerforming install step for 'parameter_server'[0m
+[42.324s] [100%] [32m[1mLinking C executable multithread_publisher_subscriber[0m
+[42.341s] [35m[1mConsolidate compiler generated dependencies of target parameter_server[0m
+[42.369s] [100%] Built target parameter_server
+[42.414s] [36mInstall the project...[0m
+[42.436s] -- Install configuration: ""
+[42.437s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server
+[42.438s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/parameter_server/parameter_server" to ""
+[42.480s] [ 98%] [34m[1mCompleted 'parameter_server'[0m
+[42.484s] [100%] Built target multithread_publisher_subscriber
+[42.517s] [ 99%] [34m[1mPerforming install step for 'multithread_publisher_subscriber'[0m
+[42.536s] [ 99%] Built target parameter_server
+[42.571s] [35m[1mConsolidate compiler generated dependencies of target multithread_publisher_subscriber[0m
+[42.593s] [100%] Built target multithread_publisher_subscriber
+[42.624s] [36mInstall the project...[0m
+[42.637s] -- Install configuration: ""
+[42.639s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber
+[42.640s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc/temp_install/multithread_publisher_subscriber/multithread_publisher_subscriber" to ""
+[42.669s] [100%] [34m[1mCompleted 'multithread_publisher_subscriber'[0m
+[42.721s] [100%] Built target multithread_publisher_subscriber
+[42.741s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc -- -j4 -l4
+[42.809s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc
+[42.823s] -- Install configuration: ""
+[42.823s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[42.824s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[42.824s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[42.824s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/static_type_handling/static_type_handling
+[42.825s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[42.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[42.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[42.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[42.826s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[42.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[42.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[42.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[42.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server
+[42.827s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/parameter_server/parameter_server
+[42.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[42.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[42.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[42.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[42.828s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[42.829s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[42.829s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[42.829s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[42.830s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[42.830s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[42.830s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[42.831s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[42.831s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[42.832s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[42.833s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber
+[42.833s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/multithread_publisher_subscriber/multithread_publisher_subscriber
+[42.833s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[42.833s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[42.833s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[42.834s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[42.835s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[42.835s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[42.836s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[42.836s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[42.837s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[42.837s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[42.837s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[42.837s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[42.837s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization
+[42.838s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/epoch_synchronization/epoch_synchronization
+[42.838s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[42.838s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[42.838s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[42.838s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[42.839s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[42.839s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[42.839s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[42.840s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[42.840s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[42.840s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[42.840s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[42.841s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[42.841s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[42.841s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[42.842s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[42.842s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[42.842s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[42.843s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[42.843s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[42.844s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[42.844s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[42.849s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microxrcedds_client:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc_parameter/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rmw_microxrcedds/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rclc/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_cpp/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/example_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/std_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rosidl_typesupport_microxrcedds_c/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/complex_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/action_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_demos_rclc

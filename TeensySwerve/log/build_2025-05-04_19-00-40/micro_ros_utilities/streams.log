@@ -1,0 +1,35 @@
+[0.119s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities -- -j4 -l4
+[0.393s] [ 30%] Built target micro_ros_utilities
+[0.618s] [ 50%] Built target gtest
+[0.813s] [ 70%] Built target gtest_main
+[1.032s] [100%] Built target micro_ros_utilities_test
+[1.163s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities -- -j4 -l4
+[1.516s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities
+[1.606s] -- Install configuration: ""
+[1.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/include
+[1.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/include/micro_ros_utilities
+[1.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/include/micro_ros_utilities/visibility_control.h
+[1.606s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/include/micro_ros_utilities/string_utilities.h
+[1.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/include/micro_ros_utilities/type_utilities.h
+[1.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/lib/libmicro_ros_utilities.a
+[1.607s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.sh
+[1.614s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/library_path.dsv
+[1.621s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/ament_index/resource_index/package_run_dependencies/micro_ros_utilities
+[1.622s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/ament_index/resource_index/parent_prefix_path/micro_ros_utilities
+[1.622s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.sh
+[1.624s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/ament_prefix_path.dsv
+[1.625s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.sh
+[1.625s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/environment/path.dsv
+[1.625s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.bash
+[1.625s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.sh
+[1.626s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.zsh
+[1.626s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/local_setup.dsv
+[1.626s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/package.dsv
+[1.627s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/ament_index/resource_index/packages/micro_ros_utilities
+[1.627s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.632s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_libraries-extras.cmake
+[1.632s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.635s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig.cmake
+[1.635s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/cmake/micro_ros_utilitiesConfig-version.cmake
+[1.635s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/micro_ros_utilities/share/micro_ros_utilities/package.xml
+[1.636s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/sensor_msgs_py:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/micro_ros_utilities

@@ -1,0 +1,52 @@
+[0.063s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/eProsima/Micro-CDR -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr
+[0.091s] -- Setting build type to 'Release' as none was specified.
+[0.303s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- Detecting C compiler ABI info
+[0.548s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.585s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.790s] -- The CXX compiler identification is GNU 11.4.0
+[0.856s] -- Detecting CXX compiler ABI info
+[1.215s] -- Detecting CXX compiler ABI info - done
+[1.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.272s] -- Detecting CXX compile features
+[1.274s] -- Detecting CXX compile features - done
+[1.294s] -- Configuring done
+[1.303s] -- Generating done
+[1.306s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr
+[1.336s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/eProsima/Micro-CDR -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr
+[1.338s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+[1.513s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[1.830s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[1.951s] [ 37%] [34m[1mNo update step for 'ucdr'[0m
+[2.036s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[2.098s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[2.121s] loading initial cache file /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[2.151s] -- Configuring done
+[2.162s] -- Generating done
+[2.168s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr
+[2.231s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[2.350s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[2.356s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[2.392s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[2.396s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[2.671s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[4.449s] [100%] [32m[1mLinking C static library libmicrocdr.a[0m
+[4.733s] [100%] Built target microcdr
+[4.815s] [34m[1mNo install step for 'ucdr'[0m
+[4.894s] [34m[1mCompleted 'ucdr'[0m
+[5.042s] Built target ucdr
+[5.077s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr -- -j4 -l4
+[5.268s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr
+[5.295s] -- Install configuration: "Release"
+[5.296s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/lib/libmicrocdr.a
+[5.299s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr
+[5.304s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/microcdr.h
+[5.304s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/visibility.h
+[5.305s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/config.h
+[5.305s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[5.305s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[5.305s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[5.308s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[5.309s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr' returned '0': /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/microcdr

@@ -1,0 +1,299 @@
+[0.132s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces
+[0.662s] -- The C compiler identification is GNU 11.4.0
+[1.157s] -- The CXX compiler identification is GNU 11.4.0
+[1.224s] -- Detecting C compiler ABI info
+[1.822s] -- Detecting C compiler ABI info - done
+[1.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.897s] -- Detecting C compile features
+[1.898s] -- Detecting C compile features - done
+[1.931s] -- Detecting CXX compiler ABI info
+[2.527s] -- Detecting CXX compiler ABI info - done
+[2.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.602s] -- Detecting CXX compile features
+[2.606s] -- Detecting CXX compile features - done
+[2.626s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.276s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.126s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.254s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.923s] -- Found rcl_interfaces: 1.2.1 (/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[9.111s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[9.126s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[9.152s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[9.170s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.038s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[14.052s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[14.196s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[14.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.200s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.201s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[14.262s] -- Found PythonExtra: .so  
+[14.663s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[14.685s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[14.761s] -- Configuring done
+[15.081s] -- Generating done
+[15.114s] -- Build files have been written to: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces
+[15.146s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aidan/GitHub/AidansRepo/TeensySwerve/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces
+[15.159s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces -- -j4 -l4
+[15.450s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.424s] [  2%] Built target composition_interfaces__cpp
+[20.681s] [  2%] Built target ament_cmake_python_copy_composition_interfaces
+[20.766s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[25.239s] [  6%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[29.315s] [  8%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[31.802s] [ 10%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[33.372s] [ 12%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.178s] [ 12%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[34.273s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[38.830s] [ 17%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[44.820s] [ 19%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[48.379s] [ 21%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[51.133s] [ 23%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[51.597s] [ 23%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[54.227s] running egg_info
+[54.230s] creating composition_interfaces.egg-info
+[54.233s] writing composition_interfaces.egg-info/PKG-INFO
+[54.237s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[54.238s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[54.243s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[54.261s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[54.269s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[54.444s] [ 23%] Built target ament_cmake_python_build_composition_interfaces_egg
+[54.512s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[57.794s] [ 27%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[60.208s] [ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[61.234s] [ 31%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[63.914s] [ 34%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[64.218s] [ 34%] Built target composition_interfaces__rosidl_typesupport_cpp
+[64.314s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[70.596s] [ 38%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[70.945s] [ 40%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[71.400s] [ 42%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[71.641s] [ 44%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[71.900s] [ 44%] Built target composition_interfaces__rosidl_generator_c
+[71.963s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[75.411s] [ 48%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[77.096s] [ 51%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[78.409s] [ 53%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[80.058s] [ 55%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[80.364s] [ 55%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[80.417s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[83.699s] [ 59%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[83.972s] [ 61%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[84.189s] [ 63%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[84.415s] [ 65%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[84.753s] [ 65%] Built target composition_interfaces__rosidl_typesupport_c
+[84.845s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[87.836s] [ 70%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[88.148s] [ 72%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[88.372s] [ 74%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[88.566s] [ 76%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[88.764s] [ 76%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[88.876s] [ 76%] Built target composition_interfaces
+[89.006s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[93.229s] [ 78%] Built target composition_interfaces__py
+[93.391s] [ 80%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[94.061s] [ 82%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[94.550s] [ 85%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[95.055s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so[0m
+[95.254s] [ 87%] Built target composition_interfaces__rosidl_generator_py
+[95.350s] [ 89%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[95.770s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[95.989s] [ 91%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[96.104s] [ 93%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[96.702s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[96.938s] [ 95%] Built target composition_interfaces__rosidl_typesupport_c__pyext
+[97.047s] [ 97%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[97.662s] [100%] [32m[1mLinking C shared library rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[97.875s] [100%] Built target composition_interfaces__rosidl_typesupport_introspection_c__pyext
+[97.964s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces -- -j4 -l4
+[98.514s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces
+[98.560s] -- Install configuration: ""
+[98.561s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[98.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.564s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[98.570s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[98.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.571s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[98.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[98.576s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[98.577s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[98.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[98.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[98.578s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[98.585s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[98.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[98.587s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[98.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[98.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[98.588s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[98.589s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[98.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[98.590s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[98.595s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[98.596s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[98.596s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+[98.596s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.597s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.600s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.603s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[98.604s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[98.605s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[98.605s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[98.606s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[98.610s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[98.613s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[98.613s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.614s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.619s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.619s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[98.620s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[98.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[98.623s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[98.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[98.624s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[98.628s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[98.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[98.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[98.629s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[98.629s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[98.629s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[98.630s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.630s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[98.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[98.630s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.630s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+[98.631s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[98.632s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+[98.632s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[98.636s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[98.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[98.637s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[98.638s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[98.638s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[98.642s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.642s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.643s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.643s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[98.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[98.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[98.645s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[98.646s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[98.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[98.646s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[98.646s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.646s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[98.647s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[98.649s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[98.649s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[98.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[98.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[98.650s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[98.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[98.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[98.651s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[98.652s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[98.656s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[98.657s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[98.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[98.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[98.657s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info
+[98.658s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/PKG-INFO
+[98.658s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/SOURCES.txt
+[98.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/dependency_links.txt
+[98.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces-1.2.1-py3.10.egg-info/top_level.txt
+[98.661s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces
+[98.662s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[98.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/libcomposition_interfaces__rosidl_generator_py.so
+[98.665s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node_s.c
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes_s.c
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node_s.c
+[98.666s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py
+[98.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py
+[98.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[98.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py
+[98.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.667s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[98.668s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.668s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[98.981s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces'...
+[98.981s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/__init__.py'...
+[98.982s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv'...
+[98.982s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/__init__.py'...
+[98.982s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_list_nodes.py'...
+[98.982s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_load_node.py'...
+[98.983s] Compiling '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/srv/_unload_node.py'...
+[99.009s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[99.013s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.013s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[99.017s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.024s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[99.024s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/local/lib/python3.10/dist-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[99.025s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[99.032s] -- Set runtime path of "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[99.034s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[99.034s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[99.034s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[99.035s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[99.035s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Request.msg
+[99.038s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/LoadNode_Response.msg
+[99.038s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[99.039s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Request.msg
+[99.039s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/ListNodes_Response.msg
+[99.039s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[99.039s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Request.msg
+[99.039s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode_Response.msg
+[99.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[99.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[99.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[99.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[99.040s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[99.041s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[99.041s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[99.044s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[99.045s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[99.045s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[99.045s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/package.dsv
+[99.045s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[99.045s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[99.046s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[99.046s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[99.051s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[99.056s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[99.056s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[99.056s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[99.057s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[99.057s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[99.057s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[99.057s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[99.057s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[99.058s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[99.058s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[99.074s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[99.074s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[99.074s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[99.074s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[99.075s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[99.075s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.075s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[99.091s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[99.091s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[99.092s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[99.096s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[99.096s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[99.097s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/composition_interfaces/share/composition_interfaces/package.xml
+[99.097s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces:/home/aidan/microros_ws/install/micro_ros_setup:/home/aidan/microros_ws/install/micro_ros_agent:/home/aidan/microros_ws/install/micro_ros_msgs:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/lib:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/composition_interfaces

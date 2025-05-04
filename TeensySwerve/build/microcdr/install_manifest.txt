@@ -1,0 +1,8 @@
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/lib/libmicrocdr.a
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/microcdr.h
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/visibility.h
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/include/ucdr/config.h
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/aidan/GitHub/AidansRepo/TeensySwerve/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
