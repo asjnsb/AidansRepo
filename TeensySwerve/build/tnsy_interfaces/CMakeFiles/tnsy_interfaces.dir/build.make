@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces
+CMAKE_SOURCE_DIR = /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
+CMAKE_BINARY_DIR = /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
 
 # Utility rule file for tnsy_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/tnsy_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/tnsy_interfaces.dir/progress.make
 
-CMakeFiles/tnsy_interfaces: /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces/msg/TnsyController.msg
+CMakeFiles/tnsy_interfaces: /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces/msg/TnsyController.msg
 
 tnsy_interfaces: CMakeFiles/tnsy_interfaces
 tnsy_interfaces: CMakeFiles/tnsy_interfaces.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/tnsy_interfaces.dir/clean:
 .PHONY : CMakeFiles/tnsy_interfaces.dir/clean
 
 CMakeFiles/tnsy_interfaces.dir/depend:
-	cd /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/CMakeFiles/tnsy_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/CMakeFiles/tnsy_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tnsy_interfaces.dir/depend
 

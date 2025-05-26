@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces
+CMAKE_SOURCE_DIR = /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
+CMAKE_BINARY_DIR = /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
 
 # Utility rule file for tnsy_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/tnsy_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/tnsy_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/tnsy_interfaces_uninstall:
-	/usr/bin/cmake -P /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 tnsy_interfaces_uninstall: CMakeFiles/tnsy_interfaces_uninstall
 tnsy_interfaces_uninstall: CMakeFiles/tnsy_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/tnsy_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/tnsy_interfaces_uninstall.dir/clean
 
 CMakeFiles/tnsy_interfaces_uninstall.dir/depend:
-	cd /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/CMakeFiles/tnsy_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/CMakeFiles/tnsy_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tnsy_interfaces_uninstall.dir/depend
 

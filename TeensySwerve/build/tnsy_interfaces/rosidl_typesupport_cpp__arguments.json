@@ -1,9 +1,9 @@
 {
   "package_name": "tnsy_interfaces",
-  "output_dir": "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_typesupport_cpp/tnsy_interfaces",
+  "output_dir": "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_typesupport_cpp/tnsy_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces:msg/TnsyController.idl"
+    "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces:msg/TnsyController.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -12,6 +12,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces/msg/TnsyController.idl"
+    "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces/msg/TnsyController.idl"
   ]
 }

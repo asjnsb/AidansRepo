@@ -1,5 +1,5 @@
 CMakeFiles/tnsy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp.o: \
- /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_typesupport_introspection_cpp/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp \
+ /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_typesupport_introspection_cpp/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/array \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -137,7 +137,7 @@ CMakeFiles/tnsy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_type
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_generator_cpp/tnsy_interfaces/msg/detail/tnsy_controller__struct.hpp \
+ /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_generator_cpp/tnsy_interfaces/msg/detail/tnsy_controller__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

@@ -1,8 +1,8 @@
-# Install script for directory: /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/tnsy_interfaces__py
+# Install script for directory: /home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/tnsy_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -6,6 +6,11 @@ from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
 
+"""
+LAST: filled out the rest of the tnsycontroller message and refactored the timer callback into it's own class.  ...should it be a class or just a method?..
+NEXT: The enable button needs to be a toggle
+"""
+
 class MyNode(LifecycleNode):
       def __init__(self):
             super().__init__("joy_translator_node")
@@ -59,7 +64,7 @@ class MyNode(LifecycleNode):
 
       def timerCallback(self):
             if self.joyMsg: # if the joyMsg contains information, update pub_msg
-                  pub_msg = Controller.update(TnsyController())
+                  pub_msg = Controller.update(Controller(), self.joyMsg) # not sure how to avoid passing Controller() to Controller.update()
                   self.publisher(pub_msg)
             else: # else return an empty message of type TnsyController
                   self.publisher(TnsyController())
@@ -74,8 +79,9 @@ class Controller:
       def __init__(self):
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
             self.enable = False
+            self.pub_msg = TnsyController()
 
-      def update(self, pub_msg = TnsyController()):
+      def update(self, joyMsg):
             """ xbox controller axes:
             0 = left x
             1 = left y
@@ -85,11 +91,11 @@ class Controller:
             5 = right trigger
             """
             # =============Start of axes mapping==================
-            self.lX = MyNode.joyMsg.axes[0]
-            self.lY = MyNode.joyMsg.axes[1]
-            self.rX = MyNode.joyMsg.axes[2]
-            self.rY = MyNode.joyMsg.axes[3]
-            self.throttle = abs(MyNode.joyMsg.axes[5])
+            self.lX = joyMsg.axes[0]
+            self.lY = joyMsg.axes[1]
+            self.rX = joyMsg.axes[2]
+            self.rY = joyMsg.axes[3]
+            self.throttle = abs(joyMsg.axes[5])
 
             leftMagnitude  = np.sqrt(self.lX**2 + self.lY**2)
             rightMagnitude = np.sqrt(self.rX**2 + self.rY**2)
@@ -110,11 +116,11 @@ class Controller:
             else:
                   rightAngle = 0.0
 
-            pub_msg.translation_magnitude = self.throttle*leftMagnitude
-            pub_msg.translation_angle = leftAngle
-            pub_msg.pointing_magnitude = rightMagnitude
-            pub_msg.pointing_angle = rightAngle
-            pub_msg.rotation_speed = self.rX
+            self.pub_msg.translation_magnitude = self.throttle*leftMagnitude
+            self.pub_msg.translation_angle = leftAngle
+            self.pub_msg.pointing_magnitude = rightMagnitude
+            self.pub_msg.pointing_angle = rightAngle
+            self.pub_msg.rotation_speed = self.rX
             # =============End of axes mapping==================
             """ xbox controller buttons
             0 = A
@@ -126,11 +132,11 @@ class Controller:
             6 = Hamburger
             """
             # =============Start of button mapping==================
-            enable = MyNode.joyMsg.buttons[6]
+            enable = joyMsg.buttons[6]
 
-            pub_msg.enable_switch = bool(enable)
+            self.pub_msg.enable_switch = bool(enable)
             # =============End of button mapping==================
-            return(pub_msg)
+            return(self.pub_msg)
 
 def main(args=None):
       # everything between init and shutdown is the node

@@ -1,9 +1,9 @@
 {
   "package_name": "tnsy_interfaces",
-  "output_dir": "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_generator_py/tnsy_interfaces",
+  "output_dir": "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_generator_py/tnsy_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces:msg/TnsyController.idl"
+    "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces:msg/TnsyController.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces/msg/TnsyController.idl"
+    "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces/rosidl_adapter/tnsy_interfaces/msg/TnsyController.idl"
   ]
 }
