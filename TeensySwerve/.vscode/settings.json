@@ -1,3 +1,25 @@
 {
-    "cmake.sourceDirectory": "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces"
+    "cmake.sourceDirectory": "/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_interfaces",
+    "python.autoComplete.extraPaths": [
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller",
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages",
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages",
+        "/home/aidan/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller",
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages",
+        "/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages",
+        "/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages",
+        "/home/aidan/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

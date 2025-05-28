@@ -1,1 +1,6 @@
-/home/aidan/Documents/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/config/tnsy_swrv.yaml
+nameSpace1:
+  joy_node:
+    ros__parameters:
+      device_id: 0
+      deadzone: 0.05
+      autorepeat_rate: 20.0

@@ -8,9 +8,11 @@
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
 #include <std_msgs/msg/string.h>
+#include <tnsy_interfaces/msg/tnsy_controller.h>
 
 rcl_publisher_t publisher;
 std_msgs__msg__String msg;
+tnsy_interfaces__msg__TnsyController tnsymsg;
 
 rclc_executor_t executor;
 rclc_support_t support;
@@ -68,6 +70,11 @@ void setup(){
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
     "/InputPub"));
+
+  // create subscriber
+  RCCHECK(rclc_subscription_init_default(
+    
+  ))
   
   // create timer
   const unsigned int timer_timeout = 1000;

@@ -7,8 +7,8 @@ from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
 
 """
-LAST: filled out the rest of the tnsycontroller message and refactored the timer callback into it's own class.  ...should it be a class or just a method?..
-NEXT: The enable button needs to be a toggle
+LAST: dissolved the controller class into two funcitons of MyNode. Also implemented counters and trackers to enable a
+delay-free toggle button
 """
 
 class MyNode(LifecycleNode):
@@ -19,6 +19,13 @@ class MyNode(LifecycleNode):
             self.sub_ = None
             self.pub_ = None
             self.timer_period = 0.05 # lower is faster
+            self.counter = 0
+            self.counterLimit = 0.5/self.timer_period # n seconds divided by timer period
+            self.tracker = 0
+            self.lastPush = 0
+            self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
+            self.enable = False
+            self.pub_msg = TnsyController()
             #self.get_logger().info("IN constructor")
             
       def on_configure(self, state):
@@ -63,11 +70,21 @@ class MyNode(LifecycleNode):
             return super().on_error(state)
 
       def timerCallback(self):
+            self.counter += 1
             if self.joyMsg: # if the joyMsg contains information, update pub_msg
-                  pub_msg = Controller.update(Controller(), self.joyMsg) # not sure how to avoid passing Controller() to Controller.update()
-                  self.publisher(pub_msg)
+                  self.axesUpdate()
+                  self.buttonUpdate()
+                  self.publisher(self.pub_msg)
+                  
             else: # else return an empty message of type TnsyController
                   self.publisher(TnsyController())
+            
+            if self.counter >= self.counterLimit:
+                  self.counter = 0
+                  self.tracker += 1
+            if self.tracker > (2**30):
+                  self.tracker = 0
+                  self.lastPush = 0
 
       def listener_callback(self, msg):
             self.joyMsg = msg
@@ -75,13 +92,7 @@ class MyNode(LifecycleNode):
       def publisher(self, msg):
             self.pub_.publish(msg)
 
-class Controller:
-      def __init__(self):
-            self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
-            self.enable = False
-            self.pub_msg = TnsyController()
-
-      def update(self, joyMsg):
+      def axesUpdate(self):
             """ xbox controller axes:
             0 = left x
             1 = left y
@@ -91,11 +102,11 @@ class Controller:
             5 = right trigger
             """
             # =============Start of axes mapping==================
-            self.lX = joyMsg.axes[0]
-            self.lY = joyMsg.axes[1]
-            self.rX = joyMsg.axes[2]
-            self.rY = joyMsg.axes[3]
-            self.throttle = abs(joyMsg.axes[5])
+            self.lX = self.joyMsg.axes[0]
+            self.lY = self.joyMsg.axes[1]
+            self.rX = self.joyMsg.axes[2]
+            self.rY = self.joyMsg.axes[3]
+            self.throttle = abs(self.joyMsg.axes[5])
 
             leftMagnitude  = np.sqrt(self.lX**2 + self.lY**2)
             rightMagnitude = np.sqrt(self.rX**2 + self.rY**2)
@@ -110,7 +121,6 @@ class Controller:
                   leftAngle = np.rad2deg(np.arctan2(self.lX, self.lY))
             else:
                   leftAngle  = 0.0
-            
             if rightMagnitude:
                   rightAngle = np.rad2deg(np.arctan2(self.rX, self.rY))
             else:
@@ -122,6 +132,8 @@ class Controller:
             self.pub_msg.pointing_angle = rightAngle
             self.pub_msg.rotation_speed = self.rX
             # =============End of axes mapping==================
+            
+      def buttonUpdate(self):
             """ xbox controller buttons
             0 = A
             1 = B
@@ -132,11 +144,17 @@ class Controller:
             6 = Hamburger
             """
             # =============Start of button mapping==================
-            enable = joyMsg.buttons[6]
+            
+            button = self.joyMsg.buttons[6]
+            if button == 1 and self.lastPush < self.tracker:
+                  self.lastPush = self.tracker
+                  if self.enable == True:
+                        self.enable = False
+                  elif self.enable == False:
+                        self.enable = True
 
-            self.pub_msg.enable_switch = bool(enable)
+            self.pub_msg.enable_switch = self.enable
             # =============End of button mapping==================
-            return(self.pub_msg)
 
 def main(args=None):
       # everything between init and shutdown is the node
