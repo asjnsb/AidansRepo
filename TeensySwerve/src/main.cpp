@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <Motoron.h>
+
 #include <micro_ros_platformio.h>
 #include <micro_ros_utilities/string_utilities.h>
 #include <rcl/rcl.h>
@@ -9,10 +10,10 @@
 #include <std_msgs/msg/string.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
+rcl_publisher_t publisher;
 std_msgs__msg__String msg;
 tnsy_interfaces__msg__TnsyController tnsymsg;
-rcl_publisher_t publisher;
-rcl_subscription_t subscriber;
+
 rclc_executor_t executor;
 rclc_support_t support;
 rcl_allocator_t allocator;
@@ -70,16 +71,11 @@ void setup(){
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
     "/InputPub"));
 
-  const rmw_qos_profile_t *subqos = rcl_subscription_get_actual_qos(&subscriber);
-
   // create subscriber
-  RCCHECK(rclc_subscription_init(
-    &subscriber,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
-    "/tnsy_controller",
-    subqos));
-
+  RCCHECK(rclc_subscription_init_default(
+    
+  ))
+  
   // create timer
   const unsigned int timer_timeout = 1000;
   RCCHECK(rclc_timer_init_default(
