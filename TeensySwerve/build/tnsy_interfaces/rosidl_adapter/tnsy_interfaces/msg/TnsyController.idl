@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tnsy_interfaces/msg/TnsyController.msg
+// generated code does not contain a copyright notice
+
+
+module tnsy_interfaces {
+  module msg {
+    struct TnsyController {
+      @default (value=0.0)
+      float translation_magnitude;
+
+      @default (value=0.0)
+      float translation_angle;
+
+      @default (value=0.0)
+      float pointing_magnitude;
+
+      @default (value=0.0)
+      float pointing_angle;
+
+      @default (value=0.0)
+      float rotation_speed;
+
+      @default (value=FALSE)
+      boolean enable_switch;
+    };
+  };
+};
