@@ -9,6 +9,9 @@
 #include <std_msgs/msg/string.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
+//LAST: finished implementing the subcriber with a callback and misc
+//NEXT: next figure out how to act on the message being recieved. Ie. how do you save msg_tnsy to a variable in such a way that it can be used inside the timer callback.
+
 std_msgs__msg__String msg;
 tnsy_interfaces__msg__TnsyController tnsymsg;
 rcl_publisher_t publisher;
@@ -42,8 +45,13 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     msg.data.size = strlen(msg.data.data);
     RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
 
-
+    
   }
+}
+
+void subscription_callback(const void * msgin){
+	const tnsy_interfaces__msg__TnsyController * msg_tnsy =
+   (const tnsy_interfaces__msg__TnsyController *)msgin;
 }
 
 void setup(){
@@ -63,22 +71,19 @@ void setup(){
   // create node
   RCCHECK(rclc_node_init_default(&node, "InputNode", "", &support));
 
-  // create publisher
+  // create publisher (&publisher, &node, typesupport, topic name)
   RCCHECK(rclc_publisher_init_default(
     &publisher,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
     "/InputPub"));
 
-  const rmw_qos_profile_t *subqos = rcl_subscription_get_actual_qos(&subscriber);
-
-  // create subscriber
-  RCCHECK(rclc_subscription_init(
+  // create subscriber with "reliable" qos. use rclc_subscription_init_best_effort() for "best effort"
+  RCCHECK(rclc_subscription_init_default(
     &subscriber,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
-    "/tnsy_controller",
-    subqos));
+    "/tnsy_controller"));
 
   // create timer
   const unsigned int timer_timeout = 1000;
@@ -91,15 +96,22 @@ void setup(){
   // create executor
   RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
+  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg, subscription_callback, ON_NEW_DATA))
 
-  //Fill the array with a known (nothing?) sequence
+  //Fill the array with a known (nothing?) sequence. (in order to allocate memory for it)
   msg.data.data = (char * ) malloc(200 * sizeof(char));
   msg.data.size = 0;
   msg.data.capacity = 200;
+  
   RCSOFTCHECK(rclc_executor_spin(&executor));
+  
+  RCCHECK(rcl_subscription_fini(&subscriber, &node));
+  RCCHECK(rcl_publisher_fini(&publisher, &node));
+  RCCHECK(rcl_timer_fini(&timer));
+  RCCHECK(rcl_node_fini(&node));
 }
 
 void loop() {
   delay(10000);
-  //RCSOFTCHECK(rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100)));
+  
 }

@@ -43,7 +43,7 @@ class MyNode(LifecycleNode):
       
       def on_activate(self, state):
             #self.get_logger().info("IN on_activate")
-            self.sub_ = self.create_subscription(Joy, 'joy', self.listener_callback, 10)
+            self.sub_ = self.create_subscription(Joy, 'joy', self.subscriber_callback, 10)
             self.timer_.reset()
             # super() is used in order to activate lifecycle publishers
             return super().on_activate(state)
@@ -86,7 +86,7 @@ class MyNode(LifecycleNode):
                   self.tracker = 0
                   self.lastPush = 0
 
-      def listener_callback(self, msg):
+      def subscriber_callback(self, msg):
             self.joyMsg = msg
       
       def publisher(self, msg):
