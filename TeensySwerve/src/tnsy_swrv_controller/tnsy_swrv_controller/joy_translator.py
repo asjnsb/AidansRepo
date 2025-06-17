@@ -20,7 +20,7 @@ class MyNode(LifecycleNode):
             self.pub_ = None
             self.timer_period = 0.05 # lower is faster
             self.counter = 0
-            self.counterLimit = 0.5/self.timer_period # n seconds divided by timer period
+            self.counterLimit = 0.1/self.timer_period # n seconds divided by timer period
             self.tracker = 0
             self.lastPush = 0
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0

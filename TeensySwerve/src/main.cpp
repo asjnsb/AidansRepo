@@ -6,13 +6,15 @@
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
-#include <std_msgs/msg/string.h>
+//#include <std_msgs/msg/string.h>
+#include <std_msgs/msg/float32.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
 //LAST: finished implementing the subcriber with a callback and misc
 //NEXT: next figure out how to act on the message being recieved. Ie. how do you save msg_tnsy to a variable in such a way that it can be used inside the timer callback.
 
-std_msgs__msg__String msg;
+//std_msgs__msg__String msg;
+std_msgs__msg__Float32 floatmsg;
 tnsy_interfaces__msg__TnsyController tnsymsg;
 rcl_publisher_t publisher;
 rcl_subscription_t subscriber;
@@ -35,16 +37,12 @@ void error_loop() {
   }
 }
 
-int counter = 0;
-
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
     // the message must match the message type of the publisher
-    sprintf(msg.data.data, "Look at me! #%d", counter++);
-    msg.data.size = strlen(msg.data.data);
-    RCSOFTCHECK(rcl_publish(&publisher, &msg, NULL));
-
+    floatmsg.data = 0.0;//tnsymsg.translation_magnitude;
+    RCSOFTCHECK(rcl_publish(&publisher, &floatmsg, NULL));
     
   }
 }
@@ -52,6 +50,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
 void subscription_callback(const void * msgin){
 	const tnsy_interfaces__msg__TnsyController * msg_tnsy =
    (const tnsy_interfaces__msg__TnsyController *)msgin;
+  tnsymsg = *msg_tnsy; // copy the message to the global variable tnsymsg
 }
 
 void setup(){
@@ -75,18 +74,18 @@ void setup(){
   RCCHECK(rclc_publisher_init_default(
     &publisher,
     &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
-    "/InputPub"));
+    ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Float32),
+    "/esp32_pub"));
 
   // create subscriber with "reliable" qos. use rclc_subscription_init_best_effort() for "best effort"
   RCCHECK(rclc_subscription_init_default(
     &subscriber,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
-    "/tnsy_controller"));
+    "nameSpace1/tnsy_controller"));
 
   // create timer
-  const unsigned int timer_timeout = 1000;
+  const unsigned int timer_timeout = 500;
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
@@ -96,13 +95,15 @@ void setup(){
   // create executor
   RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &msg, subscription_callback, ON_NEW_DATA))
+  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &floatmsg, subscription_callback, ON_NEW_DATA))
 
   //Fill the array with a known (nothing?) sequence. (in order to allocate memory for it)
-  msg.data.data = (char * ) malloc(200 * sizeof(char));
-  msg.data.size = 0;
-  msg.data.capacity = 200;
+  //msg.data.data = (char * ) malloc(200 * sizeof(char));
+  //msg.data.size = 0;
+  //msg.data.capacity = 200;
   
+  floatmsg.data = 0.0;
+
   RCSOFTCHECK(rclc_executor_spin(&executor));
   
   RCCHECK(rcl_subscription_fini(&subscriber, &node));
