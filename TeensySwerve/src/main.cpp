@@ -6,14 +6,12 @@
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
-//#include <std_msgs/msg/string.h>
 #include <std_msgs/msg/float32.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: finished implementing the subcriber with a callback and misc
-//NEXT: next figure out how to act on the message being recieved. Ie. how do you save msg_tnsy to a variable in such a way that it can be used inside the timer callback.
+//LAST: it wasn't publishing things because I needed to tell the executor that there are two handles
 
-//std_msgs__msg__String msg;
+
 std_msgs__msg__Float32 floatmsg;
 tnsy_interfaces__msg__TnsyController tnsymsg;
 rcl_publisher_t publisher;
@@ -23,6 +21,9 @@ rclc_support_t support;
 rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
+// Define the pins for the Esp32
+const int clockPin = D5;
+const int dataPin = D4;
 
 // Function for easy error handling when initialzing things
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
@@ -41,7 +42,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
     // the message must match the message type of the publisher
-    floatmsg.data = 0.0;//tnsymsg.translation_magnitude;
+    floatmsg.data = tnsymsg.translation_magnitude;
     RCSOFTCHECK(rcl_publish(&publisher, &floatmsg, NULL));
     
   }
@@ -60,6 +61,9 @@ void setup(){
   // Configure serial transport
   Serial.begin(115200);
   set_microros_serial_transports(Serial);
+
+  
+
   delay(100);
 
   allocator = rcl_get_default_allocator();
@@ -93,7 +97,7 @@ void setup(){
     timer_callback));
   
   // create executor
-  RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
+  RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
   RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &floatmsg, subscription_callback, ON_NEW_DATA))
 

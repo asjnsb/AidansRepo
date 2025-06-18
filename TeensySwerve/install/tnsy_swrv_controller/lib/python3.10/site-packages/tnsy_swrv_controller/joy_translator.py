@@ -18,7 +18,7 @@ class MyNode(LifecycleNode):
             self.timer_ = None
             self.sub_ = None
             self.pub_ = None
-            self.timer_period = 0.05 # lower is faster
+            self.timer_period = 0.01 # lower is faster
             self.counter = 0
             self.counterLimit = 0.1/self.timer_period # n seconds divided by timer period
             self.tracker = 0
