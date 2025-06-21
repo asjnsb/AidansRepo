@@ -2,7 +2,6 @@
 #include <Wire.h>
 #include <Motoron.h>
 #include <micro_ros_platformio.h>
-#include <micro_ros_utilities/string_utilities.h>
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
 #include <rclc/executor.h>
@@ -21,9 +20,7 @@ rclc_support_t support;
 rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
-// Define the pins for the Esp32
-const int clockPin = D5;
-const int dataPin = D4;
+MotoronI2C mc;
 
 // Function for easy error handling when initialzing things
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
@@ -33,6 +30,7 @@ const int dataPin = D4;
 // error loop
 void error_loop() {
   // if error occurs, loop forever?
+  // is there a function to soft reset the board?
   while(1){
     delay(100);
   }
@@ -45,6 +43,13 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     floatmsg.data = tnsymsg.translation_magnitude;
     RCSOFTCHECK(rcl_publish(&publisher, &floatmsg, NULL));
     
+    if (millis() & 2048){
+      mc.setSpeed(1,800);
+      mc.setSpeed(2,800);
+    }else{
+      mc.setSpeed(1,-800);
+      mc.setSpeed(2,-800);
+    }
   }
 }
 
@@ -58,11 +63,18 @@ void setup(){
   //i2c setup
   Wire.begin();
 
+  //motoron setup
+  mc.reinitialize();
+  mc.disableCrc();
+  mc.clearResetFlag();
+  mc.setMaxAcceleration(1,150);
+  mc.setMaxDeceleration(1,300);
+  mc.setMaxAcceleration(2,150);
+  mc.setMaxDeceleration(2,300);
+
   // Configure serial transport
   Serial.begin(115200);
   set_microros_serial_transports(Serial);
-
-  
 
   delay(100);
 
@@ -71,7 +83,7 @@ void setup(){
   //create init_options
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
-  // create node
+  // create node (&node, node name, namespace, &support)
   RCCHECK(rclc_node_init_default(&node, "InputNode", "", &support));
 
   // create publisher (&publisher, &node, typesupport, topic name)
@@ -100,11 +112,6 @@ void setup(){
   RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
   RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &floatmsg, subscription_callback, ON_NEW_DATA))
-
-  //Fill the array with a known (nothing?) sequence. (in order to allocate memory for it)
-  //msg.data.data = (char * ) malloc(200 * sizeof(char));
-  //msg.data.size = 0;
-  //msg.data.capacity = 200;
   
   floatmsg.data = 0.0;
 
@@ -118,5 +125,5 @@ void setup(){
 
 void loop() {
   delay(10000);
-  
+  // maybe add stuff here to check if the controller is connected to ROS
 }
