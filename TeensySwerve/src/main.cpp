@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <Wire.h>
+#include <WiFi.h>
 #include <Motoron.h>
 #include <micro_ros_platformio.h>
 #include <rcl/rcl.h>
@@ -7,7 +8,8 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: it wasn't publishing things because I needed to tell the executor that there are two handles
+//LAST: Added WiFi functions.
+//NEXT: ssid and password need to be set still.
 
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
@@ -20,6 +22,8 @@ rcl_timer_t timer;
 MotoronI2C mc;
 // User constants
 const int maxSpeed = 800;
+const char* ssid = "yourSSID"; // replace with your WiFi SSID
+const char* password = "yourPassword"; // replace with your WiFi password
 
 // Function for easy error handling when initialzing things
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
@@ -55,7 +59,17 @@ void configureSerial(){
   set_microros_serial_transports(Serial);
 }
 
+void configureWifi(){
+  // Configure WiFi transport
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+}
+
 void setup(){
+  //User LED setup
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, LOW); // turn off the LED
+
   //i2c setup
   Wire.begin();
 
@@ -70,7 +84,8 @@ void setup(){
   mc.setMaxAcceleration(2,maxAcc);
   mc.setMaxDeceleration(2,maxDec);
 
-  configureSerial();
+  //configureSerial();
+  configureWifi();
 
   delay(100);
 
