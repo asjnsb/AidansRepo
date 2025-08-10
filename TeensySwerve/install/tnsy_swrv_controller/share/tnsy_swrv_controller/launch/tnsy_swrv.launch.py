@@ -48,7 +48,8 @@ def generate_launch_description():
         executable= 'micro_ros_agent',
         name= 'micro_ros_agent',
         output={'stdout':'screen'}, # this line will make the launch file display micro_ros_agent's standard output in the terminal but not the log
-        arguments=['serial', '--dev', '/dev/ttyACM0'],
+        #arguments=['serial', '--dev', '/dev/ttyACM0'],
+        arguments=['udp4', '--port', '8888'],
     )
 
     

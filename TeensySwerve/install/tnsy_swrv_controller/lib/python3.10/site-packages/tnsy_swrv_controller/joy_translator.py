@@ -75,7 +75,6 @@ class MyNode(LifecycleNode):
                   self.axesUpdate()
                   self.buttonUpdate()
                   self.publisher(self.pub_msg)
-                  
             else: # else return an empty message of type TnsyController
                   self.publisher(TnsyController())
             

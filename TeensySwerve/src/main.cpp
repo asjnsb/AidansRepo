@@ -1,6 +1,5 @@
 #include <Arduino.h>
-#include <Wire.h>
-#include <WiFi.h>
+//#include <WiFi.h>
 #include <Motoron.h>
 #include <micro_ros_platformio.h>
 #include <rcl/rcl.h>
@@ -8,8 +7,9 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: Added WiFi functions.
-//NEXT: ssid and password need to be set still.
+//LAST: I don't know if wire.h is compatible with ROS. Trying out this instead: #include <micro_ros_arduino.h>
+//NEXT: Idk if it's working, figure out some reliable way of getting feedback. Probably just setup a publisher.
+//ADDTIONAL: Look into how to do this if the computer is hosting the network.
 
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
@@ -22,8 +22,14 @@ rcl_timer_t timer;
 MotoronI2C mc;
 // User constants
 const int maxSpeed = 800;
-const char* ssid = "yourSSID"; // replace with your WiFi SSID
-const char* password = "yourPassword"; // replace with your WiFi password
+
+// WiFi configuration
+//================================================
+char ssid[] = "LittleMan";
+char password[] = "LittleManPass";
+IPAddress agent_ip(192,168,45,16);
+size_t agent_port = 8888;
+//================================================
 
 // Function for easy error handling when initialzing things
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
@@ -46,6 +52,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     float motorSpeed = (maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
     mc.setSpeed(1, motorSpeed); // set speed for motor 1
     mc.setSpeed(2, motorSpeed); // set speed for motor 2
+
   }
 }
 
@@ -56,19 +63,18 @@ void subscription_callback(const void * msgin){
 void configureSerial(){
   // Configure serial transport
   Serial.begin(115200);
-  set_microros_serial_transports(Serial);
+  //set_microros_serial_transports(Serial);
 }
 
 void configureWifi(){
   // Configure WiFi transport
-  WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, password);
+  set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 }
 
 void setup(){
   //User LED setup
   pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, LOW); // turn off the LED
+  digitalWrite(LED_BUILTIN, HIGH); // turn on the LED
 
   //i2c setup
   Wire.begin();
