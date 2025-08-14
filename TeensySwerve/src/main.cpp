@@ -7,9 +7,8 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: I don't know if wire.h is compatible with ROS. Trying out this instead: #include <micro_ros_arduino.h>
-//NEXT: Idk if it's working, figure out some reliable way of getting feedback. Probably just setup a publisher.
-//ADDTIONAL: Look into how to do this if the computer is hosting the network.
+//LAST: I don't think it's working and I'm beginning to suscpect that I need wifi.h AND micro_ros_platformio.h
+//ADDTIONAL: I want to re-find the post talking about what to do special if I'm using a hotspot, but Gemini thinks it's not special
 
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
@@ -22,12 +21,13 @@ rcl_timer_t timer;
 MotoronI2C mc;
 // User constants
 const int maxSpeed = 800;
+int timer_timeout = 1; // in milliseconds, how often the timer callback is called
 
 // WiFi configuration
 //================================================
 char ssid[] = "LittleMan";
 char password[] = "LittleManPass";
-IPAddress agent_ip(192,168,45,16);
+IPAddress agent_ip(10,42,0,1);
 size_t agent_port = 8888;
 //================================================
 
@@ -111,7 +111,6 @@ void setup(){
     "nameSpace1/tnsy_controller"));
 
   // create timer
-  const unsigned int timer_timeout = 10;
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,

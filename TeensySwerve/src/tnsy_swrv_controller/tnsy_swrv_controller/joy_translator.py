@@ -18,7 +18,7 @@ class MyNode(LifecycleNode):
             self.timer_ = None
             self.sub_ = None
             self.pub_ = None
-            self.timer_period = 0.01 # lower is faster
+            self.timer_period = 0.001 # lower is faster (in Seconds)
             self.counter = 0
             self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time
             self.tracker = 0

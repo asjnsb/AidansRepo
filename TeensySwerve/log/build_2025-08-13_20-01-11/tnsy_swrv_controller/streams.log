@@ -1,0 +1,27 @@
+[1.579s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tnsy_swrv_controller build --build-base /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build install --record /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/install.log --single-version-externally-managed install_data
+[2.077s] running egg_info
+[2.079s] writing ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/PKG-INFO
+[2.079s] writing dependency_links to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/dependency_links.txt
+[2.080s] writing entry points to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/entry_points.txt
+[2.080s] writing requirements to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/requires.txt
+[2.080s] writing top-level names to ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/top_level.txt
+[2.083s] reading manifest file '../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/SOURCES.txt'
+[2.085s] writing manifest file '../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info/SOURCES.txt'
+[2.085s] running build
+[2.085s] running build_py
+[2.086s] copying tnsy_swrv_controller/joy_translator.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller
+[2.086s] running install
+[2.087s] running install_lib
+[2.088s] copying /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build/lib/tnsy_swrv_controller/joy_translator.py -> /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller
+[2.089s] byte-compiling /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller/joy_translator.py to joy_translator.cpython-310.pyc
+[2.091s] running install_data
+[2.091s] running install_egg_info
+[2.096s] removing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.096s] Copying ../../build/tnsy_swrv_controller/tnsy_swrv_controller.egg-info to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages/tnsy_swrv_controller-0.0.0-py3.10.egg-info
+[2.098s] running install_scripts
+[2.138s] Installing joy_translator script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.139s] Installing pub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.139s] Installing sub script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.139s] Installing test_node script to /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/tnsy_swrv_controller
+[2.140s] writing list of installed files to '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/install.log'
+[2.188s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/src/tnsy_swrv_controller' returned '0': PYTHONPATH=/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/prefix_override:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tnsy_swrv_controller build --build-base /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/build install --record /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_swrv_controller/install.log --single-version-externally-managed install_data
