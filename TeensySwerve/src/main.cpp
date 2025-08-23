@@ -1,5 +1,5 @@
 #include <Arduino.h>
-//#include <WiFi.h>
+#include <WiFi.h>
 #include <Motoron.h>
 #include <micro_ros_platformio.h>
 #include <rcl/rcl.h>
@@ -7,9 +7,8 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: I don't think it's working and I'm beginning to suscpect that I need wifi.h AND micro_ros_platformio.h
-//ADDTIONAL: I want to re-find the post talking about what to do special if I'm using a hotspot, but Gemini thinks it's not special
-
+//LAST: Using the builtin led I determined that the system is halting/crashing at set_microros_wifi_transports
+//NEXT: Add some logic to check for wifi connection before set_microros_wifi_transports
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -21,12 +20,15 @@ rcl_timer_t timer;
 MotoronI2C mc;
 // User constants
 const int maxSpeed = 800;
-int timer_timeout = 1; // in milliseconds, how often the timer callback is called
+int timer_timeout = 1; // in milliseconds, how often the timer callback is 
+int counter = 0; // simple counter for the led
 
 // WiFi configuration
 //================================================
 char ssid[] = "LittleMan";
 char password[] = "LittleManPass";
+const char* ssidh = "LittleMan";
+const char* passwordh = "LittleManPass";
 IPAddress agent_ip(10,42,0,1);
 size_t agent_port = 8888;
 //================================================
@@ -35,15 +37,6 @@ size_t agent_port = 8888;
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
 // Same function but doesn't call the error loop
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
-
-// error loop
-void error_loop() {
-  // if error occurs, loop forever?
-  // is there a function to soft reset the board?
-  while(1){
-    delay(100);
-  }
-}
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
@@ -56,28 +49,59 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   }
 }
 
+// error loop
+void error_loop() {
+  // if error occurs, loop forever?
+  // is there a function to soft reset the board?
+  while(1){
+    delay(100);
+  }
+}
+
+void blink_led(int times, int delayTime){
+  for (int i = 0; i < times; i++){
+    digitalWrite(LED_BUILTIN, HIGH);    
+    delay(delayTime);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(delayTime);
+  }
+}
+
 void subscription_callback(const void * msgin){
   //tnsymsg = *msgin; // copy the message to the global variable tnsymsg
 }
 
 void configureSerial(){
   // Configure serial transport
+  Wire.begin();
   Serial.begin(115200);
   //set_microros_serial_transports(Serial);
 }
 
 void configureWifi(){
   // Configure WiFi transport
+  WiFi.mode(WIFI_STA);
+  blink_led(1,200);
+  delay(500);
+  WiFi.begin(ssidh, passwordh);
+  blink_led(1,200);
+  delay(500);
   set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 }
 
 void setup(){
   //User LED setup
   pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, HIGH); // turn on the LED
-
-  //i2c setup
-  Wire.begin();
+  digitalWrite(LED_BUILTIN, LOW); // turn on the LED (active low)
+  
+  blink_led(5,50);
+  delay(500);
+  
+  //configureSerial();
+  configureWifi();
+  
+  blink_led(4,100);
+  delay(500);
 
   //motoron setup
   int maxAcc = 500;
@@ -90,10 +114,8 @@ void setup(){
   mc.setMaxAcceleration(2,maxAcc);
   mc.setMaxDeceleration(2,maxDec);
 
-  //configureSerial();
-  configureWifi();
-
-  delay(100);
+  blink_led(3,150);
+  delay(500);
 
   allocator = rcl_get_default_allocator();
 
@@ -101,7 +123,7 @@ void setup(){
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
   // create node (&node, node name, namespace, &support)
-  RCCHECK(rclc_node_init_default(&node, "InputNode", "", &support));
+  RCCHECK(rclc_node_init_default(&node, "ESP32Node", "", &support));
 
   // create subscriber with "reliable" qos. use rclc_subscription_init_best_effort() for "best effort"
   RCCHECK(rclc_subscription_init_default(
@@ -110,18 +132,22 @@ void setup(){
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
     "nameSpace1/tnsy_controller"));
 
+  blink_led(2,200);
+  delay(500);
+
   // create timer
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
     RCL_MS_TO_NS(timer_timeout),
     timer_callback));
-  
+
   // create executor (&executor, &support context, # of handles, &allocator)
   RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
   RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &tnsymsg, subscription_callback, ON_NEW_DATA));
 
+  blink_led(5,50);
   RCSOFTCHECK(rclc_executor_spin(&executor));
   
   RCCHECK(rcl_subscription_fini(&subscriber, &node));
@@ -130,6 +156,13 @@ void setup(){
 }
 
 void loop() {
-  delay(10000);
+  delay(500);
   // maybe add stuff here to check if the controller is connected to ROS
+  if (counter%2 == 0){
+    digitalWrite(LED_BUILTIN, HIGH);    
+  }
+  else{
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+  counter++;
 }
