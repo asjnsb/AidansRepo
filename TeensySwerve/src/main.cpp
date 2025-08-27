@@ -7,8 +7,8 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
-//LAST: Normal WiFi transport can't find any networks at all, and UDP transport crashes the board
-//NEXT: Investigate why that is
+//LAST: WiFi transport can find networks, but won't connect to them.
+//NEXT: Finish implementing the scanforNetwork function
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -18,11 +18,13 @@ rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
 MotoronI2C mc;
-WiFiUDP udp;
+WiFiSTAClass wifiSTA;
+WiFiGenericClass wifiGEN;
 // User constants
 const int maxSpeed = 800;
 int timer_timeout = 1; // in milliseconds, how often the timer callback is 
 int counter = 0; // simple counter for the led
+int wifistatus = WL_IDLE_STATUS;
 
 // WiFi configuration
 //================================================
@@ -85,35 +87,43 @@ void configureSerial(){
 void configureWiFi(){
   // Configure WiFi transport
   WiFi.mode(WIFI_STA);
-  WiFi.config(local_ip, gateway, subnet);
-  WiFi.begin(ssidh, passwordh);
-  blink_led(1,500);
-  delay(500);
+  //WiFi.config(local_ip, gateway, subnet);
+  wifistatus = WiFi.begin(ssidh, passwordh);
+  blink_led(3,50);
   blink_led(WiFi.scanNetworks(),100);
-  delay(500);
+
   // Wait for connection
-  while (WiFi.status() != WL_CONNECTED) {
+  while (wifistatus != WL_CONNECTED) {
+    wifistatus = WiFi.begin(ssidh, passwordh);
     blink_led(1,200);
     delay(500);
     // Reconnect if connection failed
     if (WiFi.status() == WL_CONNECT_FAILED){
       blink_led(3,50);
       blink_led(WiFi.scanNetworks(),100);
-      WiFi.reconnect();
     }
   }
   set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 }
 
-void configureWiFiUDP(){
-  while (!udp.begin(agent_port)){
-    blink_led(1,200);
-    delay(500);
+bool scanforNetwork(char ssid[]){
+  int n = WiFi.scanNetworks();
+  if (n == 0) {
+      return false;
+
+  } else {
+
+    for (int i = 0; i < n; ++i) {
+      if (WiFi.SSID(i) == ssid){
+        return true;
+      }
+    }
   }
-  set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 }
 
 void setup(){
+  configureSerial();
+
   //User LED setup
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, LOW); // turn on the LED (active low)
@@ -121,7 +131,7 @@ void setup(){
   blink_led(5,50);
   delay(500);
   
-  //configureSerial();
+  scanforNetwork(ssidh);
   configureWiFi();
   
   blink_led(4,100);
