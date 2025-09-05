@@ -8,9 +8,8 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
 //OUTSTANDING: WiFi transport can find networks, but won't connect to them.
-//LAST: Figured out how to deploy to the matrix board and basic neopixel control, but now it blinks red for no reason.
-//ALSO: Serial.println doesn't work
-//NEXT: idk figure this shit out
+//LAST: Discovered that the code is making into the scanforNetwork function, but not all the way through. It also isn't printing to the serial line.
+//NEXT: dunno. it's not necessary that serial.println works but it would be nice
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -68,18 +67,27 @@ void blink_led(int times, int delayTime, String color){
   int b = 0;
   if (color == "red"){
     r = 255;
+    g = 0;
+    b = 0;
   } else if (color == "green"){
+    r = 0;
     g = 255;
+    b = 0;
   } else if (color == "blue"){
+    r = 0;
+    g = 0;
     b = 255;
   } else if (color == "yellow"){
     r = 255;
     g = 255;
+    b = 0;
   } else if (color == "cyan"){
+    r = 0;
     g = 255;
     b = 255;
   } else if (color == "magenta"){
     r = 255;
+    g = 0;
     b = 255;
   } else {
     r = 255;
@@ -88,7 +96,7 @@ void blink_led(int times, int delayTime, String color){
   }
   for (int i = 0; i < times; i++){
     //digitalWrite(LED_BUILTIN, HIGH); 
-    neopixelWrite(PIN_NEOPIXEL, r, g, b);   
+    neopixelWrite(PIN_NEOPIXEL, g, r, b); // idk why but this is the right order
     delay(delayTime);
     //digitalWrite(LED_BUILTIN, LOW);
     neopixelWrite(PIN_NEOPIXEL, 0, 0, 0);
@@ -188,7 +196,8 @@ void WiFiconnect() {
 bool scanforNetwork(const char ssid[]){
   int n = WiFi.scanNetworks();
   if (n == 0) {
-      return false;
+    blink_led(1, 100, "red");
+    return false;
 
   } else if (n > 0) {
     blink_led(1, 100, "green");
@@ -198,6 +207,7 @@ bool scanforNetwork(const char ssid[]){
     for (int i = 0; i < n; ++i) {
       Serial.println(WiFi.SSID(i));
       if (WiFi.SSID(i) == String(ssid)){
+        blink_led(2, 100, "green");
         return true;
       }
     }
