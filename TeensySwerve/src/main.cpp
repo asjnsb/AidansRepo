@@ -8,8 +8,8 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
 //OUTSTANDING: WiFi transport can find networks, but won't connect to them.
-//LAST: Discovered that the code is making into the scanforNetwork function, but not all the way through. It also isn't printing to the serial line.
-//NEXT: dunno. it's not necessary that serial.println works but it would be nice
+//LAST: Discovered that we're getting stuck in the for loop inside scanforNetwork... no idea how that's possible. Memory problems?
+//NEXT: Maybe do the custom partitian file. See if that fixes serial.println too
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -194,20 +194,23 @@ void WiFiconnect() {
 }
 
 bool scanforNetwork(const char ssid[]){
-  int n = WiFi.scanNetworks();
+  int n = 0;
+  n = WiFi.scanNetworks();
   if (n == 0) {
     blink_led(1, 100, "red");
     return false;
 
   } else if (n > 0) {
-    blink_led(1, 100, "green");
+    blink_led(n, 100, "blue");
     Serial.print("There are ");
     Serial.print(n);
     Serial.println(" networks visible");
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
       Serial.println(WiFi.SSID(i));
+      blink_led(i, 50, "yellow");
+      delay(500);
       if (WiFi.SSID(i) == String(ssid)){
-        blink_led(2, 100, "green");
+        blink_led(2, 50, "green");
         return true;
       }
     }
@@ -231,6 +234,7 @@ void setup(){
     blink_led(2,300, "blue");
     delay(500);
   }
+  blink_led(3,50,"blue");
   WiFiconnect();
   
   blink_led(4,100, "green");
