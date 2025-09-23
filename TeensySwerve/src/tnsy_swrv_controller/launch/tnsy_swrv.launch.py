@@ -13,7 +13,7 @@ from launch.substitutions import (EnvironmentVariable, FindExecutable, LaunchCon
 from launch_ros.event_handlers import OnStateTransition
 import lifecycle_msgs.msg
 
-# COLORS for text. Tell me if there's a better way of implementing this
+# I tried to make a separate file for this but it didn't work
 RED    = '\033[31m'
 GREEN  = '\033[32m'
 YELLOW = '\033[33m'
@@ -23,7 +23,6 @@ CYAN   = '\033[36m'
 GRAY   = '\033[37m'
 BLINK  = '\033[5m'
 RESET  = '\033[0m'
-
 
 def generate_launch_description():
     tnsy_params = os.path.join(get_package_share_directory('tnsy_swrv_controller'), 'config', 'tnsy_swrv.yaml')
@@ -49,10 +48,10 @@ def generate_launch_description():
         name= 'micro_ros_agent',
         output={'stdout':'screen'}, # this line will make the launch file display micro_ros_agent's standard output in the terminal but not the log
         #arguments=['serial', '--dev', '/dev/ttyACM0'],
-        arguments=['udp4', '--port', '8888'],
+        arguments=['udp4', '--port', '8888', '--ip', '192.168.1.205'],#, '--subnet', '255.255.0.0'],
     )
 
-    
+
 
     # Make joy_translator take the 'configure' transition
     joy_translator_configure_transition_event = EmitEvent(

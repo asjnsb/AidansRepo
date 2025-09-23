@@ -1,0 +1,144 @@
+[0.026s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces -- -j4 -l4
+[0.145s] [  3%] Built target tnsy_interfaces__cpp
+[0.153s] [ 12%] Built target tnsy_interfaces__rosidl_generator_c
+[0.185s] [ 12%] Built target ament_cmake_python_copy_tnsy_interfaces
+[0.226s] [ 22%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.233s] [ 32%] Built target tnsy_interfaces__rosidl_typesupport_introspection_cpp
+[0.248s] [ 41%] Built target tnsy_interfaces__rosidl_typesupport_cpp
+[0.279s] [ 51%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_c
+[0.300s] [ 61%] Built target tnsy_interfaces__rosidl_typesupport_c
+[0.305s] [ 70%] Built target tnsy_interfaces__rosidl_typesupport_introspection_c
+[0.362s] [ 70%] Built target tnsy_interfaces
+[0.406s] [ 74%] Built target tnsy_interfaces__py
+[0.467s] [ 80%] Built target tnsy_interfaces__rosidl_generator_py
+[0.592s] [ 87%] Built target tnsy_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.610s] [ 93%] Built target tnsy_interfaces__rosidl_typesupport_c__pyext
+[0.615s] [100%] Built target tnsy_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.353s] running egg_info
+[1.355s] writing tnsy_interfaces.egg-info/PKG-INFO
+[1.355s] writing dependency_links to tnsy_interfaces.egg-info/dependency_links.txt
+[1.356s] writing top-level names to tnsy_interfaces.egg-info/top_level.txt
+[1.366s] reading manifest file 'tnsy_interfaces.egg-info/SOURCES.txt'
+[1.368s] writing manifest file 'tnsy_interfaces.egg-info/SOURCES.txt'
+[1.450s] [100%] Built target ament_cmake_python_build_tnsy_interfaces_egg
+[1.475s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --build /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces -- -j4 -l4
+[1.668s] Invoking command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
+[1.689s] -- Install configuration: ""
+[1.689s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/rosidl_interfaces/tnsy_interfaces
+[1.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/tnsy_controller.h
+[1.690s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__struct.h
+[1.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__functions.h
+[1.691s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__functions.c
+[1.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.h
+[1.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/library_path.sh
+[1.692s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/library_path.dsv
+[1.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_c.so
+[1.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.693s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.696s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.697s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.697s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_fastrtps_c.h
+[1.697s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.697s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.698s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.698s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.698s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_introspection_c.h
+[1.698s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.c
+[1.700s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.701s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_c.so
+[1.704s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_c.so
+[1.705s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.708s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.709s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/tnsy_controller.hpp
+[1.709s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.709s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__traits.hpp
+[1.709s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.hpp
+[1.709s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__builder.hpp
+[1.710s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__struct.hpp
+[1.710s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.710s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.712s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.713s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.715s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/dds_fastrtps
+[1.715s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[1.716s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.718s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces
+[1.718s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg
+[1.719s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail
+[1.719s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__type_support.cpp
+[1.724s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/include/tnsy_interfaces/tnsy_interfaces/msg/detail/tnsy_controller__rosidl_typesupport_introspection_cpp.hpp
+[1.725s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.725s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_typesupport_cpp.so
+[1.725s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/pythonpath.sh
+[1.725s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/pythonpath.dsv
+[1.726s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info
+[1.726s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.729s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.729s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.730s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.730s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces
+[1.731s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.731s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_c.c
+[1.731s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/__init__.py
+[1.731s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg
+[1.731s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/_tnsy_controller.py
+[1.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/__init__.py
+[1.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg/_tnsy_controller_s.c
+[1.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/libtnsy_interfaces__rosidl_generator_py.so
+[1.732s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.733s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/_tnsy_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.733s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.816s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces'...
+[1.817s] Listing '/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/msg'...
+[1.833s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.834s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.835s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/local/lib/python3.10/dist-packages/tnsy_interfaces/tnsy_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.835s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/lib/libtnsy_interfaces__rosidl_generator_py.so
+[1.836s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/msg/TnsyController.idl
+[1.836s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/msg/TnsyController.msg
+[1.836s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/package_run_dependencies/tnsy_interfaces
+[1.837s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/parent_prefix_path/tnsy_interfaces
+[1.837s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/ament_prefix_path.sh
+[1.838s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/ament_prefix_path.dsv
+[1.838s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/path.sh
+[1.839s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/environment/path.dsv
+[1.840s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.bash
+[1.843s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.sh
+[1.843s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.zsh
+[1.843s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/local_setup.dsv
+[1.843s] -- Installing: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/package.dsv
+[1.844s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/ament_index/resource_index/packages/tnsy_interfaces
+[1.844s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cExport.cmake
+[1.844s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.844s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.852s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.853s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cExport.cmake
+[1.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_cppExport.cmake
+[1.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.855s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cppExport.cmake
+[1.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.856s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_pyExport.cmake
+[1.857s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/export_tnsy_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.857s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.857s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.865s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.866s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.867s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.867s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.868s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.868s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfacesConfig.cmake
+[1.869s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/cmake/tnsy_interfacesConfig-version.cmake
+[1.870s] -- Up-to-date: /home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_interfaces/share/tnsy_interfaces/package.xml
+[1.875s] Invoked command in '/home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aidan/GitHub/AidansRepo/TeensySwerve/install/tnsy_swrv_controller:/opt/ros/humble /usr/bin/cmake --install /home/aidan/GitHub/AidansRepo/TeensySwerve/build/tnsy_interfaces
