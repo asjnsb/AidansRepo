@@ -8,7 +8,9 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
 
-//LAST: the matrix board will connect to FBISurveillance van, but not the hotspot
+//LAST: Turns out my laptop didn't have the hardware to be an access point
+//ALSO: It will connect to TeensyHotspot but microros is not being setup properly
+//NEXT: 
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -65,6 +67,7 @@ void setup(){
   }*/
   
   WiFiconnect();
+  //delay(10000); // wait for WiFi to settle
 
   //motoron setup
   int maxAcc = 500;
@@ -77,7 +80,10 @@ void setup(){
   mc.setMaxAcceleration(2,maxAcc);
   mc.setMaxDeceleration(2,maxDec);
 
-  blink_led(3,150, "cyan");
+  //set_microros_serial_transports(Serial);
+  set_microros_wifi_transports(ssidh, passwordh, agent_ip, agent_port);
+
+  blink_led(1,150, "cyan");
   delay(500);
 
   allocator = rcl_get_default_allocator();
@@ -85,8 +91,14 @@ void setup(){
   //create init_options
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
+  blink_led(1,150, "green");
+  delay(500);
+
   // create node (&node, node name, namespace, &support)
   RCCHECK(rclc_node_init_default(&node, "ESP32Node", "", &support));
+
+  blink_led(2,150, "green");
+  delay(500);
 
   // create subscriber with "reliable" qos. use rclc_subscription_init_best_effort() for "best effort"
   RCCHECK(rclc_subscription_init_default(
@@ -95,12 +107,18 @@ void setup(){
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
     "nameSpace1/tnsy_controller"));
 
+  blink_led(3,150, "green");
+  delay(500);
+
   // create timer
   RCCHECK(rclc_timer_init_default(
     &timer,
     &support,
     RCL_MS_TO_NS(timer_timeout),
     timer_callback));
+  
+  blink_led(4,150, "green");
+  delay(500);
 
   // create executor (&executor, &support context, # of handles, &allocator)
   RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
@@ -173,7 +191,6 @@ void configureSerial(){
   // Configure serial transport
   Wire.begin();
   Serial.begin(115200);
-  //set_microros_serial_transports(Serial);
 }
 
 void WiFiconnect() {
@@ -183,7 +200,11 @@ void WiFiconnect() {
   WiFi.disconnect();
 
   WiFi.mode(WIFI_STA);
-  //WiFi.config(local_ip, gateway, subnet);
+  /*if (!WiFi.config(local_ip, gateway, subnet)){
+    Serial.println("STA Failed to configure");
+  } else {
+    Serial.println("STA configured");
+  }*/
   
   wifistatus = WiFi.begin(ssidh, passwordh);
 
@@ -215,12 +236,18 @@ void WiFiconnect() {
     oldwifistatus = wifistatus;
   }while(wifistatus != WL_CONNECTED);
   
-  Serial.println("\nWi-Fi connected successfully!");
-  Serial.print("IP Address: ");
+  /*Serial.println("\nWi-Fi connected successfully!");
+  Serial.print("Local IP: ");
   Serial.println(WiFi.localIP());
+  Serial.print("Gateway: ");
+  Serial.println(WiFi.gatewayIP());
+  Serial.print("Subnet: ");
+  Serial.println(WiFi.subnetMask());
+  Serial.print("Free heap: ");
+  Serial.println(ESP.getFreeHeap());*/
 
-  // Set up the Micro-ROS transport
-  set_microros_wifi_transports(ssidh, passwordh, agent_ip, agent_port);
+  delay(1500);
+
   blink_led(3, 50, "green"); // Blink to indicate success
 }
 

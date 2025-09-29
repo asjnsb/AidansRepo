@@ -51,7 +51,7 @@ def generate_launch_description():
         arguments=['udp4', '--port', '8888', '--ip', '192.168.1.205', '--subnet', '255.255.0.0'],
     )
 
-    
+
 
     # Make joy_translator take the 'configure' transition
     joy_translator_configure_transition_event = EmitEvent(
