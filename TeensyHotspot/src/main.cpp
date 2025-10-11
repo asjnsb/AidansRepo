@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
+#include <Udp.h>
 
 // WiFi configuration
 //================================================
@@ -7,15 +8,16 @@ const char* ssid = "TeensyHotspot";
 const char* password = "TeensyPass";
 //================================================
 
-// put function declarations here:
-void blink_led(int times, int delayTime);
+// Function prototypes
+//void blink_led(int times, int delayTime);
 void WiFiconnect();
 String wifiStatusString(int status);
 
 void setup() {
+  delay(3000);
   pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(115200);
-  blink_led(8, 125);
+  blink_led(2, 125);
   Serial.println("Hello Teensy World");
 
   WiFiconnect();
@@ -24,6 +26,10 @@ void setup() {
 
 void loop() {
   blink_led(1, 1000);
+
+  String wifiStatus = wifiStatusString(WiFi.status());
+
+  Serial.println("WiFi Status: " + wifiStatus);
 }
 
 void blink_led(int times, int delayTime){
@@ -42,6 +48,7 @@ void WiFiconnect() {
   WiFi.disconnect();
 
   WiFi.mode(WIFI_AP);  
+
   if(WiFi.softAP(ssid, password)){
     Serial.println("AP Created Successfully");
     blink_led(3, 50);
@@ -50,7 +57,7 @@ void WiFiconnect() {
     blink_led(20,50);
     ESP.restart();
   }
-
+  
   IPAddress myIP = WiFi.softAPIP();
 
   Serial.println("Starting "+ String(ssid));
