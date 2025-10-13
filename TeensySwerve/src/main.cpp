@@ -8,7 +8,8 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
 
-//LAST: everything is connecting to teensyhotspot, but the esp32 is still not getting through to microros
+//LAST: IT FUCKING WORKS ON THE HOME NETWORK
+//everything is connecting to teensyhotspot, but the esp32 is still not getting through to microros
 //ALSO: just tried max_app_4MB.csv and that's not working either (suspecting a memory problem)
 //NEXT: read the copilot output again 
 
@@ -29,11 +30,11 @@ int timer_timeout = 1; // in milliseconds, how often the timer callback is
 
 // WiFi configuration
 //================================================
-const char ssid[] = "TeensyHotspot";
-const char password[] = "TeensyPass";
-char* ssidh = "TeensyHotspot";
-char* passwordh = "TeensyPass";
-IPAddress agent_ip(169,254,192,108);//192,168,1,205);
+const char ssid[] = "FBISurveillanceVan#23";//"TeensyHotspot";
+const char password[] = "m@xsT0pT0uchingTh@T";//"TeensyPass";
+char* ssidh = "FBISurveillanceVan#23";//"TeensyHotspot";
+char* passwordh = "m@xsT0pT0uchingTh@T";//"TeensyPass";
+IPAddress agent_ip(192,168,1,210);//(169,254,192,108);
 uint16_t agent_port = 8888;
 IPAddress local_ip(192,168,1,123);
 IPAddress gateway(192,168,1,1);
@@ -85,8 +86,6 @@ void setup(){
   blink_led(1,150, "cyan");
   delay(500);
 
-  Serial.print("Free heap: ");
-  Serial.println(ESP.getFreeHeap());
 
   RCCHECK(rmw_uros_ping_agent(100,10));
   /*rmw_ret_t ping = rmw_uros_ping_agent(100, 10);
@@ -98,8 +97,6 @@ void setup(){
     esp_restart();
   }*/
 
-  Serial.print("Free heap: ");
-  Serial.println(ESP.getFreeHeap());
 
   allocator = rcl_get_default_allocator();
 
@@ -257,16 +254,6 @@ void WiFiconnect() {
 
     oldwifistatus = wifistatus;
   }while(wifistatus != WL_CONNECTED);
-  
-  //Serial.println("\nWi-Fi connected successfully!");
-  Serial.print("Local IP: ");
-  Serial.println(WiFi.localIP());
-  Serial.print("Gateway: ");
-  Serial.println(WiFi.gatewayIP());
-  Serial.print("Subnet: ");
-  Serial.println(WiFi.subnetMask());
-  Serial.print("Free heap: ");
-  Serial.println(ESP.getFreeHeap());
 
   delay(1500);
   Serial.println();
