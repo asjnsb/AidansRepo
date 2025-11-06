@@ -95,6 +95,15 @@ bool tnsy_interfaces__msg__tnsy_controller__convert_from_py(PyObject * _pymsg, v
     ros_message->rotation_speed = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // weapon_speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "weapon_speed");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->weapon_speed = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
   {  // enable_switch
     PyObject * field = PyObject_GetAttrString(_pymsg, "enable_switch");
     if (!field) {
@@ -102,6 +111,42 @@ bool tnsy_interfaces__msg__tnsy_controller__convert_from_py(PyObject * _pymsg, v
     }
     assert(PyBool_Check(field));
     ros_message->enable_switch = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // button_one
+    PyObject * field = PyObject_GetAttrString(_pymsg, "button_one");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->button_one = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // button_two
+    PyObject * field = PyObject_GetAttrString(_pymsg, "button_two");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->button_two = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // button_three
+    PyObject * field = PyObject_GetAttrString(_pymsg, "button_three");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->button_three = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // button_four
+    PyObject * field = PyObject_GetAttrString(_pymsg, "button_four");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->button_four = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -181,11 +226,66 @@ PyObject * tnsy_interfaces__msg__tnsy_controller__convert_to_py(void * raw_ros_m
       }
     }
   }
+  {  // weapon_speed
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->weapon_speed);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "weapon_speed", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // enable_switch
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->enable_switch ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "enable_switch", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // button_one
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->button_one ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "button_one", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // button_two
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->button_two ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "button_two", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // button_three
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->button_three ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "button_three", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // button_four
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->button_four ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "button_four", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

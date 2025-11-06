@@ -27,8 +27,18 @@ tnsy_interfaces__msg__TnsyController__init(tnsy_interfaces__msg__TnsyController 
   msg->pointing_angle = 0.0f;
   // rotation_speed
   msg->rotation_speed = 0.0f;
+  // weapon_speed
+  msg->weapon_speed = 0.0f;
   // enable_switch
   msg->enable_switch = false;
+  // button_one
+  msg->button_one = false;
+  // button_two
+  msg->button_two = false;
+  // button_three
+  msg->button_three = false;
+  // button_four
+  msg->button_four = false;
   return true;
 }
 
@@ -43,7 +53,12 @@ tnsy_interfaces__msg__TnsyController__fini(tnsy_interfaces__msg__TnsyController 
   // pointing_magnitude
   // pointing_angle
   // rotation_speed
+  // weapon_speed
   // enable_switch
+  // button_one
+  // button_two
+  // button_three
+  // button_four
 }
 
 bool
@@ -72,8 +87,28 @@ tnsy_interfaces__msg__TnsyController__are_equal(const tnsy_interfaces__msg__Tnsy
   if (lhs->rotation_speed != rhs->rotation_speed) {
     return false;
   }
+  // weapon_speed
+  if (lhs->weapon_speed != rhs->weapon_speed) {
+    return false;
+  }
   // enable_switch
   if (lhs->enable_switch != rhs->enable_switch) {
+    return false;
+  }
+  // button_one
+  if (lhs->button_one != rhs->button_one) {
+    return false;
+  }
+  // button_two
+  if (lhs->button_two != rhs->button_two) {
+    return false;
+  }
+  // button_three
+  if (lhs->button_three != rhs->button_three) {
+    return false;
+  }
+  // button_four
+  if (lhs->button_four != rhs->button_four) {
     return false;
   }
   return true;
@@ -97,8 +132,18 @@ tnsy_interfaces__msg__TnsyController__copy(
   output->pointing_angle = input->pointing_angle;
   // rotation_speed
   output->rotation_speed = input->rotation_speed;
+  // weapon_speed
+  output->weapon_speed = input->weapon_speed;
   // enable_switch
   output->enable_switch = input->enable_switch;
+  // button_one
+  output->button_one = input->button_one;
+  // button_two
+  output->button_two = input->button_two;
+  // button_three
+  output->button_three = input->button_three;
+  // button_four
+  output->button_four = input->button_four;
   return true;
 }
 

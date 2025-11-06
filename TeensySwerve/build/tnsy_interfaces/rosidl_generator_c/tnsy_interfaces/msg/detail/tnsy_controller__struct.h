@@ -25,7 +25,12 @@ typedef struct tnsy_interfaces__msg__TnsyController
   float pointing_magnitude;
   float pointing_angle;
   float rotation_speed;
+  float weapon_speed;
   bool enable_switch;
+  bool button_one;
+  bool button_two;
+  bool button_three;
+  bool button_four;
 } tnsy_interfaces__msg__TnsyController;
 
 // Struct for a sequence of tnsy_interfaces__msg__TnsyController.

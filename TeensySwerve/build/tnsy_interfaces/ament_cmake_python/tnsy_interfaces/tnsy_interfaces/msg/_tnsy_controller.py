@@ -55,7 +55,12 @@ class Metaclass_TnsyController(type):
             'POINTING_MAGNITUDE__DEFAULT': 0.0,
             'POINTING_ANGLE__DEFAULT': 0.0,
             'ROTATION_SPEED__DEFAULT': 0.0,
+            'WEAPON_SPEED__DEFAULT': 0.0,
             'ENABLE_SWITCH__DEFAULT': False,
+            'BUTTON_ONE__DEFAULT': False,
+            'BUTTON_TWO__DEFAULT': False,
+            'BUTTON_THREE__DEFAULT': False,
+            'BUTTON_FOUR__DEFAULT': False,
         }
 
     @property
@@ -84,8 +89,33 @@ class Metaclass_TnsyController(type):
         return 0.0
 
     @property
+    def WEAPON_SPEED__DEFAULT(cls):
+        """Return default value for message field 'weapon_speed'."""
+        return 0.0
+
+    @property
     def ENABLE_SWITCH__DEFAULT(cls):
         """Return default value for message field 'enable_switch'."""
+        return False
+
+    @property
+    def BUTTON_ONE__DEFAULT(cls):
+        """Return default value for message field 'button_one'."""
+        return False
+
+    @property
+    def BUTTON_TWO__DEFAULT(cls):
+        """Return default value for message field 'button_two'."""
+        return False
+
+    @property
+    def BUTTON_THREE__DEFAULT(cls):
+        """Return default value for message field 'button_three'."""
+        return False
+
+    @property
+    def BUTTON_FOUR__DEFAULT(cls):
+        """Return default value for message field 'button_four'."""
         return False
 
 
@@ -98,7 +128,12 @@ class TnsyController(metaclass=Metaclass_TnsyController):
         '_pointing_magnitude',
         '_pointing_angle',
         '_rotation_speed',
+        '_weapon_speed',
         '_enable_switch',
+        '_button_one',
+        '_button_two',
+        '_button_three',
+        '_button_four',
     ]
 
     _fields_and_field_types = {
@@ -107,7 +142,12 @@ class TnsyController(metaclass=Metaclass_TnsyController):
         'pointing_magnitude': 'float',
         'pointing_angle': 'float',
         'rotation_speed': 'float',
+        'weapon_speed': 'float',
         'enable_switch': 'boolean',
+        'button_one': 'boolean',
+        'button_two': 'boolean',
+        'button_three': 'boolean',
+        'button_four': 'boolean',
     }
 
     SLOT_TYPES = (
@@ -116,6 +156,11 @@ class TnsyController(metaclass=Metaclass_TnsyController):
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
@@ -133,8 +178,18 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             'pointing_angle', TnsyController.POINTING_ANGLE__DEFAULT)
         self.rotation_speed = kwargs.get(
             'rotation_speed', TnsyController.ROTATION_SPEED__DEFAULT)
+        self.weapon_speed = kwargs.get(
+            'weapon_speed', TnsyController.WEAPON_SPEED__DEFAULT)
         self.enable_switch = kwargs.get(
             'enable_switch', TnsyController.ENABLE_SWITCH__DEFAULT)
+        self.button_one = kwargs.get(
+            'button_one', TnsyController.BUTTON_ONE__DEFAULT)
+        self.button_two = kwargs.get(
+            'button_two', TnsyController.BUTTON_TWO__DEFAULT)
+        self.button_three = kwargs.get(
+            'button_three', TnsyController.BUTTON_THREE__DEFAULT)
+        self.button_four = kwargs.get(
+            'button_four', TnsyController.BUTTON_FOUR__DEFAULT)
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -175,7 +230,17 @@ class TnsyController(metaclass=Metaclass_TnsyController):
             return False
         if self.rotation_speed != other.rotation_speed:
             return False
+        if self.weapon_speed != other.weapon_speed:
+            return False
         if self.enable_switch != other.enable_switch:
+            return False
+        if self.button_one != other.button_one:
+            return False
+        if self.button_two != other.button_two:
+            return False
+        if self.button_three != other.button_three:
+            return False
+        if self.button_four != other.button_four:
             return False
         return True
 
@@ -260,6 +325,21 @@ class TnsyController(metaclass=Metaclass_TnsyController):
         self._rotation_speed = value
 
     @builtins.property
+    def weapon_speed(self):
+        """Message field 'weapon_speed'."""
+        return self._weapon_speed
+
+    @weapon_speed.setter
+    def weapon_speed(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'weapon_speed' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 'weapon_speed' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._weapon_speed = value
+
+    @builtins.property
     def enable_switch(self):
         """Message field 'enable_switch'."""
         return self._enable_switch
@@ -271,3 +351,55 @@ class TnsyController(metaclass=Metaclass_TnsyController):
                 isinstance(value, bool), \
                 "The 'enable_switch' field must be of type 'bool'"
         self._enable_switch = value
+
+    @builtins.property
+    def button_one(self):
+        """Message field 'button_one'."""
+        return self._button_one
+
+    @button_one.setter
+    def button_one(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'button_one' field must be of type 'bool'"
+        self._button_one = value
+
+    @builtins.property
+    def button_two(self):
+        """Message field 'button_two'."""
+        return self._button_two
+
+    @button_two.setter
+    def button_two(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'button_two' field must be of type 'bool'"
+        self._button_two = value
+
+    @builtins.property
+    def button_three(self):
+        """Message field 'button_three'."""
+        return self._button_three
+
+    @button_three.setter
+    def button_three(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'button_three' field must be of type 'bool'"
+        self._button_three = value
+
+    @builtins.property
+    def button_four(self):
+        """Message field 'button_four'."""
+        return self._button_four
+
+    @button_four.setter
+    def button_four(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'button_four' field must be of type 'bool'"
+        self._button_four = value

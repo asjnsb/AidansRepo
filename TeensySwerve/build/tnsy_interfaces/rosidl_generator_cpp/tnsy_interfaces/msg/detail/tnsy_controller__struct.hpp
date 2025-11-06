@@ -43,14 +43,24 @@ struct TnsyController_
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->weapon_speed = 0.0f;
       this->enable_switch = false;
+      this->button_one = false;
+      this->button_two = false;
+      this->button_three = false;
+      this->button_four = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->weapon_speed = 0.0f;
       this->enable_switch = false;
+      this->button_one = false;
+      this->button_two = false;
+      this->button_three = false;
+      this->button_four = false;
     }
   }
 
@@ -65,14 +75,24 @@ struct TnsyController_
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->weapon_speed = 0.0f;
       this->enable_switch = false;
+      this->button_one = false;
+      this->button_two = false;
+      this->button_three = false;
+      this->button_four = false;
     } else if (rosidl_runtime_cpp::MessageInitialization::ZERO == _init) {
       this->translation_magnitude = 0.0f;
       this->translation_angle = 0.0f;
       this->pointing_magnitude = 0.0f;
       this->pointing_angle = 0.0f;
       this->rotation_speed = 0.0f;
+      this->weapon_speed = 0.0f;
       this->enable_switch = false;
+      this->button_one = false;
+      this->button_two = false;
+      this->button_three = false;
+      this->button_four = false;
     }
   }
 
@@ -92,9 +112,24 @@ struct TnsyController_
   using _rotation_speed_type =
     float;
   _rotation_speed_type rotation_speed;
+  using _weapon_speed_type =
+    float;
+  _weapon_speed_type weapon_speed;
   using _enable_switch_type =
     bool;
   _enable_switch_type enable_switch;
+  using _button_one_type =
+    bool;
+  _button_one_type button_one;
+  using _button_two_type =
+    bool;
+  _button_two_type button_two;
+  using _button_three_type =
+    bool;
+  _button_three_type button_three;
+  using _button_four_type =
+    bool;
+  _button_four_type button_four;
 
   // setters for named parameter idiom
   Type & set__translation_magnitude(
@@ -127,10 +162,40 @@ struct TnsyController_
     this->rotation_speed = _arg;
     return *this;
   }
+  Type & set__weapon_speed(
+    const float & _arg)
+  {
+    this->weapon_speed = _arg;
+    return *this;
+  }
   Type & set__enable_switch(
     const bool & _arg)
   {
     this->enable_switch = _arg;
+    return *this;
+  }
+  Type & set__button_one(
+    const bool & _arg)
+  {
+    this->button_one = _arg;
+    return *this;
+  }
+  Type & set__button_two(
+    const bool & _arg)
+  {
+    this->button_two = _arg;
+    return *this;
+  }
+  Type & set__button_three(
+    const bool & _arg)
+  {
+    this->button_three = _arg;
+    return *this;
+  }
+  Type & set__button_four(
+    const bool & _arg)
+  {
+    this->button_four = _arg;
     return *this;
   }
 
@@ -191,7 +256,22 @@ struct TnsyController_
     if (this->rotation_speed != other.rotation_speed) {
       return false;
     }
+    if (this->weapon_speed != other.weapon_speed) {
+      return false;
+    }
     if (this->enable_switch != other.enable_switch) {
+      return false;
+    }
+    if (this->button_one != other.button_one) {
+      return false;
+    }
+    if (this->button_two != other.button_two) {
+      return false;
+    }
+    if (this->button_three != other.button_three) {
+      return false;
+    }
+    if (this->button_four != other.button_four) {
       return false;
     }
     return true;

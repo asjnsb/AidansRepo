@@ -60,10 +60,45 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
+  // member: weapon_speed
+  {
+    out << "weapon_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.weapon_speed, out);
+    out << ", ";
+  }
+
   // member: enable_switch
   {
     out << "enable_switch: ";
     rosidl_generator_traits::value_to_yaml(msg.enable_switch, out);
+    out << ", ";
+  }
+
+  // member: button_one
+  {
+    out << "button_one: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_one, out);
+    out << ", ";
+  }
+
+  // member: button_two
+  {
+    out << "button_two: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_two, out);
+    out << ", ";
+  }
+
+  // member: button_three
+  {
+    out << "button_three: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_three, out);
+    out << ", ";
+  }
+
+  // member: button_four
+  {
+    out << "button_four: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_four, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -122,6 +157,16 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
+  // member: weapon_speed
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "weapon_speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.weapon_speed, out);
+    out << "\n";
+  }
+
   // member: enable_switch
   {
     if (indentation > 0) {
@@ -129,6 +174,46 @@ inline void to_block_style_yaml(
     }
     out << "enable_switch: ";
     rosidl_generator_traits::value_to_yaml(msg.enable_switch, out);
+    out << "\n";
+  }
+
+  // member: button_one
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "button_one: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_one, out);
+    out << "\n";
+  }
+
+  // member: button_two
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "button_two: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_two, out);
+    out << "\n";
+  }
+
+  // member: button_three
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "button_three: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_three, out);
+    out << "\n";
+  }
+
+  // member: button_four
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "button_four: ";
+    rosidl_generator_traits::value_to_yaml(msg.button_four, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

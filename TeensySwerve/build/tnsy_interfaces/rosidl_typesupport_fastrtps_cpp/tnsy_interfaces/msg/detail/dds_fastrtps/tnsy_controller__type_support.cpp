@@ -42,8 +42,18 @@ cdr_serialize(
   cdr << ros_message.pointing_angle;
   // Member: rotation_speed
   cdr << ros_message.rotation_speed;
+  // Member: weapon_speed
+  cdr << ros_message.weapon_speed;
   // Member: enable_switch
   cdr << (ros_message.enable_switch ? true : false);
+  // Member: button_one
+  cdr << (ros_message.button_one ? true : false);
+  // Member: button_two
+  cdr << (ros_message.button_two ? true : false);
+  // Member: button_three
+  cdr << (ros_message.button_three ? true : false);
+  // Member: button_four
+  cdr << (ros_message.button_four ? true : false);
   return true;
 }
 
@@ -68,11 +78,42 @@ cdr_deserialize(
   // Member: rotation_speed
   cdr >> ros_message.rotation_speed;
 
+  // Member: weapon_speed
+  cdr >> ros_message.weapon_speed;
+
   // Member: enable_switch
   {
     uint8_t tmp;
     cdr >> tmp;
     ros_message.enable_switch = tmp ? true : false;
+  }
+
+  // Member: button_one
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.button_one = tmp ? true : false;
+  }
+
+  // Member: button_two
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.button_two = tmp ? true : false;
+  }
+
+  // Member: button_three
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.button_three = tmp ? true : false;
+  }
+
+  // Member: button_four
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.button_four = tmp ? true : false;
   }
 
   return true;
@@ -121,9 +162,39 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: weapon_speed
+  {
+    size_t item_size = sizeof(ros_message.weapon_speed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // Member: enable_switch
   {
     size_t item_size = sizeof(ros_message.enable_switch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: button_one
+  {
+    size_t item_size = sizeof(ros_message.button_one);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: button_two
+  {
+    size_t item_size = sizeof(ros_message.button_two);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: button_three
+  {
+    size_t item_size = sizeof(ros_message.button_three);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: button_four
+  {
+    size_t item_size = sizeof(ros_message.button_four);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -196,7 +267,48 @@ max_serialized_size_TnsyController(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
+  // Member: weapon_speed
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   // Member: enable_switch
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: button_one
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: button_two
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: button_three
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: button_four
   {
     size_t array_size = 1;
 
@@ -212,7 +324,7 @@ max_serialized_size_TnsyController(
     using DataType = tnsy_interfaces::msg::TnsyController;
     is_plain =
       (
-      offsetof(DataType, enable_switch) +
+      offsetof(DataType, button_four) +
       last_member_size
       ) == ret_val;
   }

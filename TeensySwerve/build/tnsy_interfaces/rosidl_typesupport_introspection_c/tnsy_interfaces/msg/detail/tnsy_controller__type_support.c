@@ -31,7 +31,7 @@ void tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__T
   tnsy_interfaces__msg__TnsyController__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__TnsyController_message_member_array[6] = {
+static rosidl_typesupport_introspection_c__MessageMember tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__TnsyController_message_member_array[11] = {
   {
     "translation_magnitude",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -118,6 +118,23 @@ static rosidl_typesupport_introspection_c__MessageMember tnsy_interfaces__msg__T
     NULL  // resize(index) function pointer
   },
   {
+    "weapon_speed",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tnsy_interfaces__msg__TnsyController, weapon_speed),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
     "enable_switch",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
@@ -133,13 +150,81 @@ static rosidl_typesupport_introspection_c__MessageMember tnsy_interfaces__msg__T
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "button_one",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tnsy_interfaces__msg__TnsyController, button_one),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "button_two",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tnsy_interfaces__msg__TnsyController, button_two),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "button_three",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tnsy_interfaces__msg__TnsyController, button_three),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "button_four",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tnsy_interfaces__msg__TnsyController, button_four),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__TnsyController_message_members = {
   "tnsy_interfaces__msg",  // message namespace
   "TnsyController",  // message name
-  6,  // number of fields
+  11,  // number of fields
   sizeof(tnsy_interfaces__msg__TnsyController),
   tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__TnsyController_message_member_array,  // message members
   tnsy_interfaces__msg__TnsyController__rosidl_typesupport_introspection_c__TnsyController_init_function,  // function to initialize message memory (memory has to be allocated)

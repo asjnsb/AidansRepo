@@ -74,9 +74,34 @@ static bool _TnsyController__cdr_serialize(
     cdr << ros_message->rotation_speed;
   }
 
+  // Field name: weapon_speed
+  {
+    cdr << ros_message->weapon_speed;
+  }
+
   // Field name: enable_switch
   {
     cdr << (ros_message->enable_switch ? true : false);
+  }
+
+  // Field name: button_one
+  {
+    cdr << (ros_message->button_one ? true : false);
+  }
+
+  // Field name: button_two
+  {
+    cdr << (ros_message->button_two ? true : false);
+  }
+
+  // Field name: button_three
+  {
+    cdr << (ros_message->button_three ? true : false);
+  }
+
+  // Field name: button_four
+  {
+    cdr << (ros_message->button_four ? true : false);
   }
 
   return true;
@@ -116,11 +141,44 @@ static bool _TnsyController__cdr_deserialize(
     cdr >> ros_message->rotation_speed;
   }
 
+  // Field name: weapon_speed
+  {
+    cdr >> ros_message->weapon_speed;
+  }
+
   // Field name: enable_switch
   {
     uint8_t tmp;
     cdr >> tmp;
     ros_message->enable_switch = tmp ? true : false;
+  }
+
+  // Field name: button_one
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->button_one = tmp ? true : false;
+  }
+
+  // Field name: button_two
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->button_two = tmp ? true : false;
+  }
+
+  // Field name: button_three
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->button_three = tmp ? true : false;
+  }
+
+  // Field name: button_four
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->button_four = tmp ? true : false;
   }
 
   return true;
@@ -170,9 +228,39 @@ size_t get_serialized_size_tnsy_interfaces__msg__TnsyController(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // field.name weapon_speed
+  {
+    size_t item_size = sizeof(ros_message->weapon_speed);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // field.name enable_switch
   {
     size_t item_size = sizeof(ros_message->enable_switch);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name button_one
+  {
+    size_t item_size = sizeof(ros_message->button_one);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name button_two
+  {
+    size_t item_size = sizeof(ros_message->button_two);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name button_three
+  {
+    size_t item_size = sizeof(ros_message->button_three);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name button_four
+  {
+    size_t item_size = sizeof(ros_message->button_four);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -245,7 +333,43 @@ size_t max_serialized_size_tnsy_interfaces__msg__TnsyController(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
+  // member: weapon_speed
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
   // member: enable_switch
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: button_one
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: button_two
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: button_three
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: button_four
   {
     size_t array_size = 1;
 
@@ -261,7 +385,7 @@ size_t max_serialized_size_tnsy_interfaces__msg__TnsyController(
     using DataType = tnsy_interfaces__msg__TnsyController;
     is_plain =
       (
-      offsetof(DataType, enable_switch) +
+      offsetof(DataType, button_four) +
       last_member_size
       ) == ret_val;
   }

@@ -7,8 +7,7 @@ from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
 
 """
-LAST: dissolved the controller class into two funcitons of MyNode. Also implemented counters and trackers to enable a
-delay-free toggle button
+LAST: added more buttons and a toggle button function
 """
 
 class MyNode(LifecycleNode):
@@ -20,11 +19,12 @@ class MyNode(LifecycleNode):
             self.pub_ = None
             self.timer_period = 0.001 # lower is faster (in Seconds)
             self.counter = 0
-            self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time
+            self.counterLimit = 0.5/self.timer_period # n seconds divided by timer period sets the de-bounce time
             self.tracker = 0
-            self.lastPush = 0
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
-            self.enable = False
+            numberOfButtons = 7
+            self.lastPush = [0] * numberOfButtons # this allows all buttons to be toggles if desired
+            self.toggles = [False] * numberOfButtons 
             self.pub_msg = TnsyController()
             #self.get_logger().info("IN constructor")
             
@@ -92,20 +92,20 @@ class MyNode(LifecycleNode):
             self.pub_.publish(msg)
 
       def axesUpdate(self):
-            """ xbox controller axes:
-            0 = left x
-            1 = left y
-            2 = right x
-            3 = right y
-            4 = left trigger
-            5 = right trigger
-            """
+            # xbox controller axes:
+            left_x = 0
+            left_y = 1
+            right_x = 2
+            right_y = 3
+            left_trigger = 4
+            right_trigger = 5
             # =============Start of axes mapping==================
-            self.lX = self.joyMsg.axes[0]
-            self.lY = self.joyMsg.axes[1]
-            self.rX = self.joyMsg.axes[2]
-            self.rY = self.joyMsg.axes[3]
-            self.throttle = abs(self.joyMsg.axes[5])
+            self.lX = self.joyMsg.axes[left_x]
+            self.lY = self.joyMsg.axes[left_y]
+            self.rX = self.joyMsg.axes[right_x]
+            self.rY = self.joyMsg.axes[right_y]
+            self.weapon = abs(self.joyMsg.axes[left_trigger])
+            self.throttle = abs(self.joyMsg.axes[right_trigger])
 
             leftMagnitude  = np.sqrt(self.lX**2 + self.lY**2)
             rightMagnitude = np.sqrt(self.rX**2 + self.rY**2)
@@ -125,13 +125,14 @@ class MyNode(LifecycleNode):
             else:
                   rightAngle = 0.0
 
+            self.pub_msg.weapon_speed = self.weapon
             self.pub_msg.translation_magnitude = self.throttle*leftMagnitude
             self.pub_msg.translation_angle = leftAngle
             self.pub_msg.pointing_magnitude = rightMagnitude
             self.pub_msg.pointing_angle = rightAngle
             self.pub_msg.rotation_speed = self.rX
-            # =============End of axes mapping==================
-            
+            # =============End of axes mapping==================            
+                  
       def buttonUpdate(self):
             """ xbox controller buttons
             0 = A
@@ -142,18 +143,32 @@ class MyNode(LifecycleNode):
             5 = ?
             6 = Hamburger
             """
-            # =============Start of button mapping==================
+            A_button = 0
+            B_button = 1
+            X_button = 2
+            Y_button = 3
+            pizzaBox_button = 4
+            hamburger_button = 6
             
-            button = self.joyMsg.buttons[6]
-            if button == 1 and self.lastPush < self.tracker:
-                  self.lastPush = self.tracker
-                  if self.enable == True:
-                        self.enable = False
-                  elif self.enable == False:
-                        self.enable = True
-
-            self.pub_msg.enable_switch = self.enable
+            # =============Start of button mapping==================
+            # Momentary buttons
+            self.pub_msg.button_one = bool(self.joyMsg.buttons[A_button])
+            # Toggle Buttons
+            self.pub_msg.button_two = self.toggleButton(B_button)
+            self.pub_msg.button_three = self.toggleButton(X_button)
+            self.pub_msg.button_four = self.toggleButton(Y_button)
+            self.pub_msg.enable_switch = self.toggleButton(hamburger_button)
             # =============End of button mapping==================
+
+      def toggleButton(self, button):
+            if self.joyMsg.buttons[button] == 1 and self.lastPush[button] < self.tracker:
+                  self.lastPush[button] = self.tracker
+                  if self.toggles[button] == True:
+                        self.toggles[button] = False
+                  elif self.toggles[button] == False:
+                        self.toggles[button] = True
+
+            return self.toggles[button]
 
 def main(args=None):
       # everything between init and shutdown is the node

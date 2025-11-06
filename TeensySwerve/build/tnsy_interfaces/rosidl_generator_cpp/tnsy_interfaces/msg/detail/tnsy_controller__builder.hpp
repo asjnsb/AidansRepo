@@ -21,16 +21,96 @@ namespace msg
 namespace builder
 {
 
+class Init_TnsyController_button_four
+{
+public:
+  explicit Init_TnsyController_button_four(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  ::tnsy_interfaces::msg::TnsyController button_four(::tnsy_interfaces::msg::TnsyController::_button_four_type arg)
+  {
+    msg_.button_four = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
+class Init_TnsyController_button_three
+{
+public:
+  explicit Init_TnsyController_button_three(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  Init_TnsyController_button_four button_three(::tnsy_interfaces::msg::TnsyController::_button_three_type arg)
+  {
+    msg_.button_three = std::move(arg);
+    return Init_TnsyController_button_four(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
+class Init_TnsyController_button_two
+{
+public:
+  explicit Init_TnsyController_button_two(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  Init_TnsyController_button_three button_two(::tnsy_interfaces::msg::TnsyController::_button_two_type arg)
+  {
+    msg_.button_two = std::move(arg);
+    return Init_TnsyController_button_three(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
+class Init_TnsyController_button_one
+{
+public:
+  explicit Init_TnsyController_button_one(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  Init_TnsyController_button_two button_one(::tnsy_interfaces::msg::TnsyController::_button_one_type arg)
+  {
+    msg_.button_one = std::move(arg);
+    return Init_TnsyController_button_two(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
 class Init_TnsyController_enable_switch
 {
 public:
   explicit Init_TnsyController_enable_switch(::tnsy_interfaces::msg::TnsyController & msg)
   : msg_(msg)
   {}
-  ::tnsy_interfaces::msg::TnsyController enable_switch(::tnsy_interfaces::msg::TnsyController::_enable_switch_type arg)
+  Init_TnsyController_button_one enable_switch(::tnsy_interfaces::msg::TnsyController::_enable_switch_type arg)
   {
     msg_.enable_switch = std::move(arg);
-    return std::move(msg_);
+    return Init_TnsyController_button_one(msg_);
+  }
+
+private:
+  ::tnsy_interfaces::msg::TnsyController msg_;
+};
+
+class Init_TnsyController_weapon_speed
+{
+public:
+  explicit Init_TnsyController_weapon_speed(::tnsy_interfaces::msg::TnsyController & msg)
+  : msg_(msg)
+  {}
+  Init_TnsyController_enable_switch weapon_speed(::tnsy_interfaces::msg::TnsyController::_weapon_speed_type arg)
+  {
+    msg_.weapon_speed = std::move(arg);
+    return Init_TnsyController_enable_switch(msg_);
   }
 
 private:
@@ -43,10 +123,10 @@ public:
   explicit Init_TnsyController_rotation_speed(::tnsy_interfaces::msg::TnsyController & msg)
   : msg_(msg)
   {}
-  Init_TnsyController_enable_switch rotation_speed(::tnsy_interfaces::msg::TnsyController::_rotation_speed_type arg)
+  Init_TnsyController_weapon_speed rotation_speed(::tnsy_interfaces::msg::TnsyController::_rotation_speed_type arg)
   {
     msg_.rotation_speed = std::move(arg);
-    return Init_TnsyController_enable_switch(msg_);
+    return Init_TnsyController_weapon_speed(msg_);
   }
 
 private:

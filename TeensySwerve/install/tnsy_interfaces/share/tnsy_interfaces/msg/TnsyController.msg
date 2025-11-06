@@ -3,4 +3,9 @@ float32 translation_angle 0.0
 float32 pointing_magnitude 0.0
 float32 pointing_angle 0.0
 float32 rotation_speed 0.0
+float32 weapon_speed 0.0
 bool enable_switch 0
+bool button_one 0
+bool button_two 0
+bool button_three 0
+bool button_four 0

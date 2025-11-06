@@ -8,9 +8,10 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
 
-//LAST: IT FUCKING WORKS! On fbisurveillancevan#23 and when using my phone as a hotspot, but not with the xiao.
-//NEXT: CELEBRATE!
-//ALSO: Add in actual functionality. Maybe a chasing led to test how fast the loop can run? Also reminder about microros modes
+//LAST: The motors don't work. the PWM one is constantly resetting and the i2c one claims it isn't receiving communication
+//PWM: the constant resetting could be the PWM signal being interrupted constantly, and I need to send a constant signal that I modify instead
+//I2C: I think this is working now, I just need to get the board to react to changes in the joy commands
+//ALSO: need to make sure the robot fails safe
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 rcl_subscription_t subscriber;
@@ -23,13 +24,22 @@ MotoronI2C mc;
 
 // User constants
 const int maxSpeed = 800;
-int timer_timeout = 1; // in milliseconds, how often the timer callback is 
+const int maxWeaponSpeed = 255; // 0-255 is full range?
+const int minWeaponSpeed = 0; // this might be a value if the controller is in bi-directional mode
+int timer_timeout = 0.1; // in milliseconds, how often the timer callback is 
+const int motorChannel_BigTwo = 33;
+const int motorChannel_BigOne = 34;
+#define I2C_SCL 1
+#define I2C_SDA 2
+//I don't think these are needed
+//const int pwmFrequency = 4000000; //40 MHz is the max I believe
+//const int pwmResolution = 16; //16 bit is the max I believe
 
 // WiFi configuration
 //================================================
 char* ssid = "TeensyHotspot";//"FBISurveillanceVan#23";
 char* password = "TeensyPass";//"m@xsT0pT0uchingTh@T";
-IPAddress agent_ip(192,168,4,4);
+IPAddress agent_ip(10,206,72,34);
 uint16_t agent_port = 8888;
 //================================================
 
@@ -68,10 +78,11 @@ void setup(){
   mc.setMaxAcceleration(2,maxAcc);
   mc.setMaxDeceleration(2,maxDec);
 
-  blink_led(1,150, "cyan");
-  delay(500);
 
-  RCCHECK(rmw_uros_ping_agent(100,10));
+  blink_led(1,150, "cyan");
+
+
+  RCCHECK(rmw_uros_ping_agent(100, 10)); // (delay between attempts in ms, number of attempts)
 
   allocator = rcl_get_default_allocator();
 
@@ -112,19 +123,44 @@ void loop() {
 }
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
-  
-  
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
-    // main timer area
-    float motorSpeed = (maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
-    mc.setSpeed(1, motorSpeed); // set speed for motor 1
-    mc.setSpeed(2, motorSpeed); // set speed for motor 2
 
+    // main timer area
+    if (tnsymsg.enable_switch){
+      neopixelWrite(14, 255, 0, 0);// (g, r, b)
+      // not sure if these sin & cos are correct
+      float motorSpeedOne = (maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
+      float motorSpeedTwo = (maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+      
+      int motorBigSpeedOne = 0;
+      int motorBigSpeedTwo = 0;
+
+      if(tnsymsg.button_one){
+        motorBigSpeedOne = maxWeaponSpeed;
+        motorBigSpeedTwo = 0;
+      }else{
+        motorBigSpeedOne = tnsymsg.weapon_speed * maxWeaponSpeed;
+        motorBigSpeedTwo = tnsymsg.weapon_speed * maxWeaponSpeed;
+      }
+
+      mc.setSpeed(1, motorSpeedOne);
+      //mc.setSpeed(2, motorSpeedTwo);
+      analogWrite(motorChannel_BigOne, motorBigSpeedOne);
+      analogWrite(motorChannel_BigTwo, motorBigSpeedTwo);
+
+    }else{
+      neopixelWrite(14, 0, 255, 0); // (g, r, b)
+      mc.setSpeed(1, 0);
+      //mc.setSpeed(2, 0);
+      analogWrite(motorChannel_BigOne, minWeaponSpeed);
+      analogWrite(motorChannel_BigTwo, minWeaponSpeed);
+    }
   }
 }
 
 void subscription_callback(const void * msgin){
+  // This doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
   //tnsymsg = *msgin; // copy the message to the global variable tnsymsg
 }
 
@@ -164,7 +200,7 @@ String wifiStatusString(uint8_t status){
 
 void configureSerial(){
   // Configure serial transport
-  Wire.begin();
+  Wire.begin(I2C_SDA, I2C_SCL);
   Serial.begin(115200);
 }
 
