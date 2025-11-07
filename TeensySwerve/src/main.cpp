@@ -8,13 +8,15 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
 
-//LAST: The motors don't work. the PWM one is constantly resetting and the i2c one claims it isn't receiving communication
-//PWM: the constant resetting could be the PWM signal being interrupted constantly, and I need to send a constant signal that I modify instead
-//I2C: I think this is working now, I just need to get the board to react to changes in the joy commands
+//LAST: Was having a problem where the loop was running too fast. Also I need a better router
+//PWM: doesn't work :(
+//I2C: Works for one motor, make it work for two
 //ALSO: need to make sure the robot fails safe
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
+tnsy_interfaces__msg__TnsyController statusmsg = *tnsy_interfaces__msg__TnsyController__create();
 rcl_subscription_t subscriber;
+rcl_publisher_t publisher;
 rclc_executor_t executor;
 rclc_support_t support;
 rcl_allocator_t allocator;
@@ -26,7 +28,7 @@ MotoronI2C mc;
 const int maxSpeed = 800;
 const int maxWeaponSpeed = 255; // 0-255 is full range?
 const int minWeaponSpeed = 0; // this might be a value if the controller is in bi-directional mode
-int timer_timeout = 0.1; // in milliseconds, how often the timer callback is 
+int timer_timeout = 5; // in milliseconds, how often the timer callback is 
 const int motorChannel_BigTwo = 33;
 const int motorChannel_BigOne = 34;
 #define I2C_SCL 1
@@ -78,6 +80,14 @@ void setup(){
   mc.setMaxAcceleration(2,maxAcc);
   mc.setMaxDeceleration(2,maxDec);
 
+  //PWM Setup
+  ledcAttachPin(motorChannel_BigOne, 0); //attach the pin to channel 0
+  ledcSetup(0, 40000, 8); //channel 0, 40kHz frequency, 8 bit resolution
+  ledcAttachPin(motorChannel_BigTwo, 1); //attach the pin to channel 1
+  ledcSetup(1, 40000, 8); //channel 1, 40kHz frequency, 8 bit resolution
+  ledcWrite(motorChannel_BigOne, minWeaponSpeed); //initialize
+  ledcWrite(motorChannel_BigTwo, minWeaponSpeed); //initialize
+
 
   blink_led(1,150, "cyan");
 
@@ -85,6 +95,7 @@ void setup(){
   RCCHECK(rmw_uros_ping_agent(100, 10)); // (delay between attempts in ms, number of attempts)
 
   allocator = rcl_get_default_allocator();
+  //const rosidl_message_type_support_t * TnsyControllerTypeSupport = ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController);
 
   //create init_options
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
@@ -96,6 +107,12 @@ void setup(){
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
     "nameSpace1/tnsy_controller"));
+  /*/ create publisher
+  RCCHECK(rclc_publisher_init_default(
+    &publisher,
+    &node,
+    ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
+    "tnsy_status"));*/
   // create timer
   RCCHECK(rclc_timer_init_default(
     &timer,
@@ -105,7 +122,8 @@ void setup(){
   // create executor (&executor, &support context, # of handles, &allocator)
   RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
-  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &tnsymsg, subscription_callback, ON_NEW_DATA));
+  RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &tnsymsg, &subscription_callback, ON_NEW_DATA));
+  
 
 
 
@@ -125,10 +143,11 @@ void loop() {
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
   if (timer != NULL) {
-
     // main timer area
+    int intensity = 5+(tnsymsg.weapon_speed * 250);
+
     if (tnsymsg.enable_switch){
-      neopixelWrite(14, 255, 0, 0);// (g, r, b)
+      neopixelWrite(14, intensity, 0, 0);// (g, r, b)
       // not sure if these sin & cos are correct
       float motorSpeedOne = (maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
       float motorSpeedTwo = (maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
@@ -146,22 +165,37 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
 
       mc.setSpeed(1, motorSpeedOne);
       //mc.setSpeed(2, motorSpeedTwo);
-      analogWrite(motorChannel_BigOne, motorBigSpeedOne);
-      analogWrite(motorChannel_BigTwo, motorBigSpeedTwo);
+      // Channel 0 = big motor one | Channel 1 = big motor two
+      ledcWrite(0, motorBigSpeedOne);
+      ledcWrite(1, motorBigSpeedTwo);
 
     }else{
-      neopixelWrite(14, 0, 255, 0); // (g, r, b)
+      neopixelWrite(14, 0, intensity, 0); // (g, r, b)
       mc.setSpeed(1, 0);
       //mc.setSpeed(2, 0);
-      analogWrite(motorChannel_BigOne, minWeaponSpeed);
-      analogWrite(motorChannel_BigTwo, minWeaponSpeed);
+      ledcWrite(0, minWeaponSpeed);
+      ledcWrite(1, minWeaponSpeed);
     }
+    
+    /*rcl_ret_t publishResponse = rcl_publish(&publisher, &statusmsg, NULL);
+    if (publishResponse == RCL_RET_INVALID_ARGUMENT){
+      blink_led(1, 50, "red");
+    } else if (publishResponse == RCL_RET_PUBLISHER_INVALID){
+      blink_led(1,50,"magenta");
+    } else if (publishResponse == RCL_RET_ERROR){
+      error_loop();
+    }*/
+    /*if (rmw_uros_ping_agent(1, 10) == RMW_RET_OK){
+      neopixelWrite(14, 255, 0, 0);
+    } else {
+      neopixelWrite(14, 0, 255, 0);
+    }*/
   }
 }
 
 void subscription_callback(const void * msgin){
-  // This doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
-  //tnsymsg = *msgin; // copy the message to the global variable tnsymsg
+  // I think this doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
+  //const tnsy_interfaces__msg__TnsyController * tnsymsg = (tnsy_interfaces__msg__TnsyController *) msgin; // copy the message to the global variable tnsymsg
 }
 
 // error loop
