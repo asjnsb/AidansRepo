@@ -6,9 +6,6 @@ from rclpy.lifecycle import LifecycleNode
 from sensor_msgs.msg import Joy
 from tnsy_interfaces.msg._tnsy_controller import TnsyController
 
-"""
-LAST: added more buttons and a toggle button function
-"""
 
 class MyNode(LifecycleNode):
       def __init__(self):
@@ -19,18 +16,20 @@ class MyNode(LifecycleNode):
             self.pub_ = None
             self.timer_period = 0.001 # lower is faster (in Seconds)
             self.counter = 0
-            self.counterLimit = 0.5/self.timer_period # n seconds divided by timer period sets the de-bounce time
+            self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time
             self.tracker = 0
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
             numberOfButtons = 7
             self.lastPush = [0] * numberOfButtons # this allows all buttons to be toggles if desired
             self.toggles = [False] * numberOfButtons 
             self.pub_msg = TnsyController()
+            self.qosQueueSize = 1
             #self.get_logger().info("IN constructor")
             
       def on_configure(self, state):
             #self.get_logger().info("IN on_configure")
-            self.pub_ = self.create_lifecycle_publisher(TnsyController, 'tnsy_controller', 10)
+            #self.pub_ = self.create_publisher(TnsyController, 'tnsy_controller', 'Best effort')
+            self.pub_ = self.create_lifecycle_publisher(TnsyController, 'tnsy_controller', self.qosQueueSize)
             self.timer_ = self.create_timer(self.timer_period, self.timerCallback)
             self.timer_.cancel()
             return super().on_configure(state)

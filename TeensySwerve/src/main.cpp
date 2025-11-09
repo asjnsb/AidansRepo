@@ -7,11 +7,12 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
+//#include <ESP32Servo.h>
 
-//LAST: Was having a problem where the loop was running too fast. Also I need a better router
-//PWM: doesn't work :(
-//I2C: Works for one motor, make it work for two
-//ALSO: need to make sure the robot fails safe
+//LAST:I2C hasn't been working, disabled for now. Trying a new platform w/ LEDC. The new platform is worse.
+//WHAT: it goes through all the blinks just fine, but the timer callback doesn't seem to be working... or maybe the subscriber?
+//NEXT: test if the timer callback is working by adding a blink in there
+//ALSO: need to make sure the robot fails safe.
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 tnsy_interfaces__msg__TnsyController statusmsg = *tnsy_interfaces__msg__TnsyController__create();
@@ -26,16 +27,26 @@ MotoronI2C mc;
 
 // User constants
 const int maxSpeed = 800;
-const int maxWeaponSpeed = 255; // 0-255 is full range?
-const int minWeaponSpeed = 0; // this might be a value if the controller is in bi-directional mode
+const int pwmMax = 255;
+const int pwmMin = 127;
+const int maxWeaponSpeed = 2000; // 8bit = 0-255
+const int minWeaponSpeed = 0;//pwmMin + ((pwmMax-pwmMin)/2); // this might be a value if the controller is in bi-directional mode
 int timer_timeout = 5; // in milliseconds, how often the timer callback is 
-const int motorChannel_BigTwo = 33;
-const int motorChannel_BigOne = 34;
 #define I2C_SCL 1
 #define I2C_SDA 2
-//I don't think these are needed
-//const int pwmFrequency = 4000000; //40 MHz is the max I believe
-//const int pwmResolution = 16; //16 bit is the max I believe
+int intensity = 0;
+uint16_t motorSpeedOne = 0;
+uint16_t motorSpeedTwo = 0;
+int motorPin_BigOne = 33;
+int motorPin_BigTwo = 34;
+int motorBigSpeedOne = 0;
+int motorBigSpeedOne_Old = motorBigSpeedOne;
+int motorBigSpeedTwo = 0;
+int motorBigSpeedTwo_Old = motorBigSpeedTwo;
+int pwmFrequency = 50; //In Hz. 40 MHz is the max I believe
+uint8_t pwmResolution = 8; //16 bit is the max I believe
+//Servo motorBigOneServo;
+//Servo motorBigTwoServo;
 
 // WiFi configuration
 //================================================
@@ -62,7 +73,6 @@ void setup(){
   
   blink_led(5,50, "white");
   Serial.println("Hello Tnsy World");
-  delay(500);
   
   WiFiconnect();
   
@@ -72,27 +82,43 @@ void setup(){
   //motoron setup
   int maxAcc = 500;
   int maxDec = 1000;
-  mc.reinitialize();
-  mc.disableCrc();
-  mc.clearResetFlag();
-  mc.setMaxAcceleration(1,maxAcc);
-  mc.setMaxDeceleration(1,maxDec);
-  mc.setMaxAcceleration(2,maxAcc);
-  mc.setMaxDeceleration(2,maxDec);
+  //mc.reinitialize();
+  //mc.disableCrc();
+  //mc.clearResetFlag();
+  //mc.setMaxAcceleration(1,maxAcc);
+  //mc.setMaxDeceleration(1,maxDec);
+  //mc.setMaxAcceleration(2,maxAcc);
+  //mc.setMaxDeceleration(2,maxDec);
 
+  blink_led(1,50, "cyan");
   //PWM Setup
-  ledcAttachPin(motorChannel_BigOne, 0); //attach the pin to channel 0
-  ledcSetup(0, 40000, 8); //channel 0, 40kHz frequency, 8 bit resolution
-  ledcAttachPin(motorChannel_BigTwo, 1); //attach the pin to channel 1
-  ledcSetup(1, 40000, 8); //channel 1, 40kHz frequency, 8 bit resolution
-  ledcWrite(motorChannel_BigOne, minWeaponSpeed); //initialize
-  ledcWrite(motorChannel_BigTwo, minWeaponSpeed); //initialize
+  //MOTOR ONE
+  ledcAttach(motorPin_BigOne, pwmFrequency, pwmResolution); //attach the pin to channel 0
+  ledcWrite(motorPin_BigOne, minWeaponSpeed); //initialize*/
+  //MOTOR TWO
+  ledcAttach(motorPin_BigTwo, pwmFrequency, pwmResolution); //attach the pin to channel 0
+  ledcWrite(motorPin_BigTwo, minWeaponSpeed); //initialize*/
+  
+
+  //==== SERVO ATTACHING =====
+  //ESP32PWM::allocateTimer(0);
+  //motorBigOneServo.setPeriodHertz(pwmFrequency);
+  //motorBigOneServo.setTimerWidth(16);
+  //motorBigOneServo.attach(motorPin_BigOne, minWeaponSpeed, maxWeaponSpeed);
+  //
+  //motorBigTwoServo.setPeriodHertz(pwmFrequency);
+  //motorBigTwoServo.setTimerWidth(16);
+  //motorBigTwoServo.attach(motorPin_BigTwo, minWeaponSpeed, maxWeaponSpeed);
+  
 
 
-  blink_led(1,150, "cyan");
+  blink_led(1,50, "cyan");
 
-
-  RCCHECK(rmw_uros_ping_agent(100, 10)); // (delay between attempts in ms, number of attempts)
+  // (delay between attempts in ms, number of attempts)
+  while(rmw_uros_ping_agent(100, 10)){
+    Serial.println("Pinging Agent...");
+    blink_led(1,150, "magenta");
+  } 
 
   allocator = rcl_get_default_allocator();
   //const rosidl_message_type_support_t * TnsyControllerTypeSupport = ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController);
@@ -102,7 +128,7 @@ void setup(){
   // create node (&node, node name, namespace, &support)
   RCCHECK(rclc_node_init_default(&node, "ESP32Node", "", &support));
   // create subscriber with "reliable" qos. use rclc_subscription_init_best_effort() for "best effort"
-  RCCHECK(rclc_subscription_init_default(
+  RCCHECK(rclc_subscription_init_best_effort(
     &subscriber,
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
@@ -129,7 +155,7 @@ void setup(){
 
   blink_led(5,50, "green");
   Serial.println("Spinning Executor");
-  RCSOFTCHECK(rclc_executor_spin(&executor));
+  RCCHECK(rclc_executor_spin(&executor));
   
   RCCHECK(rcl_subscription_fini(&subscriber, &node));
   RCCHECK(rcl_timer_fini(&timer));
@@ -142,40 +168,39 @@ void loop() {
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
-  if (timer != NULL) {
+  //maybe move all the tsnymsg queries to the front to speed them up? (by assigning variables to them)
+
+  if (timer) {
     // main timer area
-    int intensity = 5+(tnsymsg.weapon_speed * 250);
+    intensity = 5+(tnsymsg.weapon_speed * 250);
 
     if (tnsymsg.enable_switch){
+
       neopixelWrite(14, intensity, 0, 0);// (g, r, b)
+      //neopixelWrite(15, 0, intensity, 0);
       // not sure if these sin & cos are correct
-      float motorSpeedOne = (maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
-      float motorSpeedTwo = (maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+      motorSpeedOne = tnsymsg.translation_magnitude;//(maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
+      motorSpeedTwo = tnsymsg.translation_magnitude; //(maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+
+      motorBigSpeedOne = (tnsymsg.weapon_speed * maxWeaponSpeed)+minWeaponSpeed;
       
-      int motorBigSpeedOne = 0;
-      int motorBigSpeedTwo = 0;
-
-      if(tnsymsg.button_one){
-        motorBigSpeedOne = maxWeaponSpeed;
-        motorBigSpeedTwo = 0;
-      }else{
-        motorBigSpeedOne = tnsymsg.weapon_speed * maxWeaponSpeed;
-        motorBigSpeedTwo = tnsymsg.weapon_speed * maxWeaponSpeed;
-      }
-
-      mc.setSpeed(1, motorSpeedOne);
-      //mc.setSpeed(2, motorSpeedTwo);
-      // Channel 0 = big motor one | Channel 1 = big motor two
-      ledcWrite(0, motorBigSpeedOne);
-      ledcWrite(1, motorBigSpeedTwo);
 
     }else{
       neopixelWrite(14, 0, intensity, 0); // (g, r, b)
-      mc.setSpeed(1, 0);
-      //mc.setSpeed(2, 0);
-      ledcWrite(0, minWeaponSpeed);
-      ledcWrite(1, minWeaponSpeed);
+      motorSpeedOne = 0;
+      motorSpeedTwo = 0;
+      motorBigSpeedOne = minWeaponSpeed;
+      motorBigSpeedTwo = minWeaponSpeed;
+      
     }
+
+    //***Set motor speeds***//
+    //mc.setSpeed(1, motorSpeedOne);
+    //mc.setSpeed(2, motorSpeedTwo);
+    // Channel 0 = big motor one | Channel 1 = big motor two
+    ledcWrite(0, motorBigSpeedOne);
+    ledcWrite(1, motorBigSpeedTwo);
+
     
     /*rcl_ret_t publishResponse = rcl_publish(&publisher, &statusmsg, NULL);
     if (publishResponse == RCL_RET_INVALID_ARGUMENT){
@@ -190,12 +215,13 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     } else {
       neopixelWrite(14, 0, 255, 0);
     }*/
+    motorBigSpeedOne_Old = motorBigSpeedOne;
+    motorBigSpeedTwo_Old = motorBigSpeedTwo;
   }
 }
 
 void subscription_callback(const void * msgin){
-  // I think this doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
-  //const tnsy_interfaces__msg__TnsyController * tnsymsg = (tnsy_interfaces__msg__TnsyController *) msgin; // copy the message to the global variable tnsymsg
+  // This doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
 }
 
 // error loop
@@ -234,7 +260,8 @@ String wifiStatusString(uint8_t status){
 
 void configureSerial(){
   // Configure serial transport
-  Wire.begin(I2C_SDA, I2C_SCL);
+  //Wire.begin(I2C_SDA, I2C_SCL);
+  //Wire.begin();
   Serial.begin(115200);
 }
 
