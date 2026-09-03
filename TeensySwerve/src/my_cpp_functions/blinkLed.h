@@ -5,7 +5,7 @@ void blink_led(int times, int delayTime, String color){
   int r = 0;
   int g = 0;
   int b = 0;
-  int intensity = 170; // max is 255, but that can cause overheating supposedly
+  int intensity = 50; // max is 255, but that can cause overheating supposedly
   if (color == "red"){
     r = intensity;
     g = 0;
@@ -37,9 +37,11 @@ void blink_led(int times, int delayTime, String color){
   }
   for (int i = 0; i < times; i++){
     //digitalWrite(LED_BUILTIN, HIGH); 
-    neopixelWrite(PIN_NEOPIXEL, g, r, b); // idk why but this is the right order
+    //rgbLedWrite(PIN_NEOPIXEL, r, g, b); 
+    neopixelWrite(PIN_NEOPIXEL, g, r, b);// idk why but this is the right order
     delay(delayTime);
     //digitalWrite(LED_BUILTIN, LOW);
+    //rgbLedWrite(PIN_NEOPIXEL, 0, 0, 0);
     neopixelWrite(PIN_NEOPIXEL, 0, 0, 0);
     delay(delayTime);
   }
