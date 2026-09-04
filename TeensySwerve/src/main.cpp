@@ -7,11 +7,19 @@
 #include <rclc/executor.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 #include <my_cpp_functions/blinkLed.h>
-#include <ESP32Servo.h>
+#include <driver/mcpwm.h>
 
 
 //LAST: Back after a while. Currently trying out ESP32Servo.h with the oscillosope
 //ALSO: need to make sure the robot fails safe.
+
+// WiFi configuration
+//================================================
+char* ssid = "TeensyHotspot";//"FBISurveillanceVan#23";
+char* password = "TeensyPass";//"m@xsT0pT0uchingTh@T";
+IPAddress agent_ip(10,15,52,34);
+uint16_t agent_port = 8888;
+//================================================
 
 tnsy_interfaces__msg__TnsyController tnsymsg = *tnsy_interfaces__msg__TnsyController__create(); // create a message to hold the data from the subscription
 tnsy_interfaces__msg__TnsyController statusmsg = *tnsy_interfaces__msg__TnsyController__create();
@@ -23,38 +31,39 @@ rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
 MotoronI2C mc;
-ESP32PWM pwm;
 
-// User constants
+// User vars
 const int maxSpeed = 800;
 int maxAcc = 500;
 int maxDec = 1000;
-int pwmFreq = 500;
-const int pwmMax = 255;
-const int pwmMin = 127;
-const int maxWeaponSpeed = 1; // on a scale of 0.0 - 1.0
-const int minWeaponSpeed = 0;//pwmMin + ((pwmMax-pwmMin)/2); // this might be a value if the controller is in bi-directional mode
+const float maxWeaponSpeed = 100; // on a scale of 0 to 100
+const float minWeaponSpeed = 0; //pwmMin + ((pwmMax-pwmMin)/2); // this might be a value if the controller is in bi-directional mode
 int timer_timeout = 50; // in milliseconds, how often the timer callback is 
 #define I2C_SCL 1
 #define I2C_SDA 2
 int intensity = 0;
 uint16_t motorSpeedOne = 0;
 uint16_t motorSpeedTwo = 0;
-uint8_t motorBig_PinOne = 5;
 int motorBig_PinTwo = 34;
-int motorBigSpeedOne = 0;
-int motorBigSpeedOne_Old = motorBigSpeedOne;
-int motorBigSpeedTwo = 0;
-int motorBigSpeedTwo_Old = motorBigSpeedTwo;
-
-
-// WiFi configuration
-//================================================
-char* ssid = "TeensyHotspot";//"FBISurveillanceVan#23";
-char* password = "TeensyPass";//"m@xsT0pT0uchingTh@T";
-IPAddress agent_ip(10,15,52,34);
-uint16_t agent_port = 8888;
-//================================================
+float motorBigSpeedOne = 0;
+float motorBigSpeedTwo = 0;
+//mcpwm Configuration
+const mcpwm_pin_config_t pwmPins = { // the name of the pin needs to match the relevent unit(X)/generator(N): mcpwmXN_out_num
+  .mcpwm0a_out_num = 5,
+  .mcpwm0b_out_num = 6,
+};
+//There are two units (0 & 1), three timers (0, 1, 2), and two generators per unit (A & B)
+const mcpwm_unit_t pwmUnit0 = MCPWM_UNIT_0;
+const mcpwm_timer_t pwmTimer0 = MCPWM_TIMER_0;
+const mcpwm_generator_t pwmGenA = MCPWM_GEN_A;
+const mcpwm_generator_t pwmGenB = MCPWM_GEN_B;
+mcpwm_config_t pwmConfig{
+  .frequency = 30000, // AM32 recommends between 24 and 48 kHz
+  .cmpr_a = 0, // set the two comparators to a duty cycle of 0%
+  .cmpr_b = 0,
+  .duty_mode = MCPWM_DUTY_MODE_0, //Active high duty, i.e. duty cycle proportional to high time for asymmetric MCPWM
+  .counter_mode = MCPWM_UP_COUNTER
+};
 
 // Function Declarations
 // Function for easy error handling when initialzing things
@@ -66,14 +75,12 @@ void subscription_callback(const void * msgin);
 void error_loop();
 String wifiStatusString(uint8_t status);
 void configureSerial();
+void configurePWM();
 void WiFiconnect();
 
 void setup(){
-  ESP32PWM::allocateTimer(0);
-  ESP32PWM::allocateTimer(1);
-  ESP32PWM::allocateTimer(2);
-  ESP32PWM::allocateTimer(3);
   configureSerial();
+  configurePWM();
   
   blink_led(5,50, "white");
   Serial.println("Hello Tnsy World");
@@ -94,7 +101,7 @@ void setup(){
 
   blink_led(1,50, "cyan");
   //PWM Setup
-  pwm.attachPin(motorBig_PinOne, pwmFreq, 10);
+  
 
   blink_led(1,50, "cyan");
 
@@ -181,8 +188,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     //***Set motor speeds***//
     //mc.setSpeed(1, motorSpeedOne);
     //mc.setSpeed(2, motorSpeedTwo);
-    pwm.writeScaled(motorBigSpeedOne);
-
+    mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenA, motorBigSpeedOne);
     
     /*rcl_ret_t publishResponse = rcl_publish(&publisher, &statusmsg, NULL);
     if (publishResponse == RCL_RET_INVALID_ARGUMENT){
@@ -197,8 +203,6 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     } else {
       neopixelWrite(14, 0, 255, 0);
     }*/
-    motorBigSpeedOne_Old = motorBigSpeedOne;
-    motorBigSpeedTwo_Old = motorBigSpeedTwo;
   }
 }
 
@@ -244,6 +248,21 @@ void configureSerial(){
   // Configure serial transport
   Wire.begin(I2C_SDA, I2C_SCL);
   Serial.begin(115200);
+}
+
+void configurePWM(){
+  // Set resolution
+  int resolutionMultiplier = (int)(10000000 / pwmConfig.frequency); // Default resolution is 10,000,000
+  int resolution = pwmConfig.frequency * resolutionMultiplier; // The resolution must be an integer multiple of the frequency
+  mcpwm_group_set_resolution(pwmUnit0, resolution); // must be called before mcpwm_init()
+
+  mcpwm_set_pin(pwmUnit0, &pwmPins); // initializes all GPIOs
+
+  if (ESP_ERR_INVALID_ARG == mcpwm_init(pwmUnit0, pwmTimer0, &pwmConfig)){
+    Serial.println("MCPWM initialization failed");
+    blink_led(3, 250, "red");
+    esp_restart();
+  }
 }
 
 void WiFiconnect() {
