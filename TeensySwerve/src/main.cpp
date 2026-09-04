@@ -10,8 +10,8 @@
 #include <driver/mcpwm.h>
 
 
-//LAST: Back after a while. Currently trying out ESP32Servo.h with the oscillosope
-//ALSO: need to make sure the robot fails safe.
+//LAST: I got it to work with mcpwm!
+//NEXT: Make sure I can drive all four motors at the same time.
 
 // WiFi configuration
 //================================================
