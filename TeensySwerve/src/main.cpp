@@ -10,8 +10,8 @@
 #include <driver/mcpwm.h>
 
 
-//LAST: I got it to work with mcpwm!
-//NEXT: Make sure I can drive all four motors at the same time.
+//LAST: Configured the PWM signal properly (50% to 99% duty cycle is 0% to 100% power. the MC will lose the signal at 100% duty)
+//NEXT: Connect the i2c MCs
 
 // WiFi configuration
 //================================================
@@ -36,9 +36,9 @@ MotoronI2C mc;
 const int maxSpeed = 800;
 int maxAcc = 500;
 int maxDec = 1000;
-const float maxWeaponSpeed = 100; // on a scale of 0 to 100
+const float maxWeaponSpeed = 1; // on a scale of 0.0 to 1.0
 const float minWeaponSpeed = 0; //pwmMin + ((pwmMax-pwmMin)/2); // this might be a value if the controller is in bi-directional mode
-int timer_timeout = 50; // in milliseconds, how often the timer callback is 
+int timer_timeout = 50; // in milliseconds, how frequent the timer callback is 
 #define I2C_SCL 1
 #define I2C_SDA 2
 int intensity = 0;
@@ -58,9 +58,9 @@ const mcpwm_timer_t pwmTimer0 = MCPWM_TIMER_0;
 const mcpwm_generator_t pwmGenA = MCPWM_GEN_A;
 const mcpwm_generator_t pwmGenB = MCPWM_GEN_B;
 mcpwm_config_t pwmConfig{
-  .frequency = 30000, // AM32 recommends between 24 and 48 kHz
-  .cmpr_a = 0, // set the two comparators to a duty cycle of 0%
-  .cmpr_b = 0,
+  .frequency = 500, // An AM32 MC wants the period to be 2ms
+  .cmpr_a = 50, // set the two comparators to a duty cycle of 50% (0% throttle according to an am32 MC)
+  .cmpr_b = 50,
   .duty_mode = MCPWM_DUTY_MODE_0, //Active high duty, i.e. duty cycle proportional to high time for asymmetric MCPWM
   .counter_mode = MCPWM_UP_COUNTER
 };
@@ -76,6 +76,7 @@ void error_loop();
 String wifiStatusString(uint8_t status);
 void configureSerial();
 void configurePWM();
+void updatePWM(float motorA, float motorB);
 void WiFiconnect();
 
 void setup(){
@@ -188,7 +189,7 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     //***Set motor speeds***//
     //mc.setSpeed(1, motorSpeedOne);
     //mc.setSpeed(2, motorSpeedTwo);
-    mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenA, motorBigSpeedOne);
+    updatePWM(motorBigSpeedOne, motorBigSpeedOne);
     
     /*rcl_ret_t publishResponse = rcl_publish(&publisher, &statusmsg, NULL);
     if (publishResponse == RCL_RET_INVALID_ARGUMENT){
@@ -263,6 +264,15 @@ void configurePWM(){
     blink_led(3, 250, "red");
     esp_restart();
   }
+  //mcpwm_deadtime_enable(pwmUnit0, pwmTimer0, MCPWM_ACTIVE_RED_FED_FROM_PWMXA, 1000, 0); // 1000*100ns = 100us rising edge delay
+}
+
+void updatePWM(float motorA, float motorB){
+  int dutyCycleA = (int)(motorA * 49) + 50;// AM32 0% power is 50% duty. Also it loses the signal if you go 100% duty cycle.
+  int dutyCycleB = (int)(motorB * 49) + 50;
+  mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenA, dutyCycleA);
+  mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenB, dutyCycleB);
+
 }
 
 void WiFiconnect() {
