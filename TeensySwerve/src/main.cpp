@@ -1,23 +1,26 @@
-#include <Arduino.h>
 #include <WiFi.h>
+#include <Arduino.h>
 #include <Motoron.h>
-#include <micro_ros_platformio.h>
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
-#include <rclc/executor.h>
-#include <tnsy_interfaces/msg/tnsy_controller.h>
-#include <my_cpp_functions/blinkLed.h>
 #include <driver/mcpwm.h>
+#include <rclc/executor.h>
+#include <micro_ros_platformio.h>
+#include <my_cpp_functions/blinkLed.h>
+#include <my_cpp_functions/myLEDMatrix.h>
+#include <tnsy_interfaces/msg/tnsy_controller.h>
 
 
-//LAST: Configured the PWM signal properly (50% to 99% duty cycle is 0% to 100% power. the MC will lose the signal at 100% duty)
-//NEXT: Connect the i2c MCs
+//LAST: updated code to use the full matrix display
+//NEXT: Error handling & failsafe and proper translation of controller inputs to drive motors
+//ALSO: Maybe just use "drive" and "weapon" insteal of "motor" and "motorBig"
+//AND: Use left & right and front & back (fore aft?) instead of 1 & 2
 
 // WiFi configuration
 //================================================
-char* ssid = "TeensyHotspot";//"FBISurveillanceVan#23";
-char* password = "TeensyPass";//"m@xsT0pT0uchingTh@T";
-IPAddress agent_ip(10,15,52,34);
+char* ssid = "TeensyHotspot";
+char* password = "TeensyPass";
+IPAddress agent_ip(172,18,98,34);
 uint16_t agent_port = 8888;
 //================================================
 
@@ -30,29 +33,32 @@ rclc_support_t support;
 rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
-MotoronI2C mc;
+MotoronI2C mc1(15);// Set mc1 to i2c channel 15
+MotoronI2C mc2(16);
 
 // User vars
 const int maxSpeed = 800;
 int maxAcc = 500;
 int maxDec = 1000;
 const float maxWeaponSpeed = 1; // on a scale of 0.0 to 1.0
-const float minWeaponSpeed = 0; //pwmMin + ((pwmMax-pwmMin)/2); // this might be a value if the controller is in bi-directional mode
+const float minWeaponSpeed = 0; 
 int timer_timeout = 50; // in milliseconds, how frequent the timer callback is 
 #define I2C_SCL 1
 #define I2C_SDA 2
 int intensity = 0;
 uint16_t motorSpeedOne = 0;
 uint16_t motorSpeedTwo = 0;
+float driveSpeeds[] = {0.0, 0.0};
 int motorBig_PinTwo = 34;
 float motorBigSpeedOne = 0;
 float motorBigSpeedTwo = 0;
+float weaponSpeeds[] = {0.0, 0.0};
 //mcpwm Configuration
 const mcpwm_pin_config_t pwmPins = { // the name of the pin needs to match the relevent unit(X)/generator(N): mcpwmXN_out_num
   .mcpwm0a_out_num = 5,
   .mcpwm0b_out_num = 6,
 };
-//There are two units (0 & 1), three timers (0, 1, 2), and two generators per unit (A & B)
+//There are two units (0 & 1). Each unit has three timers (0, 1, 2) and two generators (A & B)
 const mcpwm_unit_t pwmUnit0 = MCPWM_UNIT_0;
 const mcpwm_timer_t pwmTimer0 = MCPWM_TIMER_0;
 const mcpwm_generator_t pwmGenA = MCPWM_GEN_A;
@@ -76,39 +82,29 @@ void error_loop();
 String wifiStatusString(uint8_t status);
 void configureSerial();
 void configurePWM();
+void setupMotoron();
 void updatePWM(float motorA, float motorB);
 void WiFiconnect();
 
 void setup(){
   configureSerial();
   configurePWM();
+  setupMotoron();
+  matrixInit(1);
   
-  blink_led(5,50, "white");
+  blinkLED(5,50, "white");
   Serial.println("Hello Tnsy World");
   
   WiFiconnect();
-  
-  
   set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 
-  //motoron setup
-  mc.reinitialize();
-  mc.disableCrc();
-  mc.clearResetFlag();
-  mc.setMaxAcceleration(1,maxAcc);
-  mc.setMaxDeceleration(1,maxDec);
-  mc.setMaxAcceleration(2,maxAcc);
-  mc.setMaxDeceleration(2,maxDec);
-
-  blink_led(1,50, "cyan");
-  //PWM Setup
+  blinkLED(1,50, "cyan");
   
-
-  blink_led(1,50, "cyan");
+  blinkLED(1,50, "cyan");
 
   while(rmw_uros_ping_agent(100, 10)){
     Serial.println("Pinging Agent...");
-    blink_led(1,150, "magenta");
+    blinkLED(1,150, "magenta");
   } 
 
   allocator = rcl_get_default_allocator();
@@ -144,7 +140,7 @@ void setup(){
 
 
 
-  blink_led(5,50, "green");
+  blinkLED(5,50, "green");
   Serial.println("Spinning Executor");
   RCCHECK(rclc_executor_spin(&executor));
   
@@ -166,61 +162,52 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
     intensity = 5+(tnsymsg.weapon_speed * 250);
 
     if (tnsymsg.enable_switch){
-      //rgbLedWrite(14, 0, intensity, 0);
-      neopixelWrite(14, intensity, 0, 0);// (g, r, b)
-      //neopixelWrite(15, 0, intensity, 0);
+      
+      //neopixelWrite(14, intensity, 0, 0);// (g, r, b)
+      
       // not sure if these sin & cos are correct
       motorSpeedOne = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
       motorSpeedTwo = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+      driveSpeeds[0] = tnsymsg.translation_magnitude;
+      driveSpeeds[1] = tnsymsg.translation_magnitude;
 
       motorBigSpeedOne = (tnsymsg.weapon_speed * (maxWeaponSpeed-minWeaponSpeed))+minWeaponSpeed;
-      
+      weaponSpeeds[0] = motorBigSpeedOne;
+      weaponSpeeds[1] = motorBigSpeedTwo;
 
     }else{
-      //rgbLedWrite(14, intensity, 0, 0); 
-      neopixelWrite(14, 0, intensity, 0);// (g, r, b)
+      //neopixelWrite(14, 0, intensity, 0);// (g, r, b)
       motorSpeedOne = 0;
       motorSpeedTwo = 0;
       motorBigSpeedOne = minWeaponSpeed;
       motorBigSpeedTwo = minWeaponSpeed;
-      
     }
 
+    matrixUpdate(matrix.Color(0, 255, 0), weaponSpeeds, driveSpeeds);
     //***Set motor speeds***//
-    //mc.setSpeed(1, motorSpeedOne);
-    //mc.setSpeed(2, motorSpeedTwo);
+    mc1.setSpeed(1, motorSpeedOne);
+    mc2.setSpeed(1, motorSpeedTwo);
     updatePWM(motorBigSpeedOne, motorBigSpeedOne);
     
-    /*rcl_ret_t publishResponse = rcl_publish(&publisher, &statusmsg, NULL);
-    if (publishResponse == RCL_RET_INVALID_ARGUMENT){
-      blink_led(1, 50, "red");
-    } else if (publishResponse == RCL_RET_PUBLISHER_INVALID){
-      blink_led(1,50,"magenta");
-    } else if (publishResponse == RCL_RET_ERROR){
-      error_loop();
-    }*/
-    /*if (rmw_uros_ping_agent(1, 10) == RMW_RET_OK){
-      neopixelWrite(14, 255, 0, 0);
-    } else {
-      neopixelWrite(14, 0, 255, 0);
-    }*/
   }
 }
 
 void subscription_callback(const void * msgin){
   // This doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
+  // But I think it does need to exist
 }
 
 // error loop
 void error_loop() {
-  // if error occurs, loop forever?
-  // is there a function to soft reset the board?
   while(1){
     Serial.println("Error occurred, restarting...");
-    blink_led(3,250, "red");
+    blinkLED(3,250, "red");
     esp_restart();
   }
 }
+
+
+//===========================START OF CUSTOM FUNCTIONS========================================
 
 String wifiStatusString(uint8_t status){
   switch(status){
@@ -259,12 +246,24 @@ void configurePWM(){
 
   mcpwm_set_pin(pwmUnit0, &pwmPins); // initializes all GPIOs
 
-  if (ESP_ERR_INVALID_ARG == mcpwm_init(pwmUnit0, pwmTimer0, &pwmConfig)){
-    Serial.println("MCPWM initialization failed");
-    blink_led(3, 250, "red");
-    esp_restart();
-  }
-  //mcpwm_deadtime_enable(pwmUnit0, pwmTimer0, MCPWM_ACTIVE_RED_FED_FROM_PWMXA, 1000, 0); // 1000*100ns = 100us rising edge delay
+  mcpwm_init(pwmUnit0, pwmTimer0, &pwmConfig);
+}
+
+void setupMotoron(){
+  mc1.reinitialize();
+  mc2.reinitialize();
+
+  mc1.disableCrc();
+  mc2.disableCrc();
+
+  mc1.clearResetFlag();
+  mc2.clearResetFlag();
+
+  mc1.setMaxAcceleration(1,maxAcc);
+  mc2.setMaxAcceleration(1,maxAcc);
+
+  mc1.setMaxDeceleration(1,maxDec);
+  mc2.setMaxDeceleration(1,maxDec);
 }
 
 void updatePWM(float motorA, float motorB){
@@ -272,7 +271,6 @@ void updatePWM(float motorA, float motorB){
   int dutyCycleB = (int)(motorB * 49) + 50;
   mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenA, dutyCycleA);
   mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenB, dutyCycleB);
-
 }
 
 void WiFiconnect() {
@@ -287,7 +285,7 @@ void WiFiconnect() {
   unsigned long start_time = millis();
   const unsigned long timeout = 60000;
 
-  blink_led(2, 50, "blue");
+  blinkLED(2, 50, "blue");
   Serial.print("Connecting to WiFi");
   do {
     wifistatus = WiFi.status();
@@ -295,7 +293,7 @@ void WiFiconnect() {
     // Check if the timeout has been reached
     if (millis() - start_time > timeout) {
       Serial.println("\nWi-Fi connection timed out. Restarting...");
-      blink_led(3,50, "red");
+      blinkLED(3,50, "red");
       esp_restart();
     }
     
@@ -306,11 +304,11 @@ void WiFiconnect() {
       Serial.print("\n" + wifiStatusString(wifistatus));
     }
 
-    blink_led(1, 250, "blue"); 
+    blinkLED(1, 250, "blue"); 
 
     oldwifistatus = wifistatus;
   }while(wifistatus != WL_CONNECTED);
 
   Serial.println();
-  blink_led(3, 50, "green"); // Blink to indicate success
+  blinkLED(3, 50, "green"); // Blink to indicate success
 }

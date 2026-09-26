@@ -16,7 +16,7 @@ class MyNode(LifecycleNode):
             self.pub_ = None
             self.timer_period = 0.001 # lower is faster (in Seconds)
             self.counter = 0
-            self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time
+            self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time for toggles
             self.tracker = 0
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
             numberOfButtons = 7
