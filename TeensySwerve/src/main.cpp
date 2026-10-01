@@ -11,7 +11,7 @@
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
 
-//LAST: updated code to use the full matrix display
+//LAST: testing at space coast showdown reveals very bad delay in a noisy wifi environment...
 //NEXT: Error handling & failsafe and proper translation of controller inputs to drive motors
 //ALSO: Maybe just use "drive" and "weapon" insteal of "motor" and "motorBig"
 //AND: Use left & right and front & back (fore aft?) instead of 1 & 2
@@ -156,6 +156,7 @@ void loop() {
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
   //maybe move all the tsnymsg queries to the front to speed them up? (by assigning variables to them)
+  uint16_t blinkColor = 0;
 
   if (timer) {
     // main timer area
@@ -168,12 +169,11 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
       // not sure if these sin & cos are correct
       motorSpeedOne = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
       motorSpeedTwo = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
-      driveSpeeds[0] = tnsymsg.translation_magnitude;
-      driveSpeeds[1] = tnsymsg.translation_magnitude;
 
       motorBigSpeedOne = (tnsymsg.weapon_speed * (maxWeaponSpeed-minWeaponSpeed))+minWeaponSpeed;
-      weaponSpeeds[0] = motorBigSpeedOne;
-      weaponSpeeds[1] = motorBigSpeedTwo;
+      motorBigSpeedTwo = motorBigSpeedOne;
+
+      blinkColor = matrix.Color(0, 255, 0);
 
     }else{
       //neopixelWrite(14, 0, intensity, 0);// (g, r, b)
@@ -181,9 +181,15 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
       motorSpeedTwo = 0;
       motorBigSpeedOne = minWeaponSpeed;
       motorBigSpeedTwo = minWeaponSpeed;
+      blinkColor = matrix.Color(255, 0, 0);
     }
 
-    matrixUpdate(matrix.Color(0, 255, 0), weaponSpeeds, driveSpeeds);
+    driveSpeeds[0] = tnsymsg.translation_magnitude;
+    driveSpeeds[1] = tnsymsg.translation_magnitude;
+    weaponSpeeds[0] = motorBigSpeedOne;
+    weaponSpeeds[1] = motorBigSpeedTwo;
+
+    matrixUpdate(blinkColor, driveSpeeds, weaponSpeeds);
     //***Set motor speeds***//
     mc1.setSpeed(1, motorSpeedOne);
     mc2.setSpeed(1, motorSpeedTwo);
