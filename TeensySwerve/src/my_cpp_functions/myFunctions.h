@@ -109,7 +109,8 @@ void blinkLED(int times, int delayTime, String color){
 
 // blinkPeriod in ms
 void statusBlink(uint16_t color, unsigned long blinkPeriod = 500){
-    if (callTime - lastBlink >= blinkPeriod) {
+    if (blinkPeriod <= 0 ) blinkOn = true;
+    else if (callTime - lastBlink >= blinkPeriod) {
         lastBlink = callTime;
         blinkOn = !blinkOn;
     }
