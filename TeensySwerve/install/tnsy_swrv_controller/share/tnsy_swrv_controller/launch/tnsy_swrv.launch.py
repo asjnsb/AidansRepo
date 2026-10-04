@@ -49,7 +49,6 @@ def generate_launch_description():
         output={'stdout':'screen'}, # this line will make the launch file display micro_ros_agent's standard output in the terminal but not the log
         #arguments=['serial', '--dev', '/dev/ttyACM0'],
         arguments=['udp4', '--port', '8888']
-                   #, '--ip', '10.204.171.34']
     )
 
 
@@ -77,7 +76,7 @@ def generate_launch_description():
             OnProcessStart(
                 target_action=joy_node,
                 on_start=[
-                    LogInfo(msg = GREEN + "[joy_node] started. Starting [joy_translator_node]" + RESET),
+                    LogInfo(msg = GREEN + "[joy_node] STARTING. STARTING [joy_translator_node]" + RESET),
                     joy_translator_node
                 ]
             )
@@ -87,7 +86,7 @@ def generate_launch_description():
             OnProcessStart(
                 target_action=joy_translator_node,
                 on_start=[
-                    LogInfo(msg = GREEN + "[joy_translator_node] started. CONFIGURING" + RESET),
+                    LogInfo(msg = GREEN + "[joy_translator_node] STARTING. CONFIGURING" + RESET),
                     joy_translator_configure_transition_event
                 ]
             )
@@ -107,7 +106,7 @@ def generate_launch_description():
                 target_lifecycle_node=joy_translator_node,
                 goal_state='active',
                 entities=[
-                    LogInfo(msg = GREEN + "[joy_translator_node] ACTIVE. Starting [micro_ros_agent]" + RESET),
+                    LogInfo(msg = GREEN + "[joy_translator_node] ACTIVE. STARTING [micro_ros_agent]" + RESET),
                     micro_ros_agent
                 ]
             )

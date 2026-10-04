@@ -16,11 +16,12 @@ class MyNode(LifecycleNode):
             self.pub_ = None
             self.timer_period = 0.001 # lower is faster (in Seconds)
             self.counter = 0
-            self.counterLimit = 1/self.timer_period # n seconds divided by timer period sets the de-bounce time for toggles
+            self.counterLimit = 0.1/self.timer_period # n seconds divided by timer period sets the de-bounce time for toggles
             self.tracker = 0
             self.lX, self.lY, self.rX, self.rY, self.throttle = 0.0, 0.0, 0.0, 0.0, 0.0
             numberOfButtons = 7
             self.lastPush = [0] * numberOfButtons # this allows all buttons to be toggles if desired
+            self.previousValue = [0] * numberOfButtons # this allows all buttons to be toggles if desired
             self.toggles = [False] * numberOfButtons 
             self.pub_msg = TnsyController()
             self.qosQueueSize = 1
@@ -160,13 +161,14 @@ class MyNode(LifecycleNode):
             # =============End of button mapping==================
 
       def toggleButton(self, button):
-            if self.joyMsg.buttons[button] == 1 and self.lastPush[button] < self.tracker:
+            if self.joyMsg.buttons[button] == 1 and self.lastPush[button] < self.tracker and self.previousValue[button] != self.joyMsg.buttons[button]:
                   self.lastPush[button] = self.tracker
                   if self.toggles[button] == True:
                         self.toggles[button] = False
                   elif self.toggles[button] == False:
                         self.toggles[button] = True
-
+            
+            self.previousValue[button] = self.joyMsg.buttons[button]
             return self.toggles[button]
 
 def main(args=None):

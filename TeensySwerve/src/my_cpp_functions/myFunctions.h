@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <driver/mcpwm.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_NeoMatrix.h>
 #include <Adafruit_NeoPixel.h>
@@ -16,7 +17,6 @@ Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(8, 8, PIN,
 bool blinkOn = false;
 unsigned long callTime = 0;
 unsigned long lastBlink = 0;
-unsigned long blinkFreq = 500; // in ms
 uint16_t forward = matrix.Color(0, 255, 0);
 uint16_t reverse = matrix.Color(255, 0, 0);
 uint32_t orange = matrix.Color(255, 200, 0);
@@ -49,9 +49,15 @@ float weaponCompare[] = {
     1.0
 };
 
-void matrixInit(uint8_t brightness){
+// brightness 0-1.0. if brightness = 0, matrix will be minimum brightness
+void matrixInit(float brightness){
     matrix.begin();
-    matrix.setBrightness(brightness);
+
+    uint8_t brightnessValue;
+    if (brightness <= 0) brightnessValue = 1;
+    else if (brightness > 1) brightnessValue = 255;
+    else brightnessValue = brightness * 255;
+    matrix.setBrightness(brightnessValue);
 }
 
 // this function is here partly to maintain legacy code and partly to have a blink function that doesn't have to be continuously called.
@@ -101,8 +107,9 @@ void blinkLED(int times, int delayTime, String color){
     }
 }
 
-void statusBlink(uint16_t color){
-    if (callTime - lastBlink >= blinkFreq) {
+// blinkPeriod in ms
+void statusBlink(uint16_t color, unsigned long blinkPeriod = 500){
+    if (callTime - lastBlink >= blinkPeriod) {
         lastBlink = callTime;
         blinkOn = !blinkOn;
     }
@@ -193,14 +200,78 @@ void weaponDisplay(float power[]){
 
 
 
-void matrixUpdate(uint16_t blinkColor, float drivePower[], float weaponPower[]){
+void matrixUpdate(float drivePower[], float weaponPower[], uint16_t blinkColor, unsigned long blinkPeriod = 500){
     callTime = millis();
 
     matrix.clear();
 
-    statusBlink(blinkColor);
+    statusBlink(blinkColor, blinkPeriod);
     driveDisplay(drivePower);
     weaponDisplay(weaponPower);
     
     matrix.show();
+}
+
+//================MISC FUNCTIONS===============================================
+
+String wifiStatusString(uint8_t status){
+  switch(status){
+    case WL_NO_SHIELD:
+      return "WL_NO_SHIELD";
+    case WL_IDLE_STATUS:
+      return "WL_IDLE_STATUS";
+    case WL_NO_SSID_AVAIL:
+      return "WL_NO_SSID_AVAIL";
+    case WL_SCAN_COMPLETED:
+      return "WL_SCAN_COMPLETED";
+    case WL_CONNECTED:
+      return "WL_CONNECTED";
+    case WL_CONNECT_FAILED:
+      return "WL_CONNECT_FAILED";
+    case WL_CONNECTION_LOST:
+      return "WL_CONNECTION_LOST";
+    case WL_DISCONNECTED:
+      return "WL_DISCONNECTED";
+    default:
+      return "UNKNOWN";
+  }
+}
+
+void WiFiconnect(char* ssid, char* password){
+  uint8_t wifistatus;
+  uint8_t oldwifistatus;
+  
+  WiFi.disconnect();
+  WiFi.mode(WIFI_STA);
+  wifistatus = WiFi.begin(ssid, password);
+
+  // Set a timeout for the connection attempt in ms
+  unsigned long start_time = millis();
+  const unsigned long timeout = 60000;
+
+  
+  Serial.println("Connecting to WiFi");
+  do {
+    wifistatus = WiFi.status();
+
+    // Check if the timeout has been reached
+    if (millis() - start_time > timeout) {
+      Serial.println("\nWi-Fi connection timed out. Restarting...");
+      blinkLED(1,50, "blue");
+      blinkLED(1,50, "red");
+      esp_restart();
+    }
+    
+    // Blink and wait to give the ESP32 time to connect
+    if (wifistatus == oldwifistatus){
+      Serial.print(".");
+    } else {
+      Serial.print("\n" + wifiStatusString(wifistatus));
+    }
+
+    blinkLED(1, 150, "blue"); 
+
+    oldwifistatus = wifistatus;
+  }while(wifistatus != WL_CONNECTED);
+  Serial.println("");
 }

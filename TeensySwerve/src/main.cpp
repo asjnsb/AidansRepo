@@ -3,18 +3,16 @@
 #include <Motoron.h>
 #include <rcl/rcl.h>
 #include <rclc/rclc.h>
-#include <driver/mcpwm.h>
 #include <rclc/executor.h>
 #include <micro_ros_platformio.h>
-#include <my_cpp_functions/blinkLed.h>
-#include <my_cpp_functions/myLEDMatrix.h>
+#include <my_cpp_functions/myFunctions.h>
 #include <tnsy_interfaces/msg/tnsy_controller.h>
 
 
-//LAST: testing at space coast showdown reveals very bad delay in a noisy wifi environment...
-//NEXT: Error handling & failsafe and proper translation of controller inputs to drive motors
-//ALSO: Maybe just use "drive" and "weapon" insteal of "motor" and "motorBig"
-//AND: Use left & right and front & back (fore aft?) instead of 1 & 2
+//LAST: began refactoring code for the implementation of a failsafe. I think I can't start timers until the micro ros agent is connected.
+//NEXT: make it so that the lastcommtime actually updates when a new message comes in
+//ALSO: Maybe just use "drive" and "weapon" insteal of "motor" and "motorBig" and use left & right and front & back (fore aft?) instead of 1 & 2
+//AND : 
 
 // WiFi configuration
 //================================================
@@ -32,7 +30,8 @@ rclc_executor_t executor;
 rclc_support_t support;
 rcl_allocator_t allocator;
 rcl_node_t node;
-rcl_timer_t timer;
+rcl_timer_t timertranslator;
+rcl_timer_t timerManager;
 MotoronI2C mc1(15);// Set mc1 to i2c channel 15
 MotoronI2C mc2(16);
 
@@ -42,7 +41,9 @@ int maxAcc = 500;
 int maxDec = 1000;
 const float maxWeaponSpeed = 1; // on a scale of 0.0 to 1.0
 const float minWeaponSpeed = 0; 
-int timer_timeout = 50; // in milliseconds, how frequent the timer callback is 
+int timer_timeout_translator = 10; // in milliseconds, how frequent the timer callback is 
+int timer_timeout_manager = 50; // in milliseconds, how frequent the timer callback is 
+int lastCommTime = 0; // update this every time a communication packet comes through
 #define I2C_SCL 1
 #define I2C_SDA 2
 int intensity = 0;
@@ -70,42 +71,50 @@ mcpwm_config_t pwmConfig{
   .duty_mode = MCPWM_DUTY_MODE_0, //Active high duty, i.e. duty cycle proportional to high time for asymmetric MCPWM
   .counter_mode = MCPWM_UP_COUNTER
 };
+enum manager_state {
+  STARTUP_MAN,
+  ACTIVE_MAN
+};
+manager_state managerState = STARTUP_MAN;
+enum translator_state {
+  STARTUP_TRANS,
+  SAFE_TRANS,
+  LIVE_TRANS
+};
+translator_state translatorState = STARTUP_TRANS;
 
 // Function Declarations
 // Function for easy error handling when initialzing things
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
 // Same function but doesn't call the error loop
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
-void timer_callback(rcl_timer_t * timer, int64_t last_call_time);
+void timer_translator(rcl_timer_t * timertranslator, int64_t last_call_time_translator);
+void timer_manager(rcl_timer_t * timerManager, int64_t last_call_time_manager);
 void subscription_callback(const void * msgin);
 void error_loop();
-String wifiStatusString(uint8_t status);
-void configureSerial();
-void configurePWM();
-void setupMotoron();
-void updatePWM(float motorA, float motorB);
-void WiFiconnect();
+void configure_pwm();
+void setup_motoron();
+void update_pwm(float motorA, float motorB);
+
 
 void setup(){
-  configureSerial();
-  configurePWM();
-  setupMotoron();
-  matrixInit(1);
+  Serial.begin(115200);
+  matrixInit(0.05);
+  Wire.begin(I2C_SDA, I2C_SCL); // begin i2c
+  configure_pwm();
+  setup_motoron();
   
-  blinkLED(5,50, "white");
+  blinkLED(1,150, "white");
   Serial.println("Hello Tnsy World");
   
-  WiFiconnect();
+  WiFiconnect(ssid, password);
   set_microros_wifi_transports(ssid, password, agent_ip, agent_port);
 
-  blinkLED(1,50, "cyan");
-  
-  blinkLED(1,50, "cyan");
-
+  blinkLED(1,150, "magenta");
   while(rmw_uros_ping_agent(100, 10)){
     Serial.println("Pinging Agent...");
     blinkLED(1,150, "magenta");
-  } 
+  }
 
   allocator = rcl_get_default_allocator();
   //const rosidl_message_type_support_t * TnsyControllerTypeSupport = ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController);
@@ -120,87 +129,145 @@ void setup(){
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
     "nameSpace1/tnsy_controller"));
-  /*/ create publisher
-  RCCHECK(rclc_publisher_init_default(
-    &publisher,
-    &node,
-    ROSIDL_GET_MSG_TYPE_SUPPORT(tnsy_interfaces, msg, TnsyController),
-    "tnsy_status"));*/
-  // create timer
+  // create timers
   RCCHECK(rclc_timer_init_default(
-    &timer,
+    &timertranslator,
+    &support, 
+    RCL_MS_TO_NS(timer_timeout_translator),
+    timer_translator));
+  RCCHECK(rclc_timer_init_default(
+    &timerManager,
     &support,
-    RCL_MS_TO_NS(timer_timeout),
-    timer_callback));
+    RCL_MS_TO_NS(timer_timeout_manager),
+    timer_manager));
   // create executor (&executor, &support context, # of handles, &allocator)
-  RCCHECK(rclc_executor_init(&executor, &support.context, 2, &allocator));
-  RCCHECK(rclc_executor_add_timer(&executor, &timer));
+  RCCHECK(rclc_executor_init(&executor, &support.context, 3, &allocator));
+  RCCHECK(rclc_executor_add_timer(&executor, &timertranslator));
+  RCCHECK(rclc_executor_add_timer(&executor, &timerManager));
   RCCHECK(rclc_executor_add_subscription(&executor, &subscriber, &tnsymsg, &subscription_callback, ON_NEW_DATA));
-  
 
+  blinkLED(1,150, "green");
 
-
-  blinkLED(5,50, "green");
   Serial.println("Spinning Executor");
   RCCHECK(rclc_executor_spin(&executor));
   
   RCCHECK(rcl_subscription_fini(&subscriber, &node));
-  RCCHECK(rcl_timer_fini(&timer));
+  RCCHECK(rcl_timer_fini(&timertranslator));
+  RCCHECK(rcl_timer_fini(&timerManager));
   RCCHECK(rcl_node_fini(&node));
 }
 
 void loop() {
+  // don't do anything with this arduino hardware loop, manage all execution with micro ROS
   delay(1000);
 }
 
-void timer_callback(rcl_timer_t * timer, int64_t last_call_time){
+void timer_manager(rcl_timer_t * timer, int64_t last_call_time){
   RCLC_UNUSED(last_call_time);
-  //maybe move all the tsnymsg queries to the front to speed them up? (by assigning variables to them)
-  uint16_t blinkColor = 0;
-
   if (timer) {
-    // main timer area
-    intensity = 5+(tnsymsg.weapon_speed * 250);
+    uint16_t blinkColor = matrix.Color(255, 255, 255);
+    unsigned long blinkPeriod = 500;
+    switch (managerState) {
 
-    if (tnsymsg.enable_switch){
-      
-      //neopixelWrite(14, intensity, 0, 0);// (g, r, b)
-      
-      // not sure if these sin & cos are correct
-      motorSpeedOne = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
-      motorSpeedTwo = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+      case STARTUP_MAN:
+        // Activate controller loop
+        translatorState = SAFE_TRANS;
+        managerState = ACTIVE_MAN;
+        Serial.print("STm.");
+        break;
 
-      motorBigSpeedOne = (tnsymsg.weapon_speed * (maxWeaponSpeed-minWeaponSpeed))+minWeaponSpeed;
-      motorBigSpeedTwo = motorBigSpeedOne;
+      case ACTIVE_MAN:
+        // Handle active state
+        blinkColor = matrix.Color(255, 125, 0);
 
-      blinkColor = matrix.Color(0, 255, 0);
+        if (translatorState == SAFE_TRANS) {
+          if (tnsymsg.enable_switch) translatorState = LIVE_TRANS;
+          blinkPeriod = 1000;
+          Serial.print("?");
 
-    }else{
-      //neopixelWrite(14, 0, intensity, 0);// (g, r, b)
-      motorSpeedOne = 0;
-      motorSpeedTwo = 0;
-      motorBigSpeedOne = minWeaponSpeed;
-      motorBigSpeedTwo = minWeaponSpeed;
-      blinkColor = matrix.Color(255, 0, 0);
-    }
+        } else if (translatorState == LIVE_TRANS) {
+          if (!tnsymsg.enable_switch) translatorState = SAFE_TRANS;
+          blinkPeriod = 250;
+          Serial.print("$");
+        } 
 
-    driveSpeeds[0] = tnsymsg.translation_magnitude;
-    driveSpeeds[1] = tnsymsg.translation_magnitude;
-    weaponSpeeds[0] = motorBigSpeedOne;
-    weaponSpeeds[1] = motorBigSpeedTwo;
+        driveSpeeds[0] = tnsymsg.translation_magnitude;
+        driveSpeeds[1] = tnsymsg.translation_magnitude;
+        weaponSpeeds[0] = motorBigSpeedOne;
+        weaponSpeeds[1] = motorBigSpeedTwo;
+        
+        
 
-    matrixUpdate(blinkColor, driveSpeeds, weaponSpeeds);
-    //***Set motor speeds***//
-    mc1.setSpeed(1, motorSpeedOne);
-    mc2.setSpeed(1, motorSpeedTwo);
-    updatePWM(motorBigSpeedOne, motorBigSpeedOne);
-    
+        // if that reaches above 1 second, drive to 0, weapons to idle
+        // if that reaches above 9 seconds, drive and weapson to 0, esp restart
+        if (millis() - lastCommTime > 10000) {
+          translatorState = STARTUP_TRANS;
+          // Stop motors
+          update_pwm(minWeaponSpeed, minWeaponSpeed);
+          mc1.setSpeed(1, 0);
+          mc2.setSpeed(1, 0);
+
+          Serial.println("No communication for 10 seconds, restarting...");
+          error_loop();
+        }
+        Serial.print("!");
+        break;
+    }// end of switch case
+    matrixUpdate(driveSpeeds, weaponSpeeds, blinkColor, blinkPeriod);
   }
+}
+
+void timer_translator(rcl_timer_t * timer, int64_t last_call_time){
+  RCLC_UNUSED(last_call_time);
+  if (timer) {
+    switch (translatorState) {
+
+      case STARTUP_TRANS:    
+        //***Set motor speeds***//
+        mc1.setSpeed(1, motorSpeedOne);
+        mc2.setSpeed(1, motorSpeedTwo);
+        update_pwm(minWeaponSpeed, minWeaponSpeed);
+        Serial.print("STt.");
+        break;
+
+      case SAFE_TRANS:
+        //***Set motor speeds***//
+        mc1.setSpeed(1, motorSpeedOne);
+        mc2.setSpeed(1, motorSpeedTwo);
+        motorBigSpeedOne = minWeaponSpeed;
+        motorBigSpeedTwo = minWeaponSpeed;
+        update_pwm(motorBigSpeedOne, motorBigSpeedTwo);
+        Serial.print("-");
+        break;
+
+      case LIVE_TRANS:
+        // Handle error state
+        intensity = 5+(tnsymsg.weapon_speed * 250);
+          
+        // not sure if these sin & cos are correct
+        motorSpeedOne = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*cos(tnsymsg.translation_angle * M_PI / 180.0);
+        motorSpeedTwo = tnsymsg.translation_magnitude*maxSpeed;//(maxSpeed * tnsymsg.translation_magnitude)*sin(tnsymsg.translation_angle * M_PI / 180.0);
+
+        motorBigSpeedOne = (tnsymsg.weapon_speed * (maxWeaponSpeed-minWeaponSpeed))+minWeaponSpeed;
+        motorBigSpeedTwo = motorBigSpeedOne;
+
+        //***Set motor speeds***//
+        mc1.setSpeed(1, motorSpeedOne);
+        mc2.setSpeed(1, motorSpeedTwo);
+        update_pwm(motorBigSpeedOne, motorBigSpeedTwo);
+        Serial.print("_");
+        break;
+      }
+    } 
+    
+    // main timer area
+    
 }
 
 void subscription_callback(const void * msgin){
   // This doesn't need to contain anything for ROS to update the message variable (defined elsewhere)
   // But I think it does need to exist
+  lastCommTime = millis(); // keeps track of when the last comm came through
 }
 
 // error loop
@@ -213,38 +280,7 @@ void error_loop() {
 }
 
 
-//===========================START OF CUSTOM FUNCTIONS========================================
-
-String wifiStatusString(uint8_t status){
-  switch(status){
-    case WL_NO_SHIELD:
-      return "WL_NO_SHIELD";
-    case WL_IDLE_STATUS:
-      return "WL_IDLE_STATUS";
-    case WL_NO_SSID_AVAIL:
-      return "WL_NO_SSID_AVAIL";
-    case WL_SCAN_COMPLETED:
-      return "WL_SCAN_COMPLETED";
-    case WL_CONNECTED:
-      return "WL_CONNECTED";
-    case WL_CONNECT_FAILED:
-      return "WL_CONNECT_FAILED";
-    case WL_CONNECTION_LOST:
-      return "WL_CONNECTION_LOST";
-    case WL_DISCONNECTED:
-      return "WL_DISCONNECTED";
-    default:
-      return "UNKNOWN";
-  }
-}
-
-void configureSerial(){
-  // Configure serial transport
-  Wire.begin(I2C_SDA, I2C_SCL);
-  Serial.begin(115200);
-}
-
-void configurePWM(){
+void configure_pwm(){
   // Set resolution
   int resolutionMultiplier = (int)(10000000 / pwmConfig.frequency); // Default resolution is 10,000,000
   int resolution = pwmConfig.frequency * resolutionMultiplier; // The resolution must be an integer multiple of the frequency
@@ -255,7 +291,7 @@ void configurePWM(){
   mcpwm_init(pwmUnit0, pwmTimer0, &pwmConfig);
 }
 
-void setupMotoron(){
+void setup_motoron(){
   mc1.reinitialize();
   mc2.reinitialize();
 
@@ -272,49 +308,9 @@ void setupMotoron(){
   mc2.setMaxDeceleration(1,maxDec);
 }
 
-void updatePWM(float motorA, float motorB){
+void update_pwm(float motorA, float motorB){
   int dutyCycleA = (int)(motorA * 49) + 50;// AM32 0% power is 50% duty. Also it loses the signal if you go 100% duty cycle.
   int dutyCycleB = (int)(motorB * 49) + 50;
   mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenA, dutyCycleA);
   mcpwm_set_duty(pwmUnit0, pwmTimer0, pwmGenB, dutyCycleB);
-}
-
-void WiFiconnect() {
-  uint8_t wifistatus;
-  uint8_t oldwifistatus;
-  
-  WiFi.disconnect();
-  WiFi.mode(WIFI_STA);
-  wifistatus = WiFi.begin(ssid, password);
-
-  // Set a timeout for the connection attempt in ms
-  unsigned long start_time = millis();
-  const unsigned long timeout = 60000;
-
-  blinkLED(2, 50, "blue");
-  Serial.print("Connecting to WiFi");
-  do {
-    wifistatus = WiFi.status();
-
-    // Check if the timeout has been reached
-    if (millis() - start_time > timeout) {
-      Serial.println("\nWi-Fi connection timed out. Restarting...");
-      blinkLED(3,50, "red");
-      esp_restart();
-    }
-    
-    // Blink and wait to give the ESP32 time to connect
-    if (wifistatus == oldwifistatus){
-      Serial.print(".");
-    } else {
-      Serial.print("\n" + wifiStatusString(wifistatus));
-    }
-
-    blinkLED(1, 250, "blue"); 
-
-    oldwifistatus = wifistatus;
-  }while(wifistatus != WL_CONNECTED);
-
-  Serial.println();
-  blinkLED(3, 50, "green"); // Blink to indicate success
 }
